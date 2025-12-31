@@ -1,10 +1,6 @@
 # Workbench directory with temporary files and large HTML
 workbench/
 
-# Generated files
-viewer.html
-cycle_analysis.json
-
 # Claude settings
 .claude/
 
