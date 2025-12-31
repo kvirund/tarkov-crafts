@@ -1771,35 +1771,35 @@
           quantity: 1
           consumable: true
         output:
+          name: Документы с расшифрованными данными
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/47/Documents_with_decrypted_data_icon.png/revision/latest?cb=20250102191014
+          quantity: 1
+        duration: 600
+      - inputs:
+        - name: Зашифрованная флешка
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+          quantity: 1
+          consumable: true
+        output:
+          name: Документы с расшифрованными данными
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/47/Documents_with_decrypted_data_icon.png/revision/latest?cb=20250102191014
+          quantity: 1
+        duration: 600
+      - inputs:
+        - name: Зашифрованная флешка
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+          quantity: 1
+          consumable: true
+        output:
           name: Расшифрованная флешка
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
           quantity: 1
         duration: 900
-      - inputs:
-        - name: Зашифрованная флешка
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
-          quantity: 1
-          consumable: true
-        output:
-          name: Документы с расшифрованными данными
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/47/Documents_with_decrypted_data_icon.png/revision/latest?cb=20250102191014
-          quantity: 1
-        duration: 600
-      - inputs:
-        - name: Зашифрованная флешка
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
-          quantity: 1
-          consumable: true
-        output:
-          name: Документы с расшифрованными данными
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/47/Documents_with_decrypted_data_icon.png/revision/latest?cb=20250102191014
-          quantity: 1
-        duration: 600
       - inputs:
         - name: Защищенный флеш-накопитель
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
@@ -1812,6 +1812,22 @@
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a1/Flash_drive_with_special_software_icon.png/revision/latest?cb=20250102191031
           quantity: 1
         duration: 900
+      - inputs:
+        - name: Считыватель UHF RFID
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
+          quantity: 0
+          consumable: false
+        output:
+          name: Перезаписанная ключ-карта для замка в квартире А.П. (Зеленая)
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%B2_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5_%D0%90.%D0%9F._(%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0%D1%8F)
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/22/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_%28Green%29_icon.png/revision/latest?cb=20251229201833
+          quantity: 1
+        duration: 16200
+        requirements:
+        - type: during_quest
+          quest: Неизвестные
+          quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5
       - inputs:
         - name: Мастер-пропуск для лаборатории
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%BF%D1%80%D0%BE%D0%BF%D1%83%D1%81%D0%BA_%D0%B4%D0%BB%D1%8F_%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%B8
@@ -1829,22 +1845,6 @@
         - type: after_quest
           quest: Билет
           quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82
-      - inputs:
-        - name: Считыватель UHF RFID
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
-          quantity: 0
-          consumable: false
-        output:
-          name: Перезаписанная ключ-карта для замка в квартире А.П. (Зеленая)
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%B2_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5_%D0%90.%D0%9F._(%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0%D1%8F)
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/22/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_%28Green%29_icon.png/revision/latest?cb=20251229201833
-          quantity: 1
-        duration: 16200
-        requirements:
-        - type: during_quest
-          quest: Неизвестные
-          quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5
       - inputs:
         - name: Считыватель UHF RFID
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
@@ -1993,18 +1993,6 @@
           quantity: 1
         duration: 114000
       - inputs:
-        - name: Процессорный кулер
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D1%83%D0%BB%D0%B5%D1%80
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a8/CPU_Fan_Icon.png/revision/latest?cb=20190325191134
-          quantity: 2
-          consumable: true
-        output:
-          name: Видеокарта
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%B0
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b3/Graphics_Card_icon.png/revision/latest?cb=20250122021908
-          quantity: 1
-        duration: 348960
-      - inputs:
         - name: Считыватель UHF RFID
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
@@ -2016,6 +2004,18 @@
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a6/Lab._key._Security_post_icon.png/revision/latest?cb=20250516125914
           quantity: 1
         duration: 475980
+      - inputs:
+        - name: Процессорный кулер
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D1%83%D0%BB%D0%B5%D1%80
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a8/CPU_Fan_Icon.png/revision/latest?cb=20190325191134
+          quantity: 2
+          consumable: true
+        output:
+          name: Видеокарта
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%B0
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b3/Graphics_Card_icon.png/revision/latest?cb=20250122021908
+          quantity: 1
+        duration: 348960
       - inputs:
         - name: Защищенный флеш-накопитель
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
@@ -2067,6 +2067,18 @@
     1:
       recipes:
       - inputs:
+        - name: Монтажный скотч
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9_%D1%81%D0%BA%D0%BE%D1%82%D1%87
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/38/Duct_tape_Icon.png/revision/latest?cb=20250510123849
+          quantity: 1
+          consumable: true
+        output:
+          name: Общевойсковой шлем 6Б47 "Ратник-БШ" (чехол Флора Цифра)
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D0%B1%D1%89%D0%B5%D0%B2%D0%BE%D0%B9%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9_%D1%88%D0%BB%D0%B5%D0%BC_6%D0%9147_%22%D0%A0%D0%B0%D1%82%D0%BD%D0%B8%D0%BA-%D0%91%D0%A8%22_(%D1%87%D0%B5%D1%85%D0%BE%D0%BB_%D0%A4%D0%BB%D0%BE%D1%80%D0%B0_%D0%A6%D0%B8%D1%84%D1%80%D0%B0)
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b4/6bhelmetcamo.png/revision/latest?cb=20250204174116
+          quantity: 1
+        duration: 2890
+      - inputs:
         - name: Бумага для принтера
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d2/Printer_Paper_icon.png/revision/latest?cb=20191123015145
@@ -2078,18 +2090,6 @@
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/ea/Toilet_paper_icon.png/revision/latest?cb=20250617062411
           quantity: 2
         duration: 1560
-      - inputs:
-        - name: Изолента
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e4/Insulating_tape_Icon.png/revision/latest?cb=20250422151231
-          quantity: 3
-          consumable: true
-        output:
-          name: Гофрированный шланг
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%BE%D1%84%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%88%D0%BB%D0%B0%D0%BD%D0%B3
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b0/Hoseicon.png/revision/latest?cb=20250617173126
-          quantity: 2
-        duration: 12060
       - inputs:
         - name: Отвертка
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B0
@@ -2126,18 +2126,6 @@
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/34/ScavBP_Icon.png/revision/latest/scale-to-width-down/180?cb=20220326131010
           quantity: 2
         duration: 3300
-      - inputs:
-        - name: Ткань Рипстоп
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%BA%D0%B0%D0%BD%D1%8C_%D0%A0%D0%B8%D0%BF%D1%81%D1%82%D0%BE%D0%BF
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0b/Ripstop_icon.png/revision/latest?cb=20200314095938
-          quantity: 1
-          consumable: true
-        output:
-          name: Бронежилет БНТИ "Модуль-3М"
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%91%D0%9D%D0%A2%D0%98_%22%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-3%D0%9C%22
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/f8/3M_icon.png/revision/latest/scale-to-width-down/180?cb=20250227203141
-          quantity: 1
-        duration: 3250
       - inputs:
         - name: Бинт стерильный
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B8%D0%BD%D1%82_%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9
@@ -2223,18 +2211,6 @@
           quantity: 1
         duration: 2900
       - inputs:
-        - name: Монтажный скотч
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9_%D1%81%D0%BA%D0%BE%D1%82%D1%87
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/38/Duct_tape_Icon.png/revision/latest?cb=20250510123849
-          quantity: 1
-          consumable: true
-        output:
-          name: Общевойсковой шлем 6Б47 "Ратник-БШ" (чехол Флора Цифра)
-          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D0%B1%D1%89%D0%B5%D0%B2%D0%BE%D0%B9%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9_%D1%88%D0%BB%D0%B5%D0%BC_6%D0%9147_%22%D0%A0%D0%B0%D1%82%D0%BD%D0%B8%D0%BA-%D0%91%D0%A8%22_(%D1%87%D0%B5%D1%85%D0%BE%D0%BB_%D0%A4%D0%BB%D0%BE%D1%80%D0%B0_%D0%A6%D0%B8%D1%84%D1%80%D0%B0)
-          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b4/6bhelmetcamo.png/revision/latest?cb=20250204174116
-          quantity: 1
-        duration: 2890
-      - inputs:
         - name: Щелочное средство для промывки теплообменных поверхностей
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A9%D0%B5%D0%BB%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D0%B2%D0%BA%D0%B8_%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85_%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b3/Heat-exchange_alkali_surface_washer_icon.png/revision/latest?cb=20250617155203
@@ -2246,6 +2222,30 @@
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/95/Soap_icon.png/revision/latest?cb=20190325000807
           quantity: 6
         duration: 3000
+      - inputs:
+        - name: Изолента
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e4/Insulating_tape_Icon.png/revision/latest?cb=20250422151231
+          quantity: 3
+          consumable: true
+        output:
+          name: Гофрированный шланг
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%BE%D1%84%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%88%D0%BB%D0%B0%D0%BD%D0%B3
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b0/Hoseicon.png/revision/latest?cb=20250617173126
+          quantity: 2
+        duration: 12060
+      - inputs:
+        - name: Ткань Рипстоп
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%BA%D0%B0%D0%BD%D1%8C_%D0%A0%D0%B8%D0%BF%D1%81%D1%82%D0%BE%D0%BF
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0b/Ripstop_icon.png/revision/latest?cb=20200314095938
+          quantity: 1
+          consumable: true
+        output:
+          name: Бронежилет БНТИ "Модуль-3М"
+          wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%91%D0%9D%D0%A2%D0%98_%22%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-3%D0%9C%22
+          icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/f8/3M_icon.png/revision/latest/scale-to-width-down/180?cb=20250227203141
+          quantity: 1
+        duration: 3250
       - inputs:
         - name: Ткань Рипстоп
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%BA%D0%B0%D0%BD%D1%8C_%D0%A0%D0%B8%D0%BF%D1%81%D1%82%D0%BE%D0%BF

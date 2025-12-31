@@ -1,7 +1,41 @@
 import yaml
 import re
+import os
+import requests
+from pathlib import Path
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
+
+# URL страницы с крафтами
+WIKI_URL = 'https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%80%D0%B0%D1%84%D1%82%D1%8B'
+CACHE_DIR = Path('workbench')
+CACHE_FILE = CACHE_DIR / 'page.html'
+
+
+def ensure_wiki_page():
+    """
+    Скачивает страницу с вики если её нет в кэше.
+    Возвращает путь к HTML файлу.
+    """
+    if CACHE_FILE.exists():
+        print(f"Using cached page: {CACHE_FILE}")
+        return CACHE_FILE
+
+    print(f"Downloading page from {WIKI_URL}...")
+
+    # Создаем директорию для кэша если нужно
+    CACHE_DIR.mkdir(exist_ok=True)
+
+    # Скачиваем страницу
+    response = requests.get(WIKI_URL, timeout=30)
+    response.raise_for_status()
+
+    # Сохраняем в кэш
+    with open(CACHE_FILE, 'wb') as f:
+        f.write(response.content)
+
+    print(f"Page cached to: {CACHE_FILE}")
+    return CACHE_FILE
 
 
 def _convert_time_to_seconds(time_text):
@@ -70,7 +104,10 @@ def _parse_station_name_and_level(full_name):
 
 
 def parse_recipes():
-    with open('workbench/page.html', 'rb') as f:
+    # Скачиваем страницу если нужно
+    page_file = ensure_wiki_page()
+
+    with open(page_file, 'rb') as f:
         soup = BeautifulSoup(f, 'html.parser', from_encoding='utf-8')
 
     tables = soup.find_all('table', class_='wikitable mw-collapsible')
