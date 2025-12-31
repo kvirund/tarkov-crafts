@@ -140,12 +140,12 @@ def parse_recipes():
             stations[base_name] = {
                 'base_name': base_name,
                 'wiki_link': None,
-                'icon_link': None,
                 'levels': {}
             }
 
         if level not in stations[base_name]['levels']:
             stations[base_name]['levels'][level] = {
+                'icon_link': None,
                 'recipes': []
             }
 
@@ -158,22 +158,25 @@ def parse_recipes():
 
             input_th, arrow1, station_th, arrow2, output_th = ths
 
-            # Get station wiki_link and icon_link from first row if not set yet
-            if stations[base_name]['wiki_link'] is None or stations[base_name]['icon_link'] is None:
+            # Get station wiki_link from first row if not set yet
+            if stations[base_name]['wiki_link'] is None:
                 center = station_th.find('center')
                 if center:
-                    # Get wiki_link
+                    # Get wiki_link (station level)
                     a_station = center.find('a', href=lambda x: x and x.startswith('/ru/wiki/'))
-                    if a_station and stations[base_name]['wiki_link'] is None:
+                    if a_station:
                         stations[base_name]['wiki_link'] = 'https://escapefromtarkov.fandom.com' + a_station['href']
 
-                    # Get icon_link
-                    if stations[base_name]['icon_link'] is None:
-                        span_file = center.find('span', attrs={'typeof': 'mw:File/Frameless'})
-                        if span_file:
-                            a_icon = span_file.find('a', class_='mw-file-description')
-                            if a_icon and a_icon.get('href'):
-                                stations[base_name]['icon_link'] = a_icon['href']
+            # Get icon_link for current level from first row if not set yet
+            if stations[base_name]['levels'][level]['icon_link'] is None:
+                center = station_th.find('center')
+                if center:
+                    # Get icon_link (level specific)
+                    span_file = center.find('span', attrs={'typeof': 'mw:File/Frameless'})
+                    if span_file:
+                        a_icon = span_file.find('a', class_='mw-file-description')
+                        if a_icon and a_icon.get('href'):
+                            stations[base_name]['levels'][level]['icon_link'] = a_icon['href']
 
             # Parse inputs
             # Find all wiki links in input column - they represent items

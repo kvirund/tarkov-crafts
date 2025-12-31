@@ -113,10 +113,23 @@
             border-bottom: none;
         }
 
+        .level-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .level-header img {
+            height: 64px;
+            width: auto;
+            object-fit: contain;
+        }
+
         .level-group h3 {
             font-size: 1.2rem;
             color: #4a9eff;
-            margin-bottom: 1rem;
+            margin: 0;
         }
 
         .level-group h3 span {
@@ -294,7 +307,7 @@
                         searchIndex.push({
                             stationName: station.base_name,
                             stationWikiLink: station.wiki_link,
-                            stationIcon: station.icon_link,
+                            levelIcon: levelData.icon_link,
                             level: parseInt(level),
                             recipe: recipe,
                             searchableText: buildSearchableText(recipe, station.base_name)
@@ -402,15 +415,17 @@
                 if (!grouped[station]) {
                     grouped[station] = {
                         wikiLink: item.stationWikiLink,
-                        icon: item.stationIcon,
                         levels: {}
                     };
                 }
                 if (!grouped[station].levels[level]) {
-                    grouped[station].levels[level] = [];
+                    grouped[station].levels[level] = {
+                        icon: item.levelIcon,
+                        recipes: []
+                    };
                 }
 
-                grouped[station].levels[level].push(item);
+                grouped[station].levels[level].recipes.push(item);
             });
 
             // Generate HTML
@@ -422,7 +437,6 @@
                 html += `
                     <div class="station">
                         <div class="station-header">
-                            <img src="${stationData.icon || ''}" alt="${stationName}" onerror="this.style.display='none'">
                             <h2>${stationName}</h2>
                             <a href="${stationData.wikiLink}" target="_blank">Wiki</a>
                         </div>
@@ -432,11 +446,15 @@
                 const sortedLevels = Object.keys(stationData.levels).map(Number).sort((a, b) => a - b);
 
                 for (const level of sortedLevels) {
-                    const recipes = stationData.levels[level];
+                    const levelData = stationData.levels[level];
+                    const recipes = levelData.recipes;
 
                     html += `
                         <div class="level-group">
-                            <h3>Уровень ${level} <span>(${recipes.length})</span></h3>
+                            <div class="level-header">
+                                <img src="${levelData.icon || ''}" alt="${stationName} УР${level}" onerror="this.style.display='none'">
+                                <h3>Уровень ${level} <span>(${recipes.length})</span></h3>
+                            </div>
                     `;
 
                     recipes.forEach(item => {
