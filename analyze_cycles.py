@@ -288,7 +288,7 @@ class AnalysisConfig:
     def __init__(self):
         # Поиск циклов
         self.max_cycle_length = 10
-        self.min_cycle_length = 2
+        self.min_cycle_length = 1
 
         # Расчет duration
         self.duration_mode = 'range'  # 'min', 'max', 'avg', 'range'
@@ -310,8 +310,8 @@ class AnalysisConfig:
 
         parser.add_argument('--max-length', type=int, default=10,
                           help='Максимальная длина цикла (default: 10)')
-        parser.add_argument('--min-length', type=int, default=2,
-                          help='Минимальная длина цикла (default: 2)')
+        parser.add_argument('--min-length', type=int, default=1,
+                          help='Минимальная длина цикла (default: 1)')
         parser.add_argument('--duration-mode', choices=['min', 'max', 'avg', 'range'],
                           default='range',
                           help='Режим расчета duration для диапазонов (default: range)')
