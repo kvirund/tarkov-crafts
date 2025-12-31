@@ -242,10 +242,32 @@
 
         .cycle-chain {
             display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+
+        .cycle-step-header {
+            display: flex;
             align-items: center;
-            gap: 1rem;
-            flex-wrap: wrap;
-            margin-bottom: 1rem;
+            gap: 0.75rem;
+            margin-bottom: 0.5rem;
+            padding: 0.5rem;
+            background: #2a2a2a;
+            border-radius: 6px;
+            border: 1px solid #3a3a3a;
+        }
+
+        .cycle-step-header img {
+            height: 48px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        .cycle-vertical-arrow {
+            text-align: center;
+            font-size: 2rem;
+            color: #4a9eff;
+            padding: 0.5rem 0;
         }
 
         .cycle-step {
@@ -253,6 +275,10 @@
             padding: 0.75rem;
             border-radius: 6px;
             border: 1px solid #3a3a3a;
+        }
+
+        .cycle-details .recipe-card {
+            margin-bottom: 0;
         }
 
         .station {
@@ -882,24 +908,46 @@
 
                 // Details (hidden by default)
                 html += `<div class="cycle-details" id="cycle-details-${index}">`;
+
+                // Duration at top
+                if (typeof cycle.duration_seconds === 'object') {
+                    html += `<div style="margin-bottom: 1rem;"><strong>Общее время:</strong> ${formatDuration(cycle.duration_seconds)}</div>`;
+                } else if (cycle.duration_seconds) {
+                    html += `<div style="margin-bottom: 1rem;"><strong>Общее время:</strong> ${formatSeconds(cycle.duration_seconds)}</div>`;
+                }
+
                 html += '<div class="cycle-chain">';
                 cycle.path.forEach((step, stepIndex) => {
-                    html += `<div class="cycle-step">
-                        <div><strong>${step.station} УР${step.level}</strong></div>
-                        <div>→ ${step.output}</div>
-                    </div>`;
+                    // Find full recipe in searchIndex
+                    const recipeEntry = searchIndex.find(entry =>
+                        entry.stationName === step.station &&
+                        entry.level === step.level &&
+                        entry.recipe.output.name === step.output
+                    );
+
+                    if (recipeEntry) {
+                        // Station header
+                        html += `<div class="cycle-step-header">
+                            <img src="${recipeEntry.levelIcon || ''}" alt="${step.station} УР${step.level}" onerror="this.style.display='none'">
+                            <strong>${step.station} УР${step.level}</strong>
+                        </div>`;
+
+                        // Recipe card
+                        html += renderRecipeCard(recipeEntry.recipe);
+                    } else {
+                        // Fallback if recipe not found
+                        html += `<div class="cycle-step">
+                            <div><strong>${step.station} УР${step.level}</strong></div>
+                            <div>→ ${step.output}</div>
+                        </div>`;
+                    }
+
+                    // Vertical arrow between recipes
                     if (stepIndex < cycle.path.length - 1) {
-                        html += '<div class="cycle-arrow">→</div>';
+                        html += '<div class="cycle-vertical-arrow">↓</div>';
                     }
                 });
                 html += '</div>';
-
-                // Duration
-                if (typeof cycle.duration_seconds === 'object') {
-                    html += `<div><strong>Время:</strong> ${formatDuration(cycle.duration_seconds)}</div>`;
-                } else if (cycle.duration_seconds) {
-                    html += `<div><strong>Время:</strong> ${formatSeconds(cycle.duration_seconds)}</div>`;
-                }
 
                 html += '</div>';
 
