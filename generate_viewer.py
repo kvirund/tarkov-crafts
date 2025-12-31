@@ -28,6 +28,18 @@ def main():
     print("Конвертация в JSON...")
     json_data = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
 
+    # Читаем cycle_analysis.json
+    print("Загрузка cycle_analysis.json...")
+    cycles_file = Path('cycle_analysis.json')
+    cycles_data = {}
+    if cycles_file.exists():
+        with open(cycles_file, 'r', encoding='utf-8') as f:
+            cycles_data = json.load(f)
+    else:
+        print("  Внимание: cycle_analysis.json не найден, вкладка циклов будет пустой")
+
+    cycles_json = json.dumps(cycles_data, ensure_ascii=False, separators=(',', ':'))
+
     # Читаем шаблон
     print("Загрузка viewer_template.html...")
     template_file = Path('viewer_template.html')
@@ -40,7 +52,8 @@ def main():
 
     # Встраиваем данные
     print("Встраивание данных...")
-    html = template.replace('/*DATA_PLACEHOLDER*/', f'const recipesData = {json_data};')
+    data_js = f'const recipesData = {json_data};\n        const cyclesData = {cycles_json};'
+    html = template.replace('/*DATA_PLACEHOLDER*/', data_js)
 
     # Сохраняем
     output_file = Path('viewer.html')

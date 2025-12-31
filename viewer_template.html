@@ -122,6 +122,139 @@
             border-bottom: 2px solid #3a3a3a;
         }
 
+        .cycle-card {
+            background: #242424;
+            border: 2px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: border-color 0.2s;
+        }
+
+        .cycle-card:hover {
+            border-color: #4a9eff;
+        }
+
+        .cycle-card.loss-only {
+            border-color: #f44336;
+        }
+
+        .cycle-card.profit-only {
+            border-color: #4caf50;
+        }
+
+        .cycle-card.single-recipe {
+            border-color: #ff9800;
+        }
+
+        .cycle-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #3a3a3a;
+        }
+
+        .cycle-title {
+            font-size: 1.2rem;
+            color: #4a9eff;
+        }
+
+        .cycle-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .cycle-badge.loss {
+            background: #f44336;
+            color: #fff;
+        }
+
+        .cycle-badge.profit {
+            background: #4caf50;
+            color: #000;
+        }
+
+        .cycle-badge.single {
+            background: #ff9800;
+            color: #000;
+        }
+
+        .cycle-summary {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1rem;
+        }
+
+        .cycle-arrow {
+            font-size: 2rem;
+            color: #4a9eff;
+        }
+
+        .cycle-items {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .cycle-item {
+            color: #e0e0e0;
+        }
+
+        .cycle-item.positive {
+            color: #4caf50;
+        }
+
+        .cycle-item.negative {
+            color: #f44336;
+        }
+
+        .cycle-expand-btn {
+            background: #4a9eff;
+            color: #fff;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .cycle-expand-btn:hover {
+            background: #3a8edf;
+        }
+
+        .cycle-details {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #3a3a3a;
+        }
+
+        .cycle-details.expanded {
+            display: block;
+        }
+
+        .cycle-chain {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+
+        .cycle-step {
+            background: #2a2a2a;
+            padding: 0.75rem;
+            border-radius: 6px;
+            border: 1px solid #3a3a3a;
+        }
+
         .station {
             margin-bottom: 3rem;
             background: #242424;
@@ -350,6 +483,7 @@
         <div class="tabs">
             <button class="tab active" data-tab="recipes">Рецепты</button>
             <button class="tab" data-tab="items">Предметы</button>
+            <button class="tab" data-tab="cycles">Циклы</button>
         </div>
 
         <div id="recipes-tab" class="tab-content active">
@@ -368,6 +502,13 @@
                 <span id="itemInfo"></span>
             </div>
             <div id="itemViewContainer"></div>
+        </div>
+
+        <div id="cycles-tab" class="tab-content">
+            <div class="search-container">
+                <span id="cyclesInfo">Загрузка...</span>
+            </div>
+            <div id="cyclesContainer"></div>
         </div>
     </div>
 
@@ -650,6 +791,136 @@
             container.innerHTML = html;
         }
 
+        // Cycles rendering
+        function renderCycles() {
+            const container = document.getElementById('cyclesContainer');
+            const info = document.getElementById('cyclesInfo');
+
+            if (!cyclesData || !cyclesData.cycles || cyclesData.cycles.length === 0) {
+                container.innerHTML = '<p style="text-align: center; color: #888; margin-top: 2rem;">Циклы не найдены</p>';
+                info.textContent = 'Циклов: 0';
+                return;
+            }
+
+            const cycles = cyclesData.cycles;
+            info.textContent = `Всего циклов: ${cycles.length} | Самовоспроизводящихся: ${cyclesData.self_sustaining_count}`;
+
+            let html = '';
+
+            cycles.forEach((cycle, index) => {
+                // Determine cycle type
+                const isSingleRecipe = cycle.path.length === 1;
+                const balanceValues = Object.values(cycle.balance);
+                const allNegative = balanceValues.every(v => v <= 0) && balanceValues.some(v => v < 0);
+                const allPositive = balanceValues.every(v => v >= 0) && balanceValues.some(v => v > 0);
+
+                // Get external inputs/outputs (non-intermediate)
+                const externalInputs = Object.entries(cycle.inputs)
+                    .filter(([item, qty]) => {
+                        const balance = cycle.balance[item];
+                        return balance !== undefined && balance < 0;
+                    })
+                    .map(([item, qty]) => ({ item, qty: Math.abs(cycle.balance[item]) }));
+
+                const externalOutputs = Object.entries(cycle.outputs)
+                    .filter(([item, qty]) => {
+                        const balance = cycle.balance[item];
+                        return balance !== undefined && balance > 0;
+                    })
+                    .map(([item, qty]) => ({ item, qty: cycle.balance[item] }));
+
+                // Build card classes
+                let cardClasses = 'cycle-card';
+                if (isSingleRecipe) cardClasses += ' single-recipe';
+                else if (allNegative) cardClasses += ' loss-only';
+                else if (allPositive) cardClasses += ' profit-only';
+
+                html += `<div class="${cardClasses}" data-cycle-id="${index}">`;
+
+                // Header
+                html += '<div class="cycle-header">';
+                html += `<div class="cycle-title">Цикл #${cycle.id} (${cycle.path.length} ${cycle.path.length === 1 ? 'рецепт' : 'рецепта'})</div>`;
+                html += '<div>';
+                if (isSingleRecipe) html += '<span class="cycle-badge single">Один рецепт</span> ';
+                if (allNegative) html += '<span class="cycle-badge loss">Только потери</span> ';
+                if (allPositive) html += '<span class="cycle-badge profit">Только прибыль</span> ';
+                html += '</div>';
+                html += '</div>';
+
+                // Summary
+                html += '<div class="cycle-summary">';
+
+                // External inputs
+                html += '<div class="cycle-items">';
+                if (externalInputs.length > 0) {
+                    externalInputs.forEach(({item, qty}) => {
+                        html += `<div class="cycle-item negative">-${qty} ${item}</div>`;
+                    });
+                } else {
+                    html += '<div class="cycle-item">—</div>';
+                }
+                html += '</div>';
+
+                html += '<div class="cycle-arrow">→</div>';
+
+                // External outputs
+                html += '<div class="cycle-items">';
+                if (externalOutputs.length > 0) {
+                    externalOutputs.forEach(({item, qty}) => {
+                        html += `<div class="cycle-item positive">+${qty} ${item}</div>`;
+                    });
+                } else {
+                    html += '<div class="cycle-item">—</div>';
+                }
+                html += '</div>';
+
+                html += '</div>';
+
+                // Expand button
+                html += `<button class="cycle-expand-btn" onclick="toggleCycleDetails(${index})">Развернуть цепочку</button>`;
+
+                // Details (hidden by default)
+                html += `<div class="cycle-details" id="cycle-details-${index}">`;
+                html += '<div class="cycle-chain">';
+                cycle.path.forEach((step, stepIndex) => {
+                    html += `<div class="cycle-step">
+                        <div><strong>${step.station} УР${step.level}</strong></div>
+                        <div>→ ${step.output}</div>
+                    </div>`;
+                    if (stepIndex < cycle.path.length - 1) {
+                        html += '<div class="cycle-arrow">→</div>';
+                    }
+                });
+                html += '</div>';
+
+                // Duration
+                if (typeof cycle.duration_seconds === 'object') {
+                    html += `<div><strong>Время:</strong> ${formatDuration(cycle.duration_seconds)}</div>`;
+                } else if (cycle.duration_seconds) {
+                    html += `<div><strong>Время:</strong> ${formatSeconds(cycle.duration_seconds)}</div>`;
+                }
+
+                html += '</div>';
+
+                html += '</div>';
+            });
+
+            container.innerHTML = html;
+        }
+
+        function toggleCycleDetails(cycleId) {
+            const details = document.getElementById(`cycle-details-${cycleId}`);
+            const btn = event.target;
+
+            if (details.classList.contains('expanded')) {
+                details.classList.remove('expanded');
+                btn.textContent = 'Развернуть цепочку';
+            } else {
+                details.classList.add('expanded');
+                btn.textContent = 'Свернуть';
+            }
+        }
+
         // Tab switching
         function switchTab(tabName) {
             // Update tab buttons
@@ -675,6 +946,7 @@
         buildSearchIndex();
         buildItemsIndex();
         populateItemSelect();
+        renderCycles();
 
         // Initial render
         renderRecipes(searchIndex);
