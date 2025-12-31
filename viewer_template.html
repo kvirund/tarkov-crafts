@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape from Tarkov - Рецепты крафта</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            padding-bottom: 2rem;
+        }
+
+        #app {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .search-container {
+            position: sticky;
+            top: 0;
+            background: #2a2a2a;
+            padding: 1.5rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+            z-index: 100;
+            border-bottom: 2px solid #3a3a3a;
+        }
+
+        #searchInput {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            background: #1a1a1a;
+            border: 2px solid #3a3a3a;
+            border-radius: 8px;
+            color: #e0e0e0;
+            transition: border-color 0.2s;
+        }
+
+        #searchInput:focus {
+            outline: none;
+            border-color: #4a9eff;
+        }
+
+        #resultsCount {
+            display: block;
+            margin-top: 0.75rem;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        #recipesContainer {
+            padding: 2rem 1rem;
+        }
+
+        .station {
+            margin-bottom: 3rem;
+            background: #242424;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .station-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1.5rem;
+            background: #2d2d2d;
+            border-bottom: 2px solid #3a3a3a;
+        }
+
+        .station-header img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+        }
+
+        .station-header h2 {
+            flex: 1;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .station-header a {
+            color: #4a9eff;
+            text-decoration: none;
+            font-size: 0.9rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid #4a9eff;
+            border-radius: 6px;
+            transition: all 0.2s;
+        }
+
+        .station-header a:hover {
+            background: #4a9eff;
+            color: #fff;
+        }
+
+        .level-group {
+            padding: 1.5rem;
+            border-bottom: 1px solid #3a3a3a;
+        }
+
+        .level-group:last-child {
+            border-bottom: none;
+        }
+
+        .level-group h3 {
+            font-size: 1.2rem;
+            color: #4a9eff;
+            margin-bottom: 1rem;
+        }
+
+        .level-group h3 span {
+            color: #888;
+            font-size: 0.9rem;
+            font-weight: normal;
+        }
+
+        .recipe-card {
+            background: #2a2a2a;
+            border: 1px solid #3a3a3a;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .recipe-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .recipe-inputs, .recipe-output {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.5rem;
+            background: #1a1a1a;
+            border-radius: 6px;
+        }
+
+        .item img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        .item-info {
+            flex: 1;
+        }
+
+        .item-name {
+            font-size: 0.95rem;
+            color: #fff;
+        }
+
+        .item-name a {
+            color: #4a9eff;
+            text-decoration: none;
+        }
+
+        .item-name a:hover {
+            text-decoration: underline;
+        }
+
+        .item-quantity {
+            font-size: 0.85rem;
+            color: #888;
+            margin-top: 0.25rem;
+        }
+
+        .item-tool {
+            font-size: 0.75rem;
+            color: #ff9800;
+            margin-top: 0.25rem;
+        }
+
+        .recipe-arrow {
+            font-size: 2rem;
+            color: #4a9eff;
+            text-align: center;
+        }
+
+        .recipe-meta {
+            grid-column: 1 / -1;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 0.5rem;
+            padding-top: 1rem;
+            border-top: 1px solid #3a3a3a;
+        }
+
+        .duration {
+            font-size: 0.9rem;
+            color: #4a9eff;
+            font-weight: 500;
+        }
+
+        .requirements {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            flex: 1;
+        }
+
+        .req-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .req-badge.electricity {
+            background: #ff9800;
+            color: #000;
+        }
+
+        .req-badge.quest {
+            background: #4caf50;
+            color: #000;
+        }
+
+        .req-badge.other {
+            background: #666;
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .recipe-card {
+                grid-template-columns: 1fr;
+            }
+
+            .recipe-arrow {
+                transform: rotate(90deg);
+            }
+
+            .station-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Поиск по предметам...">
+            <span id="resultsCount">Загрузка...</span>
+        </div>
+        <div id="recipesContainer"></div>
+    </div>
+
+    <script>
+        /*DATA_PLACEHOLDER*/
+
+        // Build search index
+        const searchIndex = [];
+
+        function buildSearchIndex() {
+            for (const stationName in recipesData) {
+                const station = recipesData[stationName];
+                for (const level in station.levels) {
+                    const levelData = station.levels[level];
+                    levelData.recipes.forEach((recipe, idx) => {
+                        searchIndex.push({
+                            stationName: station.base_name,
+                            stationWikiLink: station.wiki_link,
+                            stationIcon: station.icon_link,
+                            level: parseInt(level),
+                            recipe: recipe,
+                            searchableText: buildSearchableText(recipe, station.base_name)
+                        });
+                    });
+                }
+            }
+        }
+
+        function buildSearchableText(recipe, stationName) {
+            const inputs = recipe.inputs.map(i => i.name).join(' ');
+            const output = recipe.output.name;
+            return `${stationName} ${inputs} ${output}`.toLowerCase();
+        }
+
+        function formatDuration(duration) {
+            if (typeof duration === 'object' && duration !== null) {
+                return `${formatSeconds(duration.min)} - ${formatSeconds(duration.max)}`;
+            }
+            return formatSeconds(duration);
+        }
+
+        function formatSeconds(seconds) {
+            if (!seconds) return '';
+
+            const hours = Math.floor(seconds / 3600);
+            const minutes = Math.floor((seconds % 3600) / 60);
+            const secs = seconds % 60;
+
+            const parts = [];
+            if (hours > 0) parts.push(`${hours}ч`);
+            if (minutes > 0) parts.push(`${minutes}мин`);
+            if (secs > 0) parts.push(`${secs}сек`);
+
+            return parts.join(' ');
+        }
+
+        function renderRequirements(requirements) {
+            if (!requirements || requirements.length === 0) return '';
+
+            return requirements.map(req => {
+                switch (req.type) {
+                    case 'electricity_required':
+                        return `<span class="req-badge electricity">⚡ Электричество</span>`;
+                    case 'quest_completed':
+                        return `<span class="req-badge quest">✓ После: ${req.quest}</span>`;
+                    case 'quest_accepted':
+                        return `<span class="req-badge quest">📋 Принято: ${req.quest}</span>`;
+                    case 'during_quest':
+                        return `<span class="req-badge quest">🔄 Во время: ${req.quest}</span>`;
+                    case 'after_quest':
+                        return `<span class="req-badge quest">⏭ После: ${req.quest}</span>`;
+                    default:
+                        return `<span class="req-badge other">${req.description || 'Требование'}</span>`;
+                }
+            }).join('');
+        }
+
+        function renderItem(item) {
+            const isTool = !item.consumable;
+            return `
+                <div class="item">
+                    <img src="${item.icon_link || ''}" alt="${item.name}" onerror="this.style.display='none'">
+                    <div class="item-info">
+                        <div class="item-name">
+                            <a href="${item.wiki_link}" target="_blank">${item.name}</a>
+                        </div>
+                        ${item.quantity ? `<div class="item-quantity">Количество: ${item.quantity}</div>` : ''}
+                        ${isTool ? `<div class="item-tool">🔧 Инструмент (не расходуется)</div>` : ''}
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderRecipeCard(recipe) {
+            return `
+                <div class="recipe-card">
+                    <div class="recipe-inputs">
+                        ${recipe.inputs.map(input => renderItem(input)).join('')}
+                    </div>
+                    <div class="recipe-arrow">→</div>
+                    <div class="recipe-output">
+                        ${renderItem(recipe.output)}
+                    </div>
+                    <div class="recipe-meta">
+                        ${recipe.duration ? `<span class="duration">⏱ ${formatDuration(recipe.duration)}</span>` : ''}
+                        <div class="requirements">
+                            ${renderRequirements(recipe.requirements)}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderRecipes(filtered) {
+            const container = document.getElementById('recipesContainer');
+
+            // Group results by station and level
+            const grouped = {};
+
+            filtered.forEach(item => {
+                const station = item.stationName;
+                const level = item.level;
+
+                if (!grouped[station]) {
+                    grouped[station] = {
+                        wikiLink: item.stationWikiLink,
+                        icon: item.stationIcon,
+                        levels: {}
+                    };
+                }
+                if (!grouped[station].levels[level]) {
+                    grouped[station].levels[level] = [];
+                }
+
+                grouped[station].levels[level].push(item);
+            });
+
+            // Generate HTML
+            let html = '';
+
+            for (const stationName in grouped) {
+                const stationData = grouped[stationName];
+
+                html += `
+                    <div class="station">
+                        <div class="station-header">
+                            <img src="${stationData.icon || ''}" alt="${stationName}" onerror="this.style.display='none'">
+                            <h2>${stationName}</h2>
+                            <a href="${stationData.wikiLink}" target="_blank">Wiki</a>
+                        </div>
+                `;
+
+                // Show only levels with results
+                const sortedLevels = Object.keys(stationData.levels).map(Number).sort((a, b) => a - b);
+
+                for (const level of sortedLevels) {
+                    const recipes = stationData.levels[level];
+
+                    html += `
+                        <div class="level-group">
+                            <h3>Уровень ${level} <span>(${recipes.length})</span></h3>
+                    `;
+
+                    recipes.forEach(item => {
+                        html += renderRecipeCard(item.recipe);
+                    });
+
+                    html += `</div>`;
+                }
+
+                html += `</div>`;
+            }
+
+            container.innerHTML = html || '<p style="text-align: center; color: #888; margin-top: 2rem;">Ничего не найдено</p>';
+        }
+
+        // Initialize
+        buildSearchIndex();
+
+        // Initial render
+        renderRecipes(searchIndex);
+        document.getElementById('resultsCount').textContent = `Всего рецептов: ${searchIndex.length}`;
+
+        // Live search
+        const searchInput = document.getElementById('searchInput');
+        searchInput.addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase().trim();
+
+            const filtered = query
+                ? searchIndex.filter(item => item.searchableText.includes(query))
+                : searchIndex;
+
+            document.getElementById('resultsCount').textContent =
+                `Найдено: ${filtered.length} из ${searchIndex.length}`;
+
+            renderRecipes(filtered);
+        });
+    </script>
+</body>
+</html>
