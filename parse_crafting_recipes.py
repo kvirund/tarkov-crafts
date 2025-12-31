@@ -248,6 +248,11 @@ def parse_recipes():
             if code:
                 qty = code.get_text(strip=True).replace('x', '').strip()
                 output['quantity'] = int(qty) if qty.isdigit() else 1
+            else:
+                output['quantity'] = 1
+
+            # Output is always consumable (not a tool)
+            output['consumable'] = True
 
             # Check for requirements
             requirements = []

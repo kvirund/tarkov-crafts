@@ -16,6 +16,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BD%D0%B5%D1%82%D0%B0_%D0%91%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fa/Bitcoin_icon.png/revision/latest?cb=20211220212341
           quantity: 1
+          consumable: true
         duration:
           min: 144960
           max: 48013
@@ -37,6 +38,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%83%D1%87%D0%BE%D0%BA_%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a4/Wiresicon.png/revision/latest?cb=20250620092637
           quantity: 8
+          consumable: true
         duration: 7080
       - inputs:
         - name: Пачка гвоздей
@@ -54,6 +56,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D1%80%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/T-Shaped_Plug_Icon.png/revision/latest?cb=20250616085114
           quantity: 3
+          consumable: true
         duration: 3400
       - inputs:
         - name: Изолента
@@ -76,6 +79,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e1/Powercord_icon.png/revision/latest?cb=20190614230638
           quantity: 2
+          consumable: true
         duration: 2100
       - inputs:
         - name: Оружейный порох "Коршун"
@@ -88,6 +92,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x18%D0%BC%D0%BC_%D0%9F%D0%9C%D0%9C_%D0%9F%D1%81%D1%82%D0%9C_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1c/9x18PMM.png/revision/latest?cb=20250326010901
           quantity: 140
+          consumable: true
         duration: 6180
       - inputs:
         - name: Обычные спички
@@ -105,6 +110,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_8.5%D0%BC%D0%BC_%D0%BA%D0%B0%D1%80%D1%82%D0%B5%D1%87%D1%8C_%22%D0%9C%D0%B0%D0%B3%D0%BD%D1%83%D0%BC%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/6d/127065ExpressMagnumIcon.png/revision/latest?cb=20220313112141
           quantity: 120
+          consumable: true
         duration: 5460
       - inputs:
         - name: Отвертка
@@ -122,6 +128,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BE%D0%BD%D0%B4%D0%B5%D0%BD%D1%81%D0%B0%D1%82%D0%BE%D1%80%D1%8B
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e3/Capacitorsicon.png/revision/latest?cb=20190325191130
           quantity: 6
+          consumable: true
         duration: 7450
       - inputs:
         - name: 5.45x39мм HP
@@ -139,6 +146,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/Gunpowder_Icon.png/revision/latest?cb=20250326013950
           quantity: 2
+          consumable: true
         duration: 900
       - inputs:
         - name: Обычные спички
@@ -161,6 +169,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/df/GunpowderHawkIcon.png/revision/latest?cb=20250422122050
           quantity: 3
+          consumable: true
         duration: 2150
       - inputs:
         - name: DVD привод
@@ -178,6 +187,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%87%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c5/Circuit_Icon.png/revision/latest?cb=20190325191144
           quantity: 2
+          consumable: true
         duration: 1980
       - inputs:
         - name: Отвертка
@@ -195,6 +205,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%BB%D0%BE%D0%BC%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_LCD_%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B9
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/be/Lcd-icon.PNG/revision/latest?cb=20191029070447
           quantity: 4
+          consumable: true
         duration: 1320
       - inputs:
         - name: Мультитул Leatherman
@@ -217,6 +228,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%22%D0%A5%D0%B0%D1%82%D1%82%D0%B0%D0%B1%D0%BA%D0%B0%22_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B5_%D0%92%D0%9E%D0%93-25
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/Vog-25_icon.png/revision/latest?cb=20250615131000
           quantity: 8
+          consumable: true
         duration: 6000
         requirements:
         - type: after_quest
@@ -238,6 +250,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%87%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c5/Circuit_Icon.png/revision/latest?cb=20190325191144
           quantity: 2
+          consumable: true
         duration: 2900
       - inputs:
         - name: Поврежденный жесткий диск
@@ -255,6 +268,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/83/Magnet_Icon.png/revision/latest?cb=20190325191140
           quantity: 1
+          consumable: true
         duration: 2600
       - inputs:
         - name: Цевье деревянное для АК-74
@@ -287,6 +301,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82_%D0%9A%D0%B0%D0%BB%D0%B0%D1%88%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0_%D0%90%D0%9A-74%D0%9D_5.45x39
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d7/AK-74N_icon.png/revision/latest/scale-to-width-down/180?cb=20210628141202
           quantity: 1
+          consumable: true
         duration: 4860
       - inputs:
         - name: Мультитул Leatherman
@@ -314,6 +329,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82_%D0%9A%D0%B0%D0%BB%D0%B0%D1%88%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0_%D0%90%D0%9A%D0%9C_7.62x39
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/53/AKM_icon.png/revision/latest/scale-to-width-down/180?cb=20210628141106
           quantity: 1
+          consumable: true
         duration: 5100
       - inputs:
         - name: Разбитый смартфон GPhone X
@@ -336,6 +352,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D1%8B%D0%B9_%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_GPhone
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/be/Broken_GPhone_Icon.png/revision/latest?cb=20250126235517
           quantity: 1
+          consumable: true
         duration: 6000
       - inputs:
         - name: Мультитул Leatherman
@@ -353,6 +370,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B5_%D1%87%D0%B0%D1%81%D1%82%D0%B8
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/79/WeaponPartsIcon.png/revision/latest?cb=20250617170906
           quantity: 2
+          consumable: true
         duration: 4680
       - inputs:
         - name: Самозарядный карабин Симонова ТОЗ СКС 7.62x39
@@ -370,6 +388,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B5_%D1%87%D0%B0%D1%81%D1%82%D0%B8
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/79/WeaponPartsIcon.png/revision/latest?cb=20250617170906
           quantity: 1
+          consumable: true
         duration: 3100
       - inputs:
         - name: Батарейка типа АА
@@ -402,6 +421,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%B0%D0%B7%D0%BE%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1d/Gas_Analyzer_Icon.png/revision/latest?cb=20250620105546
           quantity: 1
+          consumable: true
         duration: 61260
       - inputs:
         - name: Плоскогубцы
@@ -419,6 +439,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/dd/RoundPliersIcon.png/revision/latest?cb=20191029070602
           quantity: 1
+          consumable: true
         duration: 900
       - inputs:
         - name: Пистолет-пулемет ПП-91 "Кедр" 9x18ПМ
@@ -436,6 +457,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82-%D0%BF%D1%83%D0%BB%D0%B5%D0%BC%D0%B5%D1%82_%D0%9F%D0%9F-9_%22%D0%9A%D0%BB%D0%B8%D0%BD%22_9x18%D0%9F%D0%9C%D0%9C
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7d/PP-9_Klin_icon.png/revision/latest/scale-to-width-down/180?cb=20190418221521
           quantity: 1
+          consumable: true
         duration: 1800
       - inputs:
         - name: Разбитый смартфон GPhone
@@ -473,6 +495,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D1%8F%D1%82%D0%BE%D1%80_%D0%B8%D0%B7_%D0%B4%D0%B2%D1%83%D1%85_%D1%80%D0%B0%D1%86%D0%B8%D0%B9
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/05/Radio_repeater_icon.png/revision/latest?cb=20230618115936
           quantity: 1
+          consumable: true
         duration: 5400
         requirements:
         - type: quest_accepted
@@ -491,6 +514,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%83%D1%81%D0%BE%D0%BA_%D0%BE%D1%80%D0%B3%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/34/Plexicon.png/revision/latest?cb=20250422151531
           quantity: 1
+          consumable: true
         duration: 1500
       - inputs:
         - name: Магазин "90-93" на 8 патронов 9x18ПМ для Пистолета Макарова
@@ -523,6 +547,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_%D0%B1%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BD%D0%B0_84_%D0%BF%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%B0_9x18%D0%9F%D0%9C_%D0%B4%D0%BB%D1%8F_%D0%9F%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%B2%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/50/PM84_magazine_icon.png/revision/latest?cb=20190314001739
           quantity: 1
+          consumable: true
         duration: 1200
       - inputs:
         - name: 9x18мм ПМ Пст гж
@@ -540,6 +565,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x18%D0%BC%D0%BC_%D0%9F%D0%9C_%D0%9F%D0%91%D0%9C_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/5d/9x18PBM.png/revision/latest?cb=20220312235620
           quantity: 200
+          consumable: true
         duration: 5400
       - inputs:
         - name: Мультитул Leatherman
@@ -562,6 +588,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_%D0%9F%D0%B8%D1%80%D0%B0%D0%BD%D1%8C%D1%8F
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/dd/Piranha-icon.png/revision/latest?cb=20250426132051
           quantity: 120
+          consumable: true
         duration: 3600
       - inputs:
         - name: Оружейный порох "Орел"
@@ -579,6 +606,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x39%D0%BC%D0%BC_FMJ
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/34/7.62x39FMJIcon.png/revision/latest?cb=20230813163453
           quantity: 200
+          consumable: true
         duration: 7200
       - inputs:
         - name: 9x18мм ПМ РГ028 гж
@@ -596,6 +624,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x18%D0%BC%D0%BC_%D0%9F%D0%9C_%D0%A1%D0%9F8_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/28/9x18SP8GZH.png/revision/latest?cb=20220312235718
           quantity: 150
+          consumable: true
         duration: 9960
       - inputs:
         - name: Оружейный порох "Коршун"
@@ -608,6 +637,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x21%D0%BC%D0%BC_%D0%9F_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/08/9x21sp11.png/revision/latest?cb=20220313105332
           quantity: 150
+          consumable: true
         duration: 5400
       - inputs:
         - name: Ручная дрель
@@ -625,6 +655,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81%D0%BE_%D1%81%D0%BD%D0%B0%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC_(%D0%91%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D0%9F%D1%80%D0%BE%D0%BF%D1%83%D1%81%D0%BA_0)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/Equipment_crate_%28BattlePass_0%29_icon.png/revision/latest/scale-to-width-down/180?cb=20250413020502
           quantity: 1
+          consumable: true
         duration: 60
       - inputs:
         - name: Аккумуляторная батарея
@@ -657,6 +688,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D1%8F%D1%82%D0%BE%D1%80_%D0%B8%D0%B7_%D0%B4%D0%B2%D1%83%D1%85_%D1%80%D0%B0%D1%86%D0%B8%D0%B9
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/05/Radio_repeater_icon.png/revision/latest?cb=20230618115936
           quantity: 1
+          consumable: true
         duration: 1800
       - inputs:
         - name: Закрытый кейс
@@ -674,6 +706,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a7/Locked_case_icon.png/revision/latest?cb=20250511063133
           quantity: 1
+          consumable: true
         duration: 10
       - inputs:
         - name: Ручная дрель
@@ -691,6 +724,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81_%D0%BE%D1%80%D1%83%D0%B6%D0%B8%D0%B5%D0%BC_(%D0%A0%D0%B5%D0%B4%D0%BA%D0%B8%D0%B9)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/56/Weapons_crate_Rare_Icon.png/revision/latest/scale-to-width-down/180?cb=20250213083447
           quantity: 1
+          consumable: true
         duration: 60
       - inputs:
         - name: Защищенный контейнер "Гамма"
@@ -713,6 +747,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80_%22%D0%93%D0%B0%D0%BC%D0%BC%D0%B0%22_(%D0%9F%D0%BE%D1%82%D1%80%D0%B5%D0%BF%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/Secure_container_Gamma_Battle-worn_Icon.png/revision/latest/scale-to-width-down/180?cb=20251215203159
           quantity: 1
+          consumable: true
         duration: 1800
       - inputs:
         - name: Защищенный контейнер "Гамма" (Потрепанный)
@@ -730,6 +765,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80_%22%D0%93%D0%B0%D0%BC%D0%BC%D0%B0%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/60/Secure_container_Gamma_EOD_Icon.png/revision/latest/scale-to-width-down/180?cb=20250510193527
           quantity: 1
+          consumable: true
         duration: 1800
     2:
       icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/96/Verstak_02_icon.png/revision/latest?cb=20200210135231
@@ -755,6 +791,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.45x39%D0%BC%D0%BC_%D0%9F%D0%9F_%D0%B3%D1%81
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/5d/74PPICON.png/revision/latest?cb=20230612131909
           quantity: 120
+          consumable: true
         duration: 8500
         requirements:
         - type: after_quest
@@ -786,6 +823,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82_%D0%9A%D0%B0%D0%BB%D0%B0%D1%88%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0_%D0%90%D0%9A-74%D0%9C_5.45x39
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4d/AK-74M_icon.png/revision/latest/scale-to-width-down/180?cb=20210628141135
           quantity: 1
+          consumable: true
         duration: 3600
       - inputs:
         - name: Оружейный порох "Коршун"
@@ -808,6 +846,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/df/GunpowderHawkIcon.png/revision/latest?cb=20250422122050
           quantity: 3
+          consumable: true
         duration: 6720
       - inputs:
         - name: Ручная граната M67
@@ -830,6 +869,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9E%D1%80%D0%B5%D0%BB%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e5/Gunpowder_eagle_icon.png/revision/latest?cb=20250422121815
           quantity: 2
+          consumable: true
         duration: 3600
       - inputs:
         - name: Изолента
@@ -857,6 +897,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/9f/Electric_motor_icon.png/revision/latest?cb=20191029070856
           quantity: 1
+          consumable: true
         duration: 4800
       - inputs:
         - name: Мобильный повербанк
@@ -874,6 +915,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BA%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D1%8F
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/28/Recicon.png/revision/latest?cb=20250421213430
           quantity: 2
+          consumable: true
         duration: 4380
       - inputs:
         - name: Военный аккумулятор 6-СТЭН-140-М
@@ -891,6 +933,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BA%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a0/Car_Battery_Icon.png/revision/latest/scale-to-width-down/180?cb=20230918133324
           quantity: 5
+          consumable: true
         duration: 7200
       - inputs:
         - name: Оружейный порох "Коршун"
@@ -913,6 +956,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%BE%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%22%D0%97%D0%B0%D1%80%D1%8F%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b6/Zarya_stun_grenade_icon.png/revision/latest?cb=20250615131005
           quantity: 5
+          consumable: true
         duration: 4620
       - inputs:
         - name: Батарейка типа АА
@@ -945,6 +989,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B5%D1%82%D1%87%D0%B8%D0%BA_%D0%93%D0%B5%D0%B9%D0%B3%D0%B5%D1%80%D0%B0-%D0%9C%D1%8E%D0%BB%D0%BB%D0%B5%D1%80%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/86/Geiger-Mueller_counter_Icon.png/revision/latest?cb=20190325191150
           quantity: 1
+          consumable: true
         duration: 5460
       - inputs:
         - name: Мультитул Leatherman
@@ -972,6 +1017,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_RIP
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8a/12x70ripicon.png/revision/latest?cb=20221124060432
           quantity: 60
+          consumable: true
         duration: 13980
       - inputs:
         - name: Отвертка
@@ -999,6 +1045,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c5/MilitaryCircuitBoardIcon.png/revision/latest?cb=20230508200223
           quantity: 1
+          consumable: true
         duration: 8160
       - inputs:
         - name: Набор инструментов
@@ -1026,6 +1073,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B8%D0%B2_NIXXOR
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/17/NIXXOR_lens_icon.png/revision/latest?cb=20250308182826
           quantity: 2
+          consumable: true
         duration: 9100
       - inputs:
         - name: Болты
@@ -1053,6 +1101,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B2%D0%B5%D1%87%D0%B0_%D0%B7%D0%B0%D0%B6%D0%B8%D0%B3%D0%B0%D0%BD%D0%B8%D1%8F
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/46/Spark_Plug_Icon_.png/revision/latest?cb=20250616080323
           quantity: 1
+          consumable: true
         duration: 6960
       - inputs:
         - name: Набор инструментов
@@ -1090,6 +1139,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%B1%D0%B5%D0%BB%D0%B5%D1%80%D0%B5%D0%B7_Bulbex
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/02/Bulbex_cable_cutter_icon1.png/revision/latest?cb=20250811122140
           quantity: 1
+          consumable: true
         duration: 24960
       - inputs:
         - name: USB Адаптер
@@ -1117,6 +1167,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9B%D0%B8%D1%82%D0%B8%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B0%D0%BA%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D0%B9%D0%BA%D0%B0_GreenBat
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b6/GreenBat_Icon.png/revision/latest?cb=20200502000309
           quantity: 1
+          consumable: true
         duration: 18000
       - inputs:
         - name: Ключ от комнаты 308 общежития
@@ -1149,6 +1200,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%81_%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%82%D0%BD%D0%BE%D0%B9_%D1%81%D0%BC%D0%B5%D1%81%D1%8C%D1%8E
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/Can_of_thermite_Icon.png/revision/latest?cb=20220129112256
           quantity: 1
+          consumable: true
         duration: 7200
       - inputs:
         - name: Пакет саморезов
@@ -1181,6 +1233,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x21%D0%BC%D0%BC_%D0%91%D0%A2_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/79/9x21sp13.png/revision/latest?cb=20220313105343
           quantity: 150
+          consumable: true
         duration: 31500
       - inputs:
         - name: Мультитул Leatherman
@@ -1218,6 +1271,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x51%D0%BC%D0%BC_M80
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/94/M80ICON.png/revision/latest?cb=20220106054524
           quantity: 80
+          consumable: true
         duration: 36120
       - inputs:
         - name: 9x39мм СП-5 гс
@@ -1240,6 +1294,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x39%D0%BC%D0%BC_%D0%A1%D0%9F%D0%9F_%D0%B3%D1%81
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/73/7n9icon.png/revision/latest?cb=20230612205845
           quantity: 200
+          consumable: true
         duration: 37800
       - inputs:
         - name: Шило
@@ -1262,6 +1317,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%22%D0%A5%D0%B0%D1%82%D1%82%D0%B0%D0%B1%D0%BA%D0%B0%22_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B5_%D0%92%D0%9E%D0%93-17
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/ee/Vog-17_icon.png/revision/latest?cb=20250615131001
           quantity: 8
+          consumable: true
         duration: 9900
         requirements:
         - type: after_quest
@@ -1288,6 +1344,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.56x45%D0%BC%D0%BC_MK_318_Mod_0_(SOST)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0c/Mk318SOSTICON.png/revision/latest?cb=20220108040000
           quantity: 90
+          consumable: true
         duration: 6250
       - inputs:
         - name: Оружейный порох "Орел"
@@ -1305,6 +1362,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x39%D0%BC%D0%BC_%D0%9F%D0%90%D0%91-9_%D0%B3%D1%81
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/99/9x39_PAB-9_Icon.png/revision/latest?cb=20220313110137
           quantity: 100
+          consumable: true
         duration: 7350
         requirements:
         - type: quest_completed
@@ -1331,6 +1389,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%22%D0%A5%D0%B0%D1%82%D1%82%D0%B0%D0%B1%D0%BA%D0%B0%22_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B5_%D0%92%D0%9E%D0%93-17
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/ee/Vog-17_icon.png/revision/latest?cb=20250615131001
           quantity: 5
+          consumable: true
         duration: 4800
         requirements:
         - type: after_quest
@@ -1357,6 +1416,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/.300_Blackout_M62_Tracer
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/05/300_BLK_M62_Icon.png/revision/latest?cb=20220101001352
           quantity: 100
+          consumable: true
         duration: 6800
         requirements:
         - type: quest_completed
@@ -1388,6 +1448,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x39%D0%BC%D0%BC_%D0%9F%D0%A1_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7a/7.62x39PS.png/revision/latest?cb=20230612210531
           quantity: 120
+          consumable: true
         duration: 15480
       - inputs:
         - name: Оружейный порох "Коршун"
@@ -1400,6 +1461,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x51%D0%BC%D0%BC_%D0%91%D0%9F%D0%97_FMJ
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/5b/BPZ_FMJ_icon.png/revision/latest?cb=20220312185152
           quantity: 120
+          consumable: true
         duration: 18000
       - inputs:
         - name: Мультитул Leatherman
@@ -1422,6 +1484,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x54%D0%BC%D0%BC_R_%D0%9B%D0%9F%D0%A1_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/88/LPSGZHICON.png/revision/latest?cb=20250326005141
           quantity: 70
+          consumable: true
         duration: 14400
       - inputs:
         - name: Пучок проводов
@@ -1444,6 +1507,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x19%D0%BC%D0%BC_Luger_CCI
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/40/9x19cgi.png/revision/latest?cb=20221123052938
           quantity: 180
+          consumable: true
         duration: 10800
       - inputs:
         - name: Мультитул Leatherman
@@ -1466,6 +1530,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.7x28%D0%BC%D0%BC_L191
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/57x28mmL191Icon.png/revision/latest?cb=20220130023213
           quantity: 150
+          consumable: true
         duration: 16200
       - inputs:
         - name: Мультитул Leatherman
@@ -1493,6 +1558,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_%D0%BF%D1%83%D0%BB%D1%8F_%D0%BA%D1%83%D1%81%D1%82%D0%B0%D1%80%D0%BD%D0%B0%D1%8F_.50_BMG
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0b/12-70_.50_BMG_icon.png/revision/latest?cb=20221124060425
           quantity: 60
+          consumable: true
         duration: 12000
       - inputs:
         - name: Плоскогубцы Elite
@@ -1520,6 +1586,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_(%D0%A0%D0%B5%D0%B4%D0%BA%D0%B8%D0%B9)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a1/Supply_crate_Rare_Icon.png/revision/latest/scale-to-width-down/180?cb=20250324044140
           quantity: 1
+          consumable: true
         duration: 300
       - inputs:
         - name: Плоскогубцы Elite
@@ -1547,6 +1614,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81_%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8F%D0%BC%D0%B8_(%D0%A0%D0%B5%D0%B4%D0%BA%D0%B8%D0%B9)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e9/Valuables_crate_Rare_Icon.png/revision/latest/scale-to-width-down/180?cb=20250324044139
           quantity: 1
+          consumable: true
         duration: 300
       - inputs:
         - name: Плоскогубцы Elite
@@ -1574,6 +1642,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81%D0%BE_%D1%81%D0%BD%D0%B0%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC_(%D0%A0%D0%B5%D0%B4%D0%BA%D0%B8%D0%B9)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/70/Equipment_crate_Rare_Icon.png/revision/latest/scale-to-width-down/180?cb=20250324044138
           quantity: 1
+          consumable: true
         duration: 300
     3:
       icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/49/Verstak_03_icon.png/revision/latest?cb=20200210135232
@@ -1594,6 +1663,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%D0%A0%D0%93%D0%94-5
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b1/RGD-5_grenade_icon.png/revision/latest?cb=20250615130955
           quantity: 6
+          consumable: true
         duration: 18300
       - inputs:
         - name: Плоскогубцы
@@ -1626,6 +1696,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.45x39%D0%BC%D0%BC_%D0%9F%D0%9F%D0%91%D0%A1_%D0%B3%D1%81_%22%D0%98%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/64/7n39icon.png/revision/latest?cb=20220312133322
           quantity: 150
+          consumable: true
         duration: 61260
       - inputs:
         - name: Мультитул Leatherman
@@ -1663,6 +1734,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/23x75%D0%BC%D0%BC_%D1%81%D0%B2%D0%B5%D1%82%D0%BE%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BF%D0%B0%D1%82%D1%80%D0%BE%D0%BD_%22%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/ff/23x75_Star_icon.png/revision/latest?cb=20201019214441
           quantity: 7
+          consumable: true
         duration: 16500
       - inputs:
         - name: Плоскогубцы Elite
@@ -1695,6 +1767,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%BD%D0%B0%D1%80%D1%8F%D0%B4_%D0%9E%D0%A4%D0%97_30x165%D0%BC%D0%BC
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/9d/30x160mmShellicon.png/revision/latest?cb=20191029070343
           quantity: 2
+          consumable: true
         duration: 39000
       - inputs:
         - name: Мультитул Leatherman
@@ -1732,6 +1805,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B4%D0%BB%D1%8F_%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0_%D0%BE%D1%80%D1%83%D0%B6%D0%B8%D1%8F
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/20/WeaponRepairKit3.png/revision/latest/scale-to-width-down/180?cb=20251126225633
           quantity: 1
+          consumable: true
         duration: 50400
       - inputs:
         - name: 12.7x55мм ПС12А
@@ -1764,6 +1838,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12.7x55%D0%BC%D0%BC_%D0%9F%D0%A112%D0%91
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fb/12.7x55_PS12B_icon.png/revision/latest?cb=20250326004454
           quantity: 60
+          consumable: true
         duration: 47520
       - inputs:
         - name: Набор инструментов
@@ -1806,6 +1881,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D0%BF%D0%BB%D0%BE%D0%B2%D0%B8%D0%B7%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%B8%D1%86%D0%B5%D0%BB_Trijicon_%22REAP-IR%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1d/Thermalicon.png/revision/latest?cb=20230704233257
           quantity: 1
+          consumable: true
         duration: 86400
       - inputs:
         - name: Плоскогубцы Elite
@@ -1833,6 +1909,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B0_%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1a/Microcontrollerboard_icon.png/revision/latest?cb=20250226004135
           quantity: 4
+          consumable: true
         duration: 50400
       - inputs:
         - name: Ультрафиолетовая лампа
@@ -1865,6 +1942,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/4.6x30%D0%BC%D0%BC_AP_SX
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/cf/4.6x30APenIcon.png/revision/latest?cb=20220130013742
           quantity: 120
+          consumable: true
         duration: 27960
       - inputs:
         - name: Набор инструментов
@@ -1907,6 +1985,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D0%BF%D0%BB%D0%BE%D0%B2%D0%B8%D0%B7%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%B8%D1%86%D0%B5%D0%BB_FLIR_%22RS-32_2.25-9x_35mm_60Hz%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/94/FLIR_RS-32_Icon.png/revision/latest?cb=20230704233248
           quantity: 1
+          consumable: true
         duration: 32160
       - inputs:
         - name: Набор инструментов
@@ -1929,6 +2008,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x19%D0%BC%D0%BC_AP_6.3
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c6/9x19ap.png/revision/latest?cb=20221123052912
           quantity: 180
+          consumable: true
         duration: 14400
       - inputs:
         - name: Мультитул Leatherman
@@ -1966,6 +2046,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/.45_ACP_AP
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b0/45APIcon.png/revision/latest?cb=20221123052756
           quantity: 150
+          consumable: true
         duration: 10800
       - inputs:
         - name: Мультитул Leatherman
@@ -1993,6 +2074,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.7x28%D0%BC%D0%BC_SS190
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/62/57x28mmSS190Icon.png/revision/latest?cb=20220130023232
           quantity: 100
+          consumable: true
         duration: 21600
       - inputs:
         - name: Мультитул Leatherman
@@ -2015,6 +2097,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/.338_Lapua_Magnum_FMJ
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c7/338_fmj.png/revision/latest?cb=20220129043718
           quantity: 50
+          consumable: true
         duration: 36000
       - inputs:
         - name: 5.45x39мм ПС гс
@@ -2037,6 +2120,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.45x39%D0%BC%D0%BC_%D0%91%D0%9F_%D0%B3%D1%81
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2e/74BPICON.png/revision/latest?cb=20220312133329
           quantity: 60
+          consumable: true
         duration: 32400
       - inputs:
         - name: Мультитул Leatherman
@@ -2064,6 +2148,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.56x45%D0%BC%D0%BC_M855A1
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5f/M855A1ICON.png/revision/latest?cb=20220108035923
           quantity: 90
+          consumable: true
         duration: 8400
         requirements:
         - type: quest_completed
@@ -2090,6 +2175,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/.300_Blackout_AP
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/40/BlackoutAP_Icon_.png/revision/latest?cb=20220108022610
           quantity: 90
+          consumable: true
         duration: 25380
       - inputs:
         - name: Банка энергетика "Горячий Электрод"
@@ -2122,6 +2208,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x39%D0%BC%D0%BC_%D0%91%D0%9F_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4a/7.62x39BP.png/revision/latest?cb=20230612210530
           quantity: 60
+          consumable: true
         duration: 9400
         requirements:
         - type: quest_completed
@@ -2143,6 +2230,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x54%D0%BC%D0%BC_R_%D0%9F%D0%A1_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/33/7N1ICON.png/revision/latest?cb=20250326005137
           quantity: 50
+          consumable: true
         duration: 21600
       - inputs:
         - name: 7.62x54мм R ПС гж
@@ -2170,6 +2258,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x54%D0%BC%D0%BC_R_%D0%A1%D0%9D%D0%91_%D0%B3%D0%B6
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e1/SNBICON.png/revision/latest?cb=20250326005134
           quantity: 50
+          consumable: true
         duration: 39600
       - inputs:
         - name: Пачка гвоздей
@@ -2192,6 +2281,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_%D1%84%D0%BB%D0%B5%D1%88%D0%B5%D1%82%D1%82%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b0/12-70_Flechette_icon.png/revision/latest?cb=20220313112204
           quantity: 60
+          consumable: true
         duration: 3000
         requirements:
         - type: after_quest
@@ -2223,6 +2313,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%B1%D0%BE%D0%B9%D0%BD%D0%B0%D1%8F_%D0%BF%D1%83%D0%BB%D1%8F_AP-20
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3e/12-70_AP-20_icon.png/revision/latest?cb=20221124060334
           quantity: 50
+          consumable: true
         duration: 28800
       - inputs:
         - name: Набор напильников "Мастер"
@@ -2265,6 +2356,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D0%BE%D0%BA%D0%B0%D0%BB%D0%B8%D0%B1%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BA%D0%B0_TheAKGuy_AK-50_.50_BMG
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d4/AK-50_Stripped_icon.png/revision/latest/scale-to-width-down/180?cb=20250717133448
           quantity: 1
+          consumable: true
         duration: 151200
         requirements:
         - type: after_quest
@@ -2288,6 +2380,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
           quantity: 1
+          consumable: true
         duration: 1200
     2:
       icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4b/Vodosbornik_02_icon.png/revision/latest?cb=20200210135235
@@ -2308,6 +2401,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_%D1%81_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%BC_Aquamari
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/bd/Aquamari_icon.png/revision/latest?cb=20250107083008
           quantity: 5
+          consumable: true
         duration: 3600
       - inputs:
         - name: Пакет сока "Великий"
@@ -2325,6 +2419,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D0%B0%D1%80%D0%B8%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B0%D0%BA%D0%B5%D1%82_%D1%81_%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/32/EmergencyWaterRationIcon.png/revision/latest?cb=20220622002619
           quantity: 2
+          consumable: true
         duration: 1800
     3:
       icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b8/Vodosbornik_03_icon.png/revision/latest?cb=20200210135236
@@ -2340,6 +2435,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0_%D1%81_%D0%BE%D1%87%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2b/Purified_water_icon.png/revision/latest?cb=20250427021318
           quantity: 1
+          consumable: true
         duration: 19500
 Медблок:
   base_name: Медблок
@@ -2359,6 +2455,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_%D0%90%D0%98-2
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/98/AI-2_icon.png/revision/latest?cb=20250603163921
           quantity: 3
+          consumable: true
         duration: 1320
       - inputs:
         - name: Автомобильная аптечка
@@ -2376,6 +2473,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_Salewa_First_Aid_Kit
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/77/EFT_Salewa-First-Aid-Kit_Icon_2.png/revision/latest?cb=20250114193333
           quantity: 1
+          consumable: true
         duration: 2350
       - inputs:
         - name: Набор медикаментов
@@ -2393,6 +2491,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%B8%D0%BA_CALOK-B
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d9/HemostaticIcon.png/revision/latest?cb=20250114193145
           quantity: 1
+          consumable: true
         duration: 1800
       - inputs:
         - name: Автомобильная аптечка
@@ -2410,6 +2509,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A5%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BD%D0%B0%D0%B1%D0%BE%D1%80_CMS
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6d/CMS_Icon.png/revision/latest?cb=20251115213934
           quantity: 1
+          consumable: true
         duration: 2950
     2:
       icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/af/Medblok_02_icon.png/revision/latest?cb=20200208151106
@@ -2435,6 +2535,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B0%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_IFAK
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/20/EFT_IFAK_Icon.png/revision/latest?cb=20250114193433
           quantity: 2
+          consumable: true
         duration: 3000
       - inputs:
         - name: Бинт стерильный
@@ -2457,6 +2558,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%BC%D0%B5%D0%B4%D0%B8%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b6/Pile_of_meds_icon.png/revision/latest?cb=20250422144922
           quantity: 3
+          consumable: true
         duration: 2880
       - inputs:
         - name: Шприц с морфием
@@ -2484,6 +2586,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D1%81%D1%82%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80_SJ1_TGLabs
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ab/Combat_stimulant_SJ1_icon.png/revision/latest?cb=20220121141737
           quantity: 5
+          consumable: true
         duration: 3600
       - inputs:
         - name: Таблетки Анальгин
@@ -2506,6 +2609,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BF%D1%80%D0%B8%D1%86_%D1%81_%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B5%D0%BC
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/99/EFT_Morphine_Icon.png/revision/latest?cb=20230527141516
           quantity: 1
+          consumable: true
         duration: 3600
       - inputs:
         - name: Силиконовая трубка
@@ -2523,6 +2627,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B4%D0%BB%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%BA%D1%80%D0%BE%D0%B2%D0%B8
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/56/Medical_Bloodset_Icon.png/revision/latest?cb=20230919023713
           quantity: 1
+          consumable: true
         duration: 1670
       - inputs:
         - name: Магнит
@@ -2555,6 +2660,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B5%D1%84%D0%B8%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D1%8F%D1%82%D0%BE%D1%80
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/81/Defibrillatoricon.png/revision/latest?cb=20250422145351
           quantity: 1
+          consumable: true
         duration: 18900
       - inputs:
         - name: Аптечка АИ-2
@@ -2577,6 +2683,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BD%D1%82%D0%B8%D0%B4%D0%BE%D1%82_xTG-12
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/ba/XTG-12icon.png/revision/latest?cb=20201228003048
           quantity: 1
+          consumable: true
         duration: 4200
         requirements:
         - type: after_quest
@@ -2608,6 +2715,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80_M.U.L.E.
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c2/M.U.L.E._Stimulator_Icon.png/revision/latest?cb=20200727184509
           quantity: 1
+          consumable: true
         duration: 3600
         requirements:
         - type: after_quest
@@ -2639,6 +2747,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80_eTG-change
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/92/ETG_change_icon.png/revision/latest?cb=20220121141743
           quantity: 1
+          consumable: true
         duration: 4800
         requirements:
         - type: after_quest
@@ -2670,6 +2779,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82_2A2-(b-TG)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/14/2A2-%28b-TG%29_stimulant_injector_icon.png/revision/latest?cb=20240530181115
           quantity: 1
+          consumable: true
         duration: 3600
         requirements:
         - type: after_quest
@@ -2699,6 +2809,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_Grizzly
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/92/EFT_Grizzly_Icon.png/revision/latest?cb=20250114193457
           quantity: 2
+          consumable: true
         duration: 4500
       - inputs:
         - name: Мазь "Золотая Звезда"
@@ -2721,6 +2832,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82_%D0%9F%D1%80%D0%BE%D0%BF%D0%B8%D1%82%D0%B0%D0%BB
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1b/PropitalIcon.png/revision/latest?cb=20230527141524
           quantity: 7
+          consumable: true
         duration: 6900
       - inputs:
         - name: Шина для переломов
@@ -2748,6 +2860,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9_%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BD%D0%B0%D0%B1%D0%BE%D1%80_Surv12
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/46/Surv12_icon.png/revision/latest/scale-to-width-down/180?cb=20251116010120
           quantity: 1
+          consumable: true
         duration: 3600
       - inputs:
         - name: Кусок мыла
@@ -2770,6 +2883,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%B0%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D0%B0%D0%B7%D1%8C
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/EFT_Vaseline_Icon.png/revision/latest?cb=20250603163936
           quantity: 2
+          consumable: true
         duration: 3300
       - inputs:
         - name: Бутылка физраствора
@@ -2797,6 +2911,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D1%81%D1%82%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80_SJ6_TGLabs
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9c/Combat_stimulant_SJ6_icon.png/revision/latest?cb=20220121142354
           quantity: 2
+          consumable: true
         duration: 5100
       - inputs:
         - name: Магнит
@@ -2839,6 +2954,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%BE%D0%B4%D0%B8%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%B8%D0%BB%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80_%D0%BA%D0%BE%D0%B6%D0%B8_LEDX
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4e/TransilluminatorIcon.png/revision/latest?cb=20250114194240
           quantity: 1
+          consumable: true
         duration: 118800
       - inputs:
         - name: Армейский бинт
@@ -2861,6 +2977,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B0%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_AFAK
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/AFAK_first_aid.png/revision/latest?cb=20250114193526
           quantity: 1
+          consumable: true
         duration: 3600
 Пищеблок:
   base_name: Пищеблок
@@ -2890,6 +3007,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%83%D1%85%D0%BE%D0%B9_%D0%BF%D0%B0%D0%B5%D0%BA_%22%D0%98%D1%81%D0%BA%D1%80%D0%B0%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/8f/Lunchbox_icon.png/revision/latest?cb=20250430145749
           quantity: 2
+          consumable: true
         duration: 2900
       - inputs:
         - name: Сухарики ржаные
@@ -2912,6 +3030,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%82%D1%83%D1%88%D0%B5%D0%BD%D0%BE%D0%B9_%D0%B3%D0%BE%D0%B2%D1%8F%D0%B4%D0%B8%D0%BD%D1%8B_(%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B0%D1%8F)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a7/Can_of_beef_stew_Icon.png/revision/latest?cb=20250430145811
           quantity: 2
+          consumable: true
         duration: 3600
       - inputs:
         - name: Бутылка воды (0.6л)
@@ -2939,6 +3058,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B0_%22%D0%A7%D0%B8%D1%81%D1%82%D0%B0%D1%8F_%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ec/NRG_Drink_icon.png/revision/latest?cb=20220406135114
           quantity: 4
+          consumable: true
         duration: 6480
       - inputs:
         - name: Бутылка воды (0.6л)
@@ -2956,6 +3076,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%B5%D0%BC%D0%B8%D1%83%D0%BC%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B2%D0%B0%D1%81_%22%D0%9D%D0%BE%D1%80%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%AF%D0%B4%D1%80%D0%B5%D0%BD%D1%8B%D0%B9%22_(0.6%D0%BB)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/71/Kvass_icon.png/revision/latest?cb=20250430145737
           quantity: 2
+          consumable: true
         duration: 3780
       - inputs:
         - name: Бутылка воды (0.6л)
@@ -2978,6 +3099,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D0%B0%D1%80%D0%B8%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B0%D0%BA%D0%B5%D1%82_%D1%81_%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/32/EmergencyWaterRationIcon.png/revision/latest?cb=20220622002619
           quantity: 2
+          consumable: true
         duration: 3600
       - inputs:
         - name: Банка тушеной говядины (Большая)
@@ -3000,6 +3122,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%83%D1%85%D0%BE%D0%B9_%D0%BF%D0%B0%D0%B5%D0%BA_MRE
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a4/MRE_icon.png/revision/latest?cb=20250117123310
           quantity: 2
+          consumable: true
         duration: 2400
       - inputs:
         - name: Счетчик Гейгера-Мюллера
@@ -3027,6 +3150,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BB%D0%BA%D0%B0_%D0%B3%D0%BE%D0%B2%D1%8F%D0%B6%D1%8C%D0%B5%D0%B9_%D0%BA%D0%BE%D0%BB%D0%B1%D0%B0%D1%81%D1%8B_%22%D0%A1%D0%BE%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9_%D0%9F%D1%91%D1%81%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c8/Salty_dog_sausage_icon.png/revision/latest?cb=20250620105549
           quantity: 1
+          consumable: true
         duration: 1980
     2:
       icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/63/Pisheblok_02_icon.png/revision/latest?cb=20200210135211
@@ -3047,6 +3171,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%81%D0%B3%D1%83%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BB%D0%BE%D0%BA%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c0/Condmilkicon.png/revision/latest?cb=20231001212623
           quantity: 3
+          consumable: true
         duration: 3600
       - inputs:
         - name: Сигареты "Союз Аполлон"
@@ -3064,6 +3189,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%B3%D0%B0%D1%80%D0%B5%D1%82%D1%8B_Wilston
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/af/Wilstonicon.png/revision/latest?cb=20210731123627
           quantity: 5
+          consumable: true
         duration: 3600
       - inputs:
         - name: Шоколад "Аленка"
@@ -3081,6 +3207,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B1%D0%B0%D1%82%D0%BE%D0%BD%D1%87%D0%B8%D0%BA_Slickers
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/93/Slickers_bar_icon.png/revision/latest?cb=20250117124034
           quantity: 5
+          consumable: true
         duration: 1290
       - inputs:
         - name: Шоколад "Аленка"
@@ -3093,6 +3220,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D1%87%D0%BA%D0%B0_%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a8/Sugar_icon.png/revision/latest?cb=20250430145746
           quantity: 1
+          consumable: true
         duration: 3600
       - inputs:
         - name: Бутылка воды (0.6л)
@@ -3120,6 +3248,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_%D1%81_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%BC_Aquamari
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/bd/Aquamari_icon.png/revision/latest?cb=20250107083008
           quantity: 3
+          consumable: true
         duration: 17460
       - inputs:
         - name: Оружейный порох "Коршун"
@@ -3137,6 +3266,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D0%BA%D0%BE%D1%84%D0%B5_Majaica
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/14/Coffeicon.png/revision/latest?cb=20250110174257
           quantity: 2
+          consumable: true
         duration: 2700
     3:
       icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/47/Pisheblok_03_icon.png/revision/latest?cb=20200210135213
@@ -3157,6 +3287,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
           quantity: 8
+          consumable: true
         duration: 6600
       - inputs:
         - name: Бутылка воды (0.6л)
@@ -3174,6 +3305,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D0%BA%D0%B8_%22%D0%A2%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/75/VodkaIcon.png/revision/latest?cb=20230919023323
           quantity: 10
+          consumable: true
         duration: 5700
       - inputs:
         - name: Пачка сахара
@@ -3211,6 +3343,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B0_%22%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9_%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B4%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e6/Hor_Rod_icon.png/revision/latest?cb=20250107083516
           quantity: 20
+          consumable: true
         duration: 43200
       - inputs:
         - name: Бутылка воды (0.6л)
@@ -3243,6 +3376,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%B8%D1%81%D0%BA%D0%B8_Dan_Jackiel
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/cb/Whiskey_icon.png/revision/latest?cb=20250427021410
           quantity: 3
+          consumable: true
         duration: 6360
       - inputs:
         - name: Сухарики ржаные
@@ -3265,6 +3399,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%BF%D0%B8%D0%B2%D0%B0_%22%D0%9F%D0%B5%D0%B2%D0%BA%D0%BE_%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B5%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/df/Pevko_beer_icon.png/revision/latest?cb=20220715125310
           quantity: 10
+          consumable: true
         duration: 36000
       - inputs:
         - name: Банка тушеной говядины (Большая)
@@ -3287,6 +3422,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BA%D0%B5%D1%82_%D0%B0%D0%BD%D0%B0%D0%BD%D0%B0%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D1%81%D0%BE%D0%BA%D0%B0_%22%D0%90%D1%80%D0%BC%D0%B8%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/15/Pineapple_Juice_icon.png/revision/latest?cb=20250430145713
           quantity: 6
+          consumable: true
         duration: 4260
 Разведцентр:
   base_name: Разведцентр
@@ -3321,6 +3457,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B7%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_DSP_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fb/DSP_transmitter_icon.png/revision/latest?cb=20250330132438
           quantity: 1
+          consumable: true
         duration: 3600
       - inputs:
         - name: Зашифрованная флешка
@@ -3333,6 +3470,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/47/Documents_with_decrypted_data_icon.png/revision/latest?cb=20250102191014
           quantity: 1
+          consumable: true
         duration: 600
       - inputs:
         - name: Зашифрованная флешка
@@ -3345,6 +3483,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/47/Documents_with_decrypted_data_icon.png/revision/latest?cb=20250102191014
           quantity: 1
+          consumable: true
         duration: 600
       - inputs:
         - name: Зашифрованная флешка
@@ -3357,6 +3496,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
           quantity: 1
+          consumable: true
         duration: 900
       - inputs:
         - name: Защищенный флеш-накопитель
@@ -3369,6 +3509,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A4%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%B4%D0%BB%D1%8F_%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a1/Flash_drive_with_special_software_icon.png/revision/latest?cb=20250102191031
           quantity: 1
+          consumable: true
         duration: 900
       - inputs:
         - name: Считыватель UHF RFID
@@ -3396,6 +3537,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%B2_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5_%D0%90.%D0%9F._(%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0%D1%8F)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/22/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_%28Green%29_icon.png/revision/latest?cb=20251229201833
           quantity: 1
+          consumable: true
         duration: 16200
         requirements:
         - type: during_quest
@@ -3427,6 +3569,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BA%D1%82%D0%B8%D0%B2%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_RFID-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D1%81_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%9A%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1b/Activated_Kruglov%27s_RFID_keycard_icon.png/revision/latest?cb=20251211172441
           quantity: 1
+          consumable: true
         duration: 140400
         requirements:
         - type: electricity_required
@@ -3459,6 +3602,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%B2_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5_%D0%90.%D0%9F._(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6f/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_%28Red%29_icon.png/revision/latest?cb=20251130194607
           quantity: 1
+          consumable: true
         duration: 16200
         requirements:
         - type: during_quest
@@ -3490,6 +3634,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%B2_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5_%D0%90.%D0%9F._(%D0%A1%D0%B8%D0%BD%D1%8F%D1%8F)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b0/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_%28Blue%29_icon.png/revision/latest?cb=20251130194634
           quantity: 1
+          consumable: true
         duration: 16200
         requirements:
         - type: during_quest
@@ -3519,6 +3664,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
           quantity: 3
+          consumable: true
         duration: 123180
       - inputs:
         - name: Мультитул Leatherman
@@ -3551,6 +3697,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80_Virtex
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0d/Virtex_programmable_processor_Icon.png/revision/latest?cb=20250114194319
           quantity: 1
+          consumable: true
         duration: 82800
       - inputs:
         - name: Набор инструментов
@@ -3593,6 +3740,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_COFDM_%D0%B1%D0%B5%D1%81%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA_%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3a/COFDM_Icon.png/revision/latest?cb=20250114194526
           quantity: 1
+          consumable: true
         duration: 139980
         requirements:
         - type: after_quest
@@ -3629,6 +3777,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B2%D0%B5%D1%80%D0%B4%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_VPX_Flash_Storage_Module
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/88/VPXFlashIcon.png/revision/latest?cb=20250122135404
           quantity: 2
+          consumable: true
         duration: 225000
         requirements:
         - type: after_quest
@@ -3660,6 +3809,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
           quantity: 1
+          consumable: true
         duration: 192000
       - inputs:
         - name: Защищенный флеш-накопитель
@@ -3692,6 +3842,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%BE%D1%82_%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0_11SR
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2c/11sr_icon.png/revision/latest?cb=20250406165933
           quantity: 1
+          consumable: true
         duration: 236000
       - inputs:
         - name: Отвертка
@@ -3719,6 +3870,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B7%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_DSP_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fb/DSP_transmitter_icon.png/revision/latest?cb=20250330132438
           quantity: 1
+          consumable: true
         duration: 7200
         requirements:
         - type: electricity_required
@@ -3746,6 +3898,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0_%D1%81_%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/85/FolderWithIntelligence_Icon.png/revision/latest?cb=20251126154038
           quantity: 1
+          consumable: true
         duration: 114000
       - inputs:
         - name: Считыватель UHF RFID
@@ -3778,6 +3931,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_TerraGroup_Labs_(%D0%A4%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%8F)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a6/Lab._key._Security_post_icon.png/revision/latest?cb=20250516125914
           quantity: 1
+          consumable: true
         duration: 475980
       - inputs:
         - name: Процессорный кулер
@@ -3815,6 +3969,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b3/Graphics_Card_icon.png/revision/latest?cb=20250122021908
           quantity: 1
+          consumable: true
         duration: 348960
       - inputs:
         - name: Защищенный флеш-накопитель
@@ -3837,6 +3992,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/35/MFD_icon.png/revision/latest?cb=20231001215651
           quantity: 1
+          consumable: true
         duration: 36000
       - inputs:
         - name: Считыватель UHF RFID
@@ -3879,6 +4035,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_TerraGroup_Labs_(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/f3/Lab._key._Security_arsenal.png/revision/latest?cb=20250504072005
           quantity: 1
+          consumable: true
         duration: 90000
 Самогонный аппарат:
   base_name: Самогонный аппарат
@@ -3903,6 +4060,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D1%81%D0%B0%D0%BC%D0%BE%D0%B3%D0%BE%D0%BD%D0%B0_%22%D0%9B%D1%8E%D1%82%D1%8B%D0%B9_%D0%A2%D0%BE%D0%BF%D0%BE%D1%80%D0%B8%D1%81%D1%82%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/ad/Fiece_hatchling_moonshine_icon.png/revision/latest?cb=20250430145732
           quantity: 1
+          consumable: true
         duration: 10800
 Санузел:
   base_name: Санузел
@@ -3937,6 +4095,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D0%B1%D1%89%D0%B5%D0%B2%D0%BE%D0%B9%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9_%D1%88%D0%BB%D0%B5%D0%BC_6%D0%9147_%22%D0%A0%D0%B0%D1%82%D0%BD%D0%B8%D0%BA-%D0%91%D0%A8%22_(%D1%87%D0%B5%D1%85%D0%BE%D0%BB_%D0%A4%D0%BB%D0%BE%D1%80%D0%B0_%D0%A6%D0%B8%D1%84%D1%80%D0%B0)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b4/6bhelmetcamo.png/revision/latest?cb=20250204174116
           quantity: 1
+          consumable: true
         duration: 2890
       - inputs:
         - name: Бумага для принтера
@@ -3949,6 +4108,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%83%D0%BB%D0%BE%D0%BD_%D1%82%D1%83%D0%B0%D0%BB%D0%B5%D1%82%D0%BD%D0%BE%D0%B9_%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%B8
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/ea/Toilet_paper_icon.png/revision/latest?cb=20250617062411
           quantity: 2
+          consumable: true
         duration: 1560
       - inputs:
         - name: Отвертка
@@ -3966,6 +4126,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D1%8B%D0%B9_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BE%D0%B3%D0%B0%D0%B7%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fd/Airfiltericon.png/revision/latest?cb=20190326182612
           quantity: 1
+          consumable: true
         duration: 120
       - inputs:
         - name: Флисовая ткань
@@ -3978,6 +4139,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B8%D0%BD%D1%82_%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/11/EFT_Aseptic-Bandage_Icon.png/revision/latest?cb=20250603163924
           quantity: 6
+          consumable: true
         duration: 1900
       - inputs:
         - name: Бутылка воды (0.6л)
@@ -4000,6 +4162,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%D0%94%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/34/ScavBP_Icon.png/revision/latest/scale-to-width-down/180?cb=20220326131010
           quantity: 2
+          consumable: true
         duration: 3300
       - inputs:
         - name: Бинт стерильный
@@ -4017,6 +4180,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D1%80%D0%BC%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B1%D0%B8%D0%BD%D1%82
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2a/EFT_Army-Bandage_Icon.png/revision/latest?cb=20250603163929
           quantity: 10
+          consumable: true
         duration: 1000
       - inputs:
         - name: Жилет Дикого
@@ -4034,6 +4198,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%BA%D0%B0%D0%BD%D1%8C_%D0%A0%D0%B8%D0%BF%D1%81%D1%82%D0%BE%D0%BF
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0b/Ripstop_icon.png/revision/latest?cb=20200314095938
           quantity: 2
+          consumable: true
         duration: 2200
       - inputs:
         - name: Мультитул Leatherman
@@ -4051,6 +4216,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D1%80%D0%B0%D0%BC%D0%B8%D0%B4%D0%BD%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c6/Aramid_Icon_.png/revision/latest?cb=20200314101029
           quantity: 2
+          consumable: true
         duration: 2000
       - inputs:
         - name: Жилет охранника
@@ -4068,6 +4234,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B0%D0%BC%D0%B8%D0%B4%D0%BD%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_%D0%9A%D0%BE%D1%80%D0%B4%D1%83%D1%80%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/08/Cordura_Icon.png/revision/latest?cb=20200314103313
           quantity: 1
+          consumable: true
         duration: 2150
       - inputs:
         - name: Бронежилет PACA Soft Armor
@@ -4100,6 +4267,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%91%D0%9D%D0%A2%D0%98_%22%D0%9A%D0%B8%D1%80%D0%B0%D1%81%D0%B0-N%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b6/BNTIKirasaNarmorIcon.png/revision/latest/scale-to-width-down/180?cb=20250227203113
           quantity: 1
+          consumable: true
         duration: 4380
       - inputs:
         - name: Бронежилет MF-UNTAR
@@ -4117,6 +4285,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D0%B5%D0%B2%D0%B0%D1%8F_%D1%88%D0%B8%D0%BD%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/81/AluSplintIcon.png/revision/latest?cb=20241228082156
           quantity: 2
+          consumable: true
         duration: 3200
       - inputs:
         - name: Тактическая однолямочная сумка (Хаки)
@@ -4134,6 +4303,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B0%D0%BC%D0%B8%D0%B4%D0%BD%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_%D0%9A%D0%BE%D1%80%D0%B4%D1%83%D1%80%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/08/Cordura_Icon.png/revision/latest?cb=20200314103313
           quantity: 1
+          consumable: true
         duration: 2900
       - inputs:
         - name: Щелочное средство для промывки теплообменных поверхностей
@@ -4156,6 +4326,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%83%D1%81%D0%BE%D0%BA_%D0%BC%D1%8B%D0%BB%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/95/Soap_icon.png/revision/latest?cb=20190325000807
           quantity: 6
+          consumable: true
         duration: 3000
       - inputs:
         - name: Изолента
@@ -4178,6 +4349,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%BE%D1%84%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%88%D0%BB%D0%B0%D0%BD%D0%B3
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b0/Hoseicon.png/revision/latest?cb=20250617173126
           quantity: 2
+          consumable: true
         duration: 12060
       - inputs:
         - name: Ткань Рипстоп
@@ -4195,6 +4367,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%91%D0%9D%D0%A2%D0%98_%22%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-3%D0%9C%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/f8/3M_icon.png/revision/latest/scale-to-width-down/180?cb=20250227203141
           quantity: 1
+          consumable: true
         duration: 3250
       - inputs:
         - name: Ткань Рипстоп
@@ -4217,6 +4390,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%91%D0%9D%D0%A2%D0%98_%22%D0%96%D1%83%D0%BA%22_(%D0%9F%D1%80%D0%B5%D1%81%D1%81%D0%B0)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/61/Zhuk-3_Press_armor_icon.png/revision/latest/scale-to-width-down/180?cb=20250227203120
           quantity: 1
+          consumable: true
         duration: 3600
       - inputs:
         - name: Отбеливатель Ox
@@ -4244,6 +4418,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_6%D0%9123-2_(%D0%93%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%A4%D0%BB%D0%BE%D1%80%D0%B0)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/79/6B23-2_armorIcon.png/revision/latest/scale-to-width-down/180?cb=20250227203745
           quantity: 1
+          consumable: true
         duration: 3600
         requirements:
         - type: after_quest
@@ -4265,6 +4440,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%D0%94%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/34/ScavBP_Icon.png/revision/latest/scale-to-width-down/180?cb=20220326131010
           quantity: 1
+          consumable: true
         duration: 1200
     2:
       icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b0/Sanuzel_02_icon.png/revision/latest?cb=20200210135221
@@ -4290,6 +4466,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B1%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Ox
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/77/Bleachicon.png/revision/latest?cb=20210628231026
           quantity: 5
+          consumable: true
         duration: 2310
       - inputs:
         - name: Кусок мыла
@@ -4307,6 +4484,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8F_Schaman
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/78/Shampoo_icon.png/revision/latest?cb=20250617160625
           quantity: 2
+          consumable: true
         duration: 2100
       - inputs:
         - name: Зажигалка Crickent
@@ -4329,6 +4507,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%AD%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%BA%D0%B0%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fd/Expeditionary-fuel-tank-icon.png/revision/latest?cb=20191101191754
           quantity: 1
+          consumable: true
         duration: 3720
       - inputs:
         - name: Болты
@@ -4356,6 +4535,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B5%D0%B9%D1%81_%D0%B4%D0%BB%D1%8F_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%BE%D0%B2
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0f/Magbox_icon.png/revision/latest/scale-to-width-down/180?cb=20250421215727
           quantity: 1
+          consumable: true
         duration: 10800
       - inputs:
         - name: Силиконовая трубка
@@ -4378,6 +4558,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B5%D0%BA%D0%BB%D0%BE%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_Clin
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2b/Clin_Wiper_icon.png/revision/latest?cb=20190325000810
           quantity: 1
+          consumable: true
         duration: 2450
       - inputs:
         - name: WD-40 (400мл)
@@ -4395,6 +4576,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/WD-40_(100%D0%BC%D0%BB)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/06/WD40_100ml_Icon.png/revision/latest?cb=20250308190209
           quantity: 2
+          consumable: true
         duration: 9000
       - inputs:
         - name: Магазин 6Л23 на 30 патронов 5.45x39 для АК-74
@@ -4417,6 +4599,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_6%D0%9B31_%D0%BD%D0%B0_60_%D0%BF%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%B2_5.45x39_%D0%B4%D0%BB%D1%8F_%D0%90%D0%9A-74
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d7/6L31-60-mag_icon.png/revision/latest?cb=20250617051559
           quantity: 1
+          consumable: true
         duration: 3600
       - inputs:
         - name: Полиамидная ткань Кордура
@@ -4444,6 +4627,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%A1%D0%BF%D0%BB%D0%B0%D0%B2_%22%D0%A2%D0%B0%D1%80%D0%B7%D0%B0%D0%BD_%D0%9C22%22_(%D0%A1%D0%BC%D0%BE%D0%B3)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/bd/Tarzan_icon.png/revision/latest/scale-to-width-down/180?cb=20200315091207
           quantity: 1
+          consumable: true
         duration: 2800
       - inputs:
         - name: Болты
@@ -4476,6 +4660,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B5%D0%B9%D1%81_%D0%B4%D0%BB%D1%8F_%D1%85%D0%BB%D0%B0%D0%BC%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/39/Junkbox.png/revision/latest/scale-to-width-down/180?cb=20250421221547
           quantity: 1
+          consumable: true
         duration: 18000
       - inputs:
         - name: Болты
@@ -4508,6 +4693,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B5%D0%B9%D1%81_%D0%B4%D0%BB%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/83/Grenade_case.png/revision/latest/scale-to-width-down/180?cb=20200314105750
           quantity: 1
+          consumable: true
         duration: 28800
       - inputs:
         - name: Шапка UX PRO
@@ -4525,6 +4711,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A4%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d5/Fleece_Icon.png/revision/latest?cb=20200314100752
           quantity: 1
+          consumable: true
         duration: 2600
       - inputs:
         - name: Зажигалка Crickent
@@ -4552,6 +4739,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9B%D0%B8%D0%BF%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B5%D0%BD%D1%82%D0%B0_%22KEK%D0%A2%D0%95%D0%99%D0%9F%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0f/KEKTape_icon.png/revision/latest?cb=20200314102955
           quantity: 1
+          consumable: true
         duration: 4800
       - inputs:
         - name: Полиамидная ткань Кордура
@@ -4579,6 +4767,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%22BlackRock_Chest_Rig%22_(%D0%A5%D0%B0%D0%BA%D0%B8)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ac/Blackrock_Icon.png/revision/latest/scale-to-width-down/180?cb=20191029140712
           quantity: 1
+          consumable: true
         duration: 3600
       - inputs:
         - name: Бумага для принтера
@@ -4601,6 +4790,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/bc/Water_filter_icon.png/revision/latest?cb=20251216040806
           quantity: 1
+          consumable: true
         duration: 17760
       - inputs:
         - name: Зажигалка Crickent
@@ -4628,6 +4818,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D1%82%D0%BE%D0%BA_%D0%BF%D0%B0%D1%80%D0%B0%D0%BA%D0%BE%D1%80%D0%B4%D0%B0
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/17/ParacordIcon.png/revision/latest?cb=20250502030154
           quantity: 1
+          consumable: true
         duration: 15500
       - inputs:
         - name: Строительная измерительная рулетка
@@ -4655,6 +4846,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%22%D0%9F%D0%B8%D0%BB%D0%B8%D0%B3%D1%80%D0%B8%D0%BC%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fe/Pilgrim_Backpack_icon.png/revision/latest/scale-to-width-down/180?cb=20220326131039
           quantity: 1
+          consumable: true
         duration: 9780
       - inputs:
         - name: Бронежилет 6Б13 штурмовой (Флора)
@@ -4682,6 +4874,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D1%81_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8_6%D0%915-15_%D0%96-86_%22%D0%A3%D0%BB%D0%B5%D0%B9%22_(%D0%A4%D0%BB%D0%BE%D1%80%D0%B0)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/8e/6B5-15icon.png/revision/latest/scale-to-width-down/180?cb=20250227204529
           quantity: 1
+          consumable: true
         duration: 21600
       - inputs:
         - name: Ножницы для резки металла
@@ -4713,6 +4906,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_First_Spear_%22Strandhogg%22_(Ranger_Green)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b4/Strandhogg_Icon.png/revision/latest/scale-to-width-down/180?cb=20240103192749
           quantity: 1
+          consumable: true
         duration: 3600
         requirements:
         - type: after_quest
@@ -4753,6 +4947,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_Ars_Arma_%22A18_%D0%A1%D0%BA%D0%B0%D0%BD%D0%B4%D0%B0%22_(MultiCam)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/f8/A18_Icon.png/revision/latest/scale-to-width-down/180?cb=20250213000909
           quantity: 1
+          consumable: true
         duration: 18000
       - inputs:
         - name: Монтажный скотч
@@ -4785,6 +4980,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BB%D0%B5%D0%BC_MSA_%22ACH_TC-2002_MICH_Series%22_(%D0%9E%D0%BB%D0%B8%D0%B2%D0%B0)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/83/MICH_Icon_2002.PNG/revision/latest?cb=20240102213232
           quantity: 1
+          consumable: true
         duration: 7200
       - inputs:
         - name: Отбеливатель Ox
@@ -4817,6 +5013,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_Eberlestock_%22F5_Switchblade%22_(Dry_Earth)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ef/Eberlestock_F5_backpack_icon.png/revision/latest/scale-to-width-down/180?cb=20221225013849
           quantity: 1
+          consumable: true
         duration: 4500
       - inputs:
         - name: Монтажный скотч
@@ -4849,6 +5046,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B_%D0%BA%D1%83%D1%81%D1%82%D0%B0%D1%80%D0%BD%D1%8B%D0%B5_%D0%B4%D0%BB%D1%8F_6%D0%9113_(%D0%A1%D0%BF%D0%B8%D0%BD%D0%B0)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/50/6b13_custom_ballistic_plates_%28Back%29_icon.png/revision/latest?cb=20250415184406
           quantity: 1
+          consumable: true
     3:
       icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1e/Sanuzel_03_icon.png/revision/latest?cb=20200210135221
       recipes:
@@ -4883,6 +5081,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A4%D0%B8%D0%BB%D1%8C%D1%82%D1%80-%D0%BF%D0%BE%D0%B3%D0%BB%D0%BE%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%A4%D0%9F-100
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/97/FP-100_filter_absorber_icon.png/revision/latest/scale-to-width-down/180?cb=20230919023019
           quantity: 1
+          consumable: true
         duration: 9360
       - inputs:
         - name: Мультитул Leatherman
@@ -4915,6 +5114,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%D1%80%D0%B5%D0%B9%D0%B4%D0%BE%D0%B2%D1%8B%D0%B9_6%D0%A8118_(%D0%A4%D0%BB%D0%BE%D1%80%D0%B0_%D0%A6%D0%B8%D1%84%D1%80%D0%B0)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b5/6SH118_Icon.png/revision/latest/scale-to-width-down/180?cb=20250620101319
           quantity: 1
+          consumable: true
         duration: 18960
       - inputs:
         - name: Разгрузочная нагрудная система Динафорс "Тритон М43-А" (Черная)
@@ -4938,6 +5138,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_Velocity_Systems_%22MPPV_Multi-Purpose_Patrol_Vest%22_(Wolf_Grey)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/2b/MPPV_ICon.png/revision/latest/scale-to-width-down/180?cb=20191227220252
           quantity: 1
+          consumable: true
         duration: 7800
       - inputs:
         - name: Плоскогубцы Elite
@@ -4970,6 +5171,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%A4%D0%9E%D0%A0%D0%A2_%22%D0%A0%D0%B5%D0%B4%D1%83%D1%82-%D0%A25%22_(%D0%A1%D0%BC%D0%BE%D0%B3)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/23/FORT_Redut-T5_body_armor_icon.png/revision/latest/scale-to-width-down/180?cb=20250227203658
           quantity: 1
+          consumable: true
         duration: 28800
         requirements:
         - type: after_quest
@@ -5006,6 +5208,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_ANA_Tactical_%22M2%22_(OD_Green)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0f/M2Inventory.PNG/revision/latest/scale-to-width-down/180?cb=20251224171223
           quantity: 1
+          consumable: true
         duration: 3600
       - inputs:
         - name: Ножницы для резки металла
@@ -5037,6 +5240,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_5.11_Tactical_%22TacTec%22_(Ranger_Green)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e9/TactecIcon.png/revision/latest/scale-to-width-down/180?cb=20240103193429
           quantity: 1
+          consumable: true
         duration: 28800
       - inputs:
         - name: Ткань Рипстоп
@@ -5068,6 +5272,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_Ars_Arma_%22CPC_MOD.1%22_(A-TACS_FG)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/7c/AACPC_icon.png/revision/latest/scale-to-width-down/180?cb=20240103193748
           quantity: 1
+          consumable: true
         duration: 24660
       - inputs:
         - name: Бронешлем "Алтын" (Олива)
@@ -5105,6 +5310,7 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D1%88%D0%BB%D0%B5%D0%BC_%22%D0%A0%D1%8B%D1%81%D1%8C-%D0%A2%22_(%D0%A7%D0%B5%D1%80%D0%BD%D1%8B%D0%B9)
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e2/RystIcon.png/revision/latest?cb=20250227194356
           quantity: 1
+          consumable: true
         duration: 3000
       - inputs:
         - name: Изолента
@@ -5132,4 +5338,5 @@
           wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%22%D0%9F%D0%B8%D0%BB%D0%B8%D0%B3%D1%80%D0%B8%D0%BC%22
           icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fe/Pilgrim_Backpack_icon.png/revision/latest/scale-to-width-down/180?cb=20220326131039
           quantity: 1
+          consumable: true
         duration: 4980
