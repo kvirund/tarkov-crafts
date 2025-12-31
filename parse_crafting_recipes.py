@@ -95,14 +95,45 @@ def parse_recipes():
             requirements = []
             small = row.find('small') or row.find('span', class_='small')
             if small:
-                text = small.get_text(strip=True)
-                a_req = small.find('a')
-                if a_req and a_req.get('href'):
-                    href = a_req['href']
-                    link = 'https://escapefromtarkov.fandom.com' + href if href.startswith('/') else href
-                    requirements.append(f"[{text}]({link})")
-                else:
-                    requirements.append(text)
+                # Get all links and text
+                links = small.find_all('a')
+                text_parts = [s.strip() for s in small.stripped_strings]
+
+                if links and text_parts:
+                    req = {}
+                    prefix = text_parts[0].lower()
+
+                    # Determine requirement type
+                    if 'после принятия квеста' in prefix:
+                        req['type'] = 'quest_accepted'
+                        # Format: "После принятия квеста" + NPC_link + Quest_link
+                        if len(links) >= 2:
+                            req['npc'] = links[0].get_text(strip=True)
+                            req['npc_link'] = 'https://escapefromtarkov.fandom.com' + links[0]['href']
+                            req['quest'] = links[1].get_text(strip=True)
+                            req['quest_link'] = 'https://escapefromtarkov.fandom.com' + links[1]['href']
+                        elif len(links) == 1:
+                            req['quest'] = links[0].get_text(strip=True)
+                            req['quest_link'] = 'https://escapefromtarkov.fandom.com' + links[0]['href']
+                    elif 'после выполнения квеста' in prefix:
+                        req['type'] = 'quest_completed'
+                        if links:
+                            req['quest'] = links[0].get_text(strip=True)
+                            req['quest_link'] = 'https://escapefromtarkov.fandom.com' + links[0]['href']
+                    elif prefix.startswith('после'):
+                        req['type'] = 'after_quest'
+                        if links:
+                            req['quest'] = links[0].get_text(strip=True)
+                            req['quest_link'] = 'https://escapefromtarkov.fandom.com' + links[0]['href']
+                    else:
+                        # Generic requirement
+                        req['type'] = 'other'
+                        req['description'] = small.get_text(separator=' ', strip=True)
+                        if links:
+                            req['link'] = 'https://escapefromtarkov.fandom.com' + links[0]['href']
+
+                    if req:
+                        requirements.append(req)
 
             recipe = {
                 'inputs': inputs,

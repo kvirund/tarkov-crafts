@@ -149,7 +149,9 @@
       quantity: 8
     duration: 1 ч 40 мин
     requirements:
-    - '[ПослеГренадёр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%BD%D0%B0%D0%B4%D1%91%D1%80)'
+    - type: after_quest
+      quest: Гренадёр
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%BD%D0%B0%D0%B4%D1%91%D1%80
   - inputs:
     - name: Газоанализатор
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%B0%D0%B7%D0%BE%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80
@@ -283,7 +285,11 @@
       quantity: 1
     duration: 1 ч 30 мин
     requirements:
-    - '[После принятия квестаМеханикаСетевой провайдер - Часть 2](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA)'
+    - type: quest_accepted
+      npc: Механика
+      npc_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA
+      quest: Сетевой провайдер - Часть 2
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B9_%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80_-_%D0%A7%D0%B0%D1%81%D1%82%D1%8C_2
   - inputs:
     - name: Визор для шлема Колпак-1С
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%B8%D0%B7%D0%BE%D1%80_%D0%B4%D0%BB%D1%8F_%D1%88%D0%BB%D0%B5%D0%BC%D0%B0_%D0%9A%D0%BE%D0%BB%D0%BF%D0%B0%D0%BA-1%D0%A1
@@ -456,7 +462,9 @@
       quantity: 120
     duration: 2 ч 21 мин 40 сек
     requirements:
-    - '[послеКаратель. Часть 3](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_3)'
+    - type: after_quest
+      quest: Каратель. Часть 3
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_3
   - inputs:
     - name: Цевье полимерное для АК-74М
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A6%D0%B5%D0%B2%D1%8C%D0%B5_%D0%BF%D0%BE%D0%BB%D0%B8%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D0%B5_%D0%B4%D0%BB%D1%8F_%D0%90%D0%9A-74%D0%9C
@@ -686,7 +694,9 @@
       quantity: 8
     duration: 2 ч 45 мин
     requirements:
-    - '[послеГренадёр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%BD%D0%B0%D0%B4%D1%91%D1%80)'
+    - type: after_quest
+      quest: Гренадёр
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%BD%D0%B0%D0%B4%D1%91%D1%80
   - inputs:
     - name: Оружейный порох "Коршун"
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
@@ -712,7 +722,9 @@
       quantity: 100
     duration: 2 ч 2 мин 30 сек
     requirements:
-    - '[После выполнения квестаТест-драйв. Часть 1](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%81%D1%82-%D0%B4%D1%80%D0%B0%D0%B9%D0%B2._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1)'
+    - type: quest_completed
+      quest: Тест-драйв. Часть 1
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%81%D1%82-%D0%B4%D1%80%D0%B0%D0%B9%D0%B2._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1
   - inputs:
     - name: Запал УЗРГМ для гранат
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B0%D0%BB_%D0%A3%D0%97%D0%A0%D0%93%D0%9C_%D0%B4%D0%BB%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82
@@ -726,7 +738,9 @@
       quantity: 5
     duration: 1 ч 20 мин
     requirements:
-    - '[послеГренадёр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%BD%D0%B0%D0%B4%D1%91%D1%80)'
+    - type: after_quest
+      quest: Гренадёр
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%BD%D0%B0%D0%B4%D1%91%D1%80
   - inputs:
     - name: Сухое горючее
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%83%D1%85%D0%BE%D0%B5_%D0%B3%D0%BE%D1%80%D1%8E%D1%87%D0%B5%D0%B5
@@ -740,7 +754,9 @@
       quantity: 100
     duration: 1 ч 53 мин 20 сек
     requirements:
-    - '[После выполнения квестаМокрое дело. Часть 1](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BA%D1%80%D0%BE%D0%B5_%D0%B4%D0%B5%D0%BB%D0%BE._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1)'
+    - type: quest_completed
+      quest: Мокрое дело. Часть 1
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BA%D1%80%D0%BE%D0%B5_%D0%B4%D0%B5%D0%BB%D0%BE._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1
   - inputs:
     - name: Мультитул Leatherman
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
@@ -1045,7 +1061,9 @@
       quantity: 90
     duration: 2 ч 20 мин
     requirements:
-    - '[После выполнения квестаТехосмотр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%85%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80)'
+    - type: quest_completed
+      quest: Техосмотр
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%85%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80
   - inputs:
     - name: Набор инструментов
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
@@ -1071,7 +1089,9 @@
       quantity: 60
     duration: 2 ч 36 мин 40 сек
     requirements:
-    - '[После выполнения квестаУстрашитель](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%B8%D1%82%D0%B5%D0%BB%D1%8C)'
+    - type: quest_completed
+      quest: Устрашитель
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
   - inputs:
     - name: Оружейный порох "Орел"
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9E%D1%80%D0%B5%D0%BB%22
@@ -1109,7 +1129,9 @@
       quantity: 60
     duration: 50 мин
     requirements:
-    - '[послеТихий калибр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B8%D1%85%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B8%D0%B1%D1%80)'
+    - type: after_quest
+      quest: Тихий калибр
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B8%D1%85%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B8%D0%B1%D1%80
   - inputs:
     - name: 12/70 7мм картечь
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_7%D0%BC%D0%BC_%D0%BA%D0%B0%D1%80%D1%82%D0%B5%D1%87%D1%8C
@@ -1135,7 +1157,9 @@
       quantity: 1
     duration: 42 ч
     requirements:
-    - '[послеКлуб по интересам](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%83%D0%B1_%D0%BF%D0%BE_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%B0%D0%BC)'
+    - type: after_quest
+      quest: Клуб по интересам
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%83%D0%B1_%D0%BF%D0%BE_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%B0%D0%BC
 Водосборник УР1:
   wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Водосборник
   recipes:
@@ -1332,7 +1356,9 @@
       quantity: 1
     duration: 1 ч 10 мин
     requirements:
-    - '[послеНочная прогулка](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%83%D0%BB%D0%BA%D0%B0)'
+    - type: after_quest
+      quest: Ночная прогулка
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%83%D0%BB%D0%BA%D0%B0
   - inputs:
     - name: Шприц с морфием
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BF%D1%80%D0%B8%D1%86_%D1%81_%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B5%D0%BC
@@ -1346,7 +1372,9 @@
       quantity: 1
     duration: 1 ч 31 м 40 с
     requirements:
-    - '[После квестаДоктор "Айболит"](https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%22%D0%90%D0%B9%D0%B1%D0%BE%D0%BB%D0%B8%D1%82%22)'
+    - type: after_quest
+      quest: Доктор "Айболит"
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%22%D0%90%D0%B9%D0%B1%D0%BE%D0%BB%D0%B8%D1%82%22
   - inputs:
     - name: Регенеративный препарат Пропитал
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82_%D0%9F%D1%80%D0%BE%D0%BF%D0%B8%D1%82%D0%B0%D0%BB
@@ -1360,7 +1388,9 @@
       quantity: 1
     duration: 1 ч 20 мин
     requirements:
-    - '[послеДоктор "Айболит"](https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%22%D0%90%D0%B9%D0%B1%D0%BE%D0%BB%D0%B8%D1%82%22)'
+    - type: after_quest
+      quest: Доктор "Айболит"
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%22%D0%90%D0%B9%D0%B1%D0%BE%D0%BB%D0%B8%D1%82%22
   - inputs:
     - name: Шприц с адреналином
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BF%D1%80%D0%B8%D1%86_%D1%81_%D0%B0%D0%B4%D1%80%D0%B5%D0%BD%D0%B0%D0%BB%D0%B8%D0%BD%D0%BE%D0%BC
@@ -1374,7 +1404,9 @@
       quantity: 1
     duration: 1 ч 20 м
     requirements:
-    - '[послеВодохлёб. Секреты](https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B4%D0%BE%D1%85%D0%BB%D1%91%D0%B1._%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B)'
+    - type: after_quest
+      quest: Водохлёб. Секреты
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B4%D0%BE%D1%85%D0%BB%D1%91%D0%B1._%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B
 Медблок УР3:
   wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Медблок
   recipes:
@@ -1775,7 +1807,9 @@
       quantity: 1
     duration: 39 часов
     requirements:
-    - '[После прохождения главы историиБилетнеобходимо на протяжении всего процесса](https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82)'
+    - type: after_quest
+      quest: Билет
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82
   - inputs:
     - name: Считыватель UHF RFID
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
@@ -1789,7 +1823,9 @@
       quantity: 1
     duration: 4 ч 30 мин
     requirements:
-    - '[Во время прохождениясюжетной историиНеизвестные](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5)'
+    - type: other
+      description: Во время прохождения сюжетной истории Неизвестные
+      link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5
   - inputs:
     - name: Считыватель UHF RFID
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
@@ -1803,7 +1839,9 @@
       quantity: 1
     duration: 4 ч 30 мин
     requirements:
-    - '[Во время прохождениясюжетной историиНеизвестные](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5)'
+    - type: other
+      description: Во время прохождения сюжетной истории Неизвестные
+      link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5
   - inputs:
     - name: Считыватель UHF RFID
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
@@ -1817,7 +1855,9 @@
       quantity: 1
     duration: 4 ч 30 мин
     requirements:
-    - '[Во время прохождениясюжетной историиНеизвестные](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5)'
+    - type: other
+      description: Во время прохождения сюжетной истории Неизвестные
+      link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5
 Разведцентр УР2:
   wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Разведцентр
   recipes:
@@ -1858,7 +1898,9 @@
       quantity: 1
     duration: 38 ч 53 мин
     requirements:
-    - '[После квестаПропавший информатор](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%BF%D0%B0%D0%B2%D1%88%D0%B8%D0%B9_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80)'
+    - type: after_quest
+      quest: Пропавший информатор
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%BF%D0%B0%D0%B2%D1%88%D0%B8%D0%B9_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80
   - inputs:
     - name: Разбитый смартфон GPhone
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D1%8B%D0%B9_%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_GPhone
@@ -1872,7 +1914,9 @@
       quantity: 2
     duration: 62 ч 30 мин
     requirements:
-    - '[послеОтветная услуга](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%82%D0%BD%D0%B0%D1%8F_%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0)'
+    - type: after_quest
+      quest: Ответная услуга
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%82%D0%BD%D0%B0%D1%8F_%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0
   - inputs:
     - name: Подавитель сигналов
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%B4%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2
@@ -1910,7 +1954,11 @@
       quantity: 1
     duration: 2 часа
     requirements:
-    - '[После принятия квестаНовое знакомствотребуется в течение всего процесса](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE)'
+    - type: quest_accepted
+      npc: Новое знакомство
+      npc_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE
+      quest: ''
+      quest_link: https://escapefromtarkov.fandom.comhttps://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/02/Generator_Portrait.png/revision/latest?cb=20200424091412
 Разведцентр УР3:
   wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Разведцентр
   recipes:
@@ -2197,7 +2245,9 @@
       quantity: 1
     duration: 1 ч 56 м 40 с
     requirements:
-    - '[послеШить - не тужить. Часть 1](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%B8%D1%82%D1%8C_-_%D0%BD%D0%B5_%D1%82%D1%83%D0%B6%D0%B8%D1%82%D1%8C._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1)'
+    - type: after_quest
+      quest: Шить - не тужить. Часть 1
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%B8%D1%82%D1%8C_-_%D0%BD%D0%B5_%D1%82%D1%83%D0%B6%D0%B8%D1%82%D1%8C._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1
   - inputs:
     - name: Изолента
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0
@@ -2430,7 +2480,9 @@
       quantity: 1
     duration: 1 ч 40 м
     requirements:
-    - '[послеМаршрутка](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%BA%D0%B0)'
+    - type: after_quest
+      quest: Маршрутка
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%BA%D0%B0
   - inputs:
     - name: Набор инструментов
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
@@ -2532,7 +2584,9 @@
       quantity: 1
     duration: 8 ч
     requirements:
-    - '[послеШить - не тужить. Часть 3](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%B8%D1%82%D1%8C_-_%D0%BD%D0%B5_%D1%82%D1%83%D0%B6%D0%B8%D1%82%D1%8C._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_3)'
+    - type: after_quest
+      quest: Шить - не тужить. Часть 3
+      quest_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%B8%D1%82%D1%8C_-_%D0%BD%D0%B5_%D1%82%D1%83%D0%B6%D0%B8%D1%82%D1%8C._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_3
   - inputs:
     - name: Отбеливатель Ox
       wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B1%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Ox
