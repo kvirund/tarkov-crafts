@@ -73,7 +73,7 @@
             border-bottom: 2px solid #3a3a3a;
         }
 
-        #searchInput, #itemSelect {
+        #searchInput, #itemSearch {
             width: 100%;
             padding: 0.75rem 1rem;
             font-size: 1rem;
@@ -84,19 +84,9 @@
             transition: border-color 0.2s;
         }
 
-        #searchInput:focus, #itemSelect:focus {
+        #searchInput:focus, #itemSearch:focus {
             outline: none;
             border-color: #4a9eff;
-        }
-
-        #itemSelect {
-            cursor: pointer;
-        }
-
-        #itemSelect option {
-            background: #1a1a1a;
-            color: #e0e0e0;
-            padding: 0.5rem;
         }
 
         #resultsCount {
@@ -488,6 +478,59 @@
             text-decoration-style: solid;
         }
 
+        /* Item search autocomplete */
+        .item-search-wrapper {
+            position: relative;
+            flex: 1;
+            max-width: 600px;
+        }
+
+        .item-search-results {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            max-height: 400px;
+            overflow-y: auto;
+            background: #2a2a2a;
+            border: 1px solid #4a9eff;
+            border-top: none;
+            border-radius: 0 0 6px 6px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+        }
+
+        .item-search-results.visible {
+            display: block;
+        }
+
+        .item-search-result {
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            border-bottom: 1px solid #3a3a3a;
+            transition: background 0.2s;
+        }
+
+        .item-search-result:last-child {
+            border-bottom: none;
+        }
+
+        .item-search-result:hover {
+            background: #3a3a3a;
+        }
+
+        .item-search-result.selected {
+            background: #4a9eff;
+            color: #000;
+        }
+
+        .item-search-no-results {
+            padding: 1rem;
+            text-align: center;
+            color: #888;
+        }
+
         @media (max-width: 768px) {
             .recipe-card {
                 grid-template-columns: 1fr;
@@ -522,9 +565,10 @@
 
         <div id="items-tab" class="tab-content">
             <div class="search-container">
-                <select id="itemSelect">
-                    <option value="">Выберите предмет...</option>
-                </select>
+                <div class="item-search-wrapper">
+                    <input type="text" id="itemSearch" placeholder="Поиск предмета..." autocomplete="off">
+                    <div id="itemSearchResults" class="item-search-results"></div>
+                </div>
                 <span id="itemInfo"></span>
             </div>
             <div id="itemViewContainer"></div>
@@ -594,16 +638,59 @@
             });
         }
 
-        function populateItemSelect() {
-            const select = document.getElementById('itemSelect');
-            const items = Array.from(itemsMap.keys()).sort();
+        // Item search functionality
+        let allItems = [];
+        let selectedItemIndex = -1;
 
-            items.forEach(itemName => {
-                const option = document.createElement('option');
-                option.value = itemName;
-                option.textContent = itemName;
-                select.appendChild(option);
-            });
+        function initItemSearch() {
+            allItems = Array.from(itemsMap.keys()).sort();
+        }
+
+        function filterItems(query) {
+            if (!query || query.trim() === '') {
+                return allItems;
+            }
+
+            const lowerQuery = query.toLowerCase().trim();
+            return allItems.filter(item => item.toLowerCase().includes(lowerQuery));
+        }
+
+        function showItemSearchResults(items, query) {
+            const resultsContainer = document.getElementById('itemSearchResults');
+
+            if (items.length === 0) {
+                resultsContainer.innerHTML = '<div class="item-search-no-results">Ничего не найдено</div>';
+                resultsContainer.classList.add('visible');
+                selectedItemIndex = -1;
+                return;
+            }
+
+            // Show max 50 results for performance
+            const displayItems = items.slice(0, 50);
+
+            resultsContainer.innerHTML = displayItems.map((item, index) => {
+                return `<div class="item-search-result" data-item="${item}" data-index="${index}">${item}</div>`;
+            }).join('');
+
+            if (items.length > 50) {
+                resultsContainer.innerHTML += `<div class="item-search-no-results">Показано 50 из ${items.length} результатов. Уточните поиск.</div>`;
+            }
+
+            resultsContainer.classList.add('visible');
+            selectedItemIndex = -1;
+        }
+
+        function hideItemSearchResults() {
+            const resultsContainer = document.getElementById('itemSearchResults');
+            resultsContainer.classList.remove('visible');
+            selectedItemIndex = -1;
+        }
+
+        function selectItem(itemName) {
+            const searchInput = document.getElementById('itemSearch');
+            searchInput.value = itemName;
+            hideItemSearchResults();
+            renderItemView(itemName);
         }
 
         function formatDuration(duration) {
@@ -993,7 +1080,7 @@
         // Initialize
         buildSearchIndex();
         buildItemsIndex();
-        populateItemSelect();
+        initItemSearch();
         renderCycles();
 
         // Initial render
@@ -1022,10 +1109,36 @@
             });
         });
 
-        // Item selection (items tab)
-        const itemSelect = document.getElementById('itemSelect');
-        itemSelect.addEventListener('change', (e) => {
-            renderItemView(e.target.value);
+        // Item search (items tab)
+        const itemSearch = document.getElementById('itemSearch');
+        const itemSearchResults = document.getElementById('itemSearchResults');
+
+        itemSearch.addEventListener('input', (e) => {
+            const query = e.target.value;
+            const filtered = filterItems(query);
+            showItemSearchResults(filtered, query);
+        });
+
+        itemSearch.addEventListener('focus', (e) => {
+            const query = e.target.value;
+            const filtered = filterItems(query);
+            showItemSearchResults(filtered, query);
+        });
+
+        // Click on search result
+        itemSearchResults.addEventListener('click', (e) => {
+            const resultItem = e.target.closest('.item-search-result');
+            if (resultItem) {
+                const itemName = resultItem.dataset.item;
+                selectItem(itemName);
+            }
+        });
+
+        // Close results when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.item-search-wrapper')) {
+                hideItemSearchResults();
+            }
         });
     </script>
 </body>
