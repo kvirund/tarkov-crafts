@@ -1,6 +1,73 @@
 import yaml
+import re
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
+
+
+def _convert_time_to_seconds(time_text):
+    """Конвертирует текст времени в секунды."""
+    hours = 0
+    minutes = 0
+    seconds = 0
+
+    # Парсим часы
+    h_match = re.search(r'(\d+)\s*ч', time_text)
+    if h_match:
+        hours = int(h_match.group(1))
+
+    # Парсим минуты
+    m_match = re.search(r'(\d+)\s*мин', time_text)
+    if m_match:
+        minutes = int(m_match.group(1))
+
+    # Парсим секунды
+    s_match = re.search(r'(\d+)\s*сек', time_text)
+    if s_match:
+        seconds = int(s_match.group(1))
+
+    return hours * 3600 + minutes * 60 + seconds
+
+
+def parse_duration_to_seconds(duration_text):
+    """
+    Парсит duration и конвертирует в секунды.
+    Поддерживает форматы:
+    - "1 ч 58 мин" → 7080
+    - "56 мин 40 сек" → 3400
+    - "от 40 ч 16 мин до 13 ч 20 мин 13 сек" → {min: 144960, max: 48013}
+    """
+    if not duration_text:
+        return None
+
+    # Проверяем диапазон
+    if 'от' in duration_text and 'до' in duration_text:
+        parts = duration_text.split('до')
+        min_part = parts[0].replace('от', '').strip()
+        max_part = parts[1].strip()
+        return {
+            'min': _convert_time_to_seconds(min_part),
+            'max': _convert_time_to_seconds(max_part)
+        }
+
+    # Одиночное значение
+    return _convert_time_to_seconds(duration_text)
+
+
+def _parse_station_name_and_level(full_name):
+    """
+    Парсит полное имя станции и уровень.
+    Examples:
+    - "Верстак УР1" → ("Верстак", 1)
+    - "Верстак УР 1" → ("Верстак", 1)
+    - "Биткоин ферма" → ("Биткоин ферма", 1)
+    """
+    match = re.search(r'(.+?)\s+УР\s*(\d+)', full_name)
+    if match:
+        base_name = match.group(1).strip()
+        level = int(match.group(2))
+        return base_name, level
+    return full_name, 1
+
 
 def parse_recipes():
     with open('workbench/page.html', 'rb') as f:
@@ -11,16 +78,32 @@ def parse_recipes():
     stations = {}
 
     for table in tables:
-        # Get station name from table header
-        header = table.find_previous('h3') or table.find_previous('h2') or table.find_previous('h4')
-        if header:
-            station_name = header.get_text(strip=True).replace('[]', '')
+        # Get station name from h3 (with level)
+        h3 = table.find_previous('h3')
+        if h3:
+            full_name = h3.get_text(strip=True).replace('[]', '')
+            base_name, level = _parse_station_name_and_level(full_name)
         else:
-            station_name = "Unknown Station"
+            # Fallback to h2
+            h2 = table.find_previous('h2')
+            if h2:
+                base_name = h2.get_text(strip=True).replace('[]', '')
+                level = 1
+            else:
+                base_name = "Unknown Station"
+                level = 1
 
-        if station_name not in stations:
-            stations[station_name] = {
+        # Initialize station structure
+        if base_name not in stations:
+            stations[base_name] = {
+                'base_name': base_name,
                 'wiki_link': None,
+                'icon_link': None,
+                'levels': {}
+            }
+
+        if level not in stations[base_name]['levels']:
+            stations[base_name]['levels'][level] = {
                 'recipes': []
             }
 
@@ -33,13 +116,22 @@ def parse_recipes():
 
             input_th, arrow1, station_th, arrow2, output_th = ths
 
-            # Get station wiki_link from first row if not set yet
-            if stations[station_name]['wiki_link'] is None:
+            # Get station wiki_link and icon_link from first row if not set yet
+            if stations[base_name]['wiki_link'] is None or stations[base_name]['icon_link'] is None:
                 center = station_th.find('center')
                 if center:
+                    # Get wiki_link
                     a_station = center.find('a', href=lambda x: x and x.startswith('/ru/wiki/'))
-                    if a_station:
-                        stations[station_name]['wiki_link'] = 'https://escapefromtarkov.fandom.com' + a_station['href']
+                    if a_station and stations[base_name]['wiki_link'] is None:
+                        stations[base_name]['wiki_link'] = 'https://escapefromtarkov.fandom.com' + a_station['href']
+
+                    # Get icon_link
+                    if stations[base_name]['icon_link'] is None:
+                        span_file = center.find('span', attrs={'typeof': 'mw:File/Frameless'})
+                        if span_file:
+                            a_icon = span_file.find('a', class_='mw-file-description')
+                            if a_icon and a_icon.get('href'):
+                                stations[base_name]['icon_link'] = a_icon['href']
 
             # Parse inputs
             inputs = []
@@ -72,7 +164,8 @@ def parse_recipes():
             duration = None
             b_tag = station_th.find('b')
             if b_tag:
-                duration = b_tag.get_text(separator=' ', strip=True)
+                duration_text = b_tag.get_text(separator=' ', strip=True)
+                duration = parse_duration_to_seconds(duration_text)
 
             # Parse output
             output = {}
@@ -95,6 +188,15 @@ def parse_recipes():
             requirements = []
             small = row.find('small') or row.find('span', class_='small')
             if small:
+                # Check for electricity requirement
+                generator_img = small.find('img', attrs={'data-src': lambda x: x and 'Generator_Portrait.png' in x})
+                if not generator_img:
+                    generator_img = small.find('img', alt=lambda x: x and 'генератор' in x.lower() if x else False)
+
+                full_text = small.get_text(separator=' ', strip=True).lower()
+                if generator_img or 'требуется в течение всего процесса' in full_text or 'необходимо на протяжении всего процесса' in full_text:
+                    requirements.append({'type': 'electricity_required'})
+
                 # Get all links and text
                 links = small.find_all('a')
                 text_parts = [s.strip() for s in small.stripped_strings]
@@ -104,7 +206,12 @@ def parse_recipes():
                     prefix = text_parts[0].lower()
 
                     # Determine requirement type
-                    if 'после принятия квеста' in prefix:
+                    if 'во время прохождения' in prefix:
+                        req['type'] = 'during_quest'
+                        if links:
+                            req['quest'] = links[0].get_text(strip=True)
+                            req['quest_link'] = 'https://escapefromtarkov.fandom.com' + links[0]['href']
+                    elif 'после принятия квеста' in prefix:
                         req['type'] = 'quest_accepted'
                         # Format: "После принятия квеста" + NPC_link + Quest_link
                         if len(links) >= 2:
@@ -126,11 +233,12 @@ def parse_recipes():
                             req['quest'] = links[0].get_text(strip=True)
                             req['quest_link'] = 'https://escapefromtarkov.fandom.com' + links[0]['href']
                     else:
-                        # Generic requirement
-                        req['type'] = 'other'
-                        req['description'] = small.get_text(separator=' ', strip=True)
-                        if links:
-                            req['link'] = 'https://escapefromtarkov.fandom.com' + links[0]['href']
+                        # Generic requirement - только если это не electricity
+                        if not (generator_img or 'требуется в течение всего процесса' in full_text):
+                            req['type'] = 'other'
+                            req['description'] = small.get_text(separator=' ', strip=True)
+                            if links:
+                                req['link'] = 'https://escapefromtarkov.fandom.com' + links[0]['href']
 
                     if req:
                         requirements.append(req)
@@ -144,7 +252,7 @@ def parse_recipes():
             if requirements:
                 recipe['requirements'] = requirements
 
-            stations[station_name]['recipes'].append(recipe)
+            stations[base_name]['levels'][level]['recipes'].append(recipe)
 
     return stations
 
@@ -153,7 +261,12 @@ if __name__ == '__main__':
     with open('crafting_recipes.yaml', 'w', encoding='utf-8') as f:
         yaml.dump(stations, f, allow_unicode=True, default_flow_style=False, sort_keys=False)
 
-    total_recipes = sum(len(station['recipes']) for station in stations.values())
+    # Count total recipes across all stations and levels
+    total_recipes = sum(
+        len(level_data['recipes'])
+        for station in stations.values()
+        for level_data in station.get('levels', {}).values()
+    )
     print(f"Parsed {total_recipes} recipes in {len(stations)} stations")
 
     # Debug: load YAML and print
@@ -162,12 +275,21 @@ if __name__ == '__main__':
     if loaded:
         first_station_name = list(loaded.keys())[0]
         first_station = loaded[first_station_name]
-        print(f"First station: {repr(first_station_name)}")
+        print(f"\nFirst station: {first_station_name}")
+        print(f"  base_name: {first_station.get('base_name')}")
         print(f"  wiki_link: {first_station.get('wiki_link')}")
-        print(f"  recipes count: {len(first_station.get('recipes', []))}")
-        if first_station.get('recipes'):
-            first_recipe = first_station['recipes'][0]
-            if first_recipe.get('inputs'):
-                print(f"  First recipe input: {repr(first_recipe['inputs'][0].get('name'))}")
-            if first_recipe.get('duration'):
-                print(f"  Duration: {first_recipe['duration']}")
+        print(f"  icon_link: {first_station.get('icon_link')}")
+        print(f"  levels: {list(first_station.get('levels', {}).keys())}")
+
+        # Show first recipe from first level
+        if first_station.get('levels'):
+            first_level = list(first_station['levels'].keys())[0]
+            first_level_data = first_station['levels'][first_level]
+            print(f"  Level {first_level} recipes count: {len(first_level_data.get('recipes', []))}")
+
+            if first_level_data.get('recipes'):
+                first_recipe = first_level_data['recipes'][0]
+                if first_recipe.get('inputs'):
+                    print(f"  First recipe input: {first_recipe['inputs'][0].get('name')}")
+                if first_recipe.get('duration'):
+                    print(f"  Duration: {first_recipe['duration']}")
