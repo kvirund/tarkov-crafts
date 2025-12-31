@@ -244,6 +244,16 @@
             color: #fff;
         }
 
+        .req-badge a {
+            color: inherit;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+
+        .req-badge a:hover {
+            text-decoration-style: solid;
+        }
+
         @media (max-width: 768px) {
             .recipe-card {
                 grid-template-columns: 1fr;
@@ -330,13 +340,13 @@
                     case 'electricity_required':
                         return `<span class="req-badge electricity">⚡ Электричество</span>`;
                     case 'quest_completed':
-                        return `<span class="req-badge quest">✓ После: ${req.quest}</span>`;
+                        return `<span class="req-badge quest">✓ После: <a href="${req.quest_link}" target="_blank">${req.quest}</a></span>`;
                     case 'quest_accepted':
-                        return `<span class="req-badge quest">📋 Принято: ${req.quest}</span>`;
+                        return `<span class="req-badge quest">📋 Принято: <a href="${req.quest_link}" target="_blank">${req.quest}</a></span>`;
                     case 'during_quest':
-                        return `<span class="req-badge quest">🔄 Во время: ${req.quest}</span>`;
+                        return `<span class="req-badge quest">🔄 Во время: <a href="${req.quest_link}" target="_blank">${req.quest}</a></span>`;
                     case 'after_quest':
-                        return `<span class="req-badge quest">⏭ После: ${req.quest}</span>`;
+                        return `<span class="req-badge quest">⏭ После: <a href="${req.quest_link}" target="_blank">${req.quest}</a></span>`;
                     default:
                         return `<span class="req-badge other">${req.description || 'Требование'}</span>`;
                 }
