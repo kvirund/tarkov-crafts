@@ -23,9 +23,49 @@
             margin: 0 auto;
         }
 
-        .search-container {
+        .tabs {
+            display: flex;
+            gap: 0;
+            background: #1a1a1a;
+            border-bottom: 2px solid #3a3a3a;
             position: sticky;
             top: 0;
+            z-index: 101;
+        }
+
+        .tab {
+            padding: 1rem 2rem;
+            background: #2a2a2a;
+            border: none;
+            color: #888;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.2s;
+            border-bottom: 3px solid transparent;
+        }
+
+        .tab:hover {
+            background: #333;
+            color: #e0e0e0;
+        }
+
+        .tab.active {
+            background: #1a1a1a;
+            color: #4a9eff;
+            border-bottom-color: #4a9eff;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .search-container {
+            position: sticky;
+            top: 51px;
             background: #2a2a2a;
             padding: 1.5rem;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -33,7 +73,7 @@
             border-bottom: 2px solid #3a3a3a;
         }
 
-        #searchInput {
+        #searchInput, #itemSelect {
             width: 100%;
             padding: 0.75rem 1rem;
             font-size: 1rem;
@@ -44,9 +84,19 @@
             transition: border-color 0.2s;
         }
 
-        #searchInput:focus {
+        #searchInput:focus, #itemSelect:focus {
             outline: none;
             border-color: #4a9eff;
+        }
+
+        #itemSelect {
+            cursor: pointer;
+        }
+
+        #itemSelect option {
+            background: #1a1a1a;
+            color: #e0e0e0;
+            padding: 0.5rem;
         }
 
         #resultsCount {
@@ -56,8 +106,20 @@
             color: #888;
         }
 
-        #recipesContainer {
+        #recipesContainer, #itemViewContainer {
             padding: 2rem 1rem;
+        }
+
+        .item-section {
+            margin-bottom: 3rem;
+        }
+
+        .item-section h2 {
+            font-size: 1.5rem;
+            color: #4a9eff;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid #3a3a3a;
         }
 
         .station {
@@ -285,11 +347,28 @@
 </head>
 <body>
     <div id="app">
-        <div class="search-container">
-            <input type="text" id="searchInput" placeholder="Поиск по предметам...">
-            <span id="resultsCount">Загрузка...</span>
+        <div class="tabs">
+            <button class="tab active" data-tab="recipes">Рецепты</button>
+            <button class="tab" data-tab="items">Предметы</button>
         </div>
-        <div id="recipesContainer"></div>
+
+        <div id="recipes-tab" class="tab-content active">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Поиск по предметам...">
+                <span id="resultsCount">Загрузка...</span>
+            </div>
+            <div id="recipesContainer"></div>
+        </div>
+
+        <div id="items-tab" class="tab-content">
+            <div class="search-container">
+                <select id="itemSelect">
+                    <option value="">Выберите предмет...</option>
+                </select>
+                <span id="itemInfo"></span>
+            </div>
+            <div id="itemViewContainer"></div>
+        </div>
     </div>
 
     <script>
@@ -321,6 +400,43 @@
             const inputs = recipe.inputs.map(i => i.name).join(' ');
             const output = recipe.output.name;
             return `${stationName} ${inputs} ${output}`.toLowerCase();
+        }
+
+        // Build items index
+        const itemsMap = new Map(); // itemName -> {producedIn: [...], usedIn: [...]}
+
+        function buildItemsIndex() {
+            searchIndex.forEach(entry => {
+                const recipe = entry.recipe;
+
+                // Track outputs
+                const outputName = recipe.output.name;
+                if (!itemsMap.has(outputName)) {
+                    itemsMap.set(outputName, { producedIn: [], usedIn: [] });
+                }
+                itemsMap.get(outputName).producedIn.push(entry);
+
+                // Track inputs
+                recipe.inputs.forEach(input => {
+                    const inputName = input.name;
+                    if (!itemsMap.has(inputName)) {
+                        itemsMap.set(inputName, { producedIn: [], usedIn: [] });
+                    }
+                    itemsMap.get(inputName).usedIn.push(entry);
+                });
+            });
+        }
+
+        function populateItemSelect() {
+            const select = document.getElementById('itemSelect');
+            const items = Array.from(itemsMap.keys()).sort();
+
+            items.forEach(itemName => {
+                const option = document.createElement('option');
+                option.value = itemName;
+                option.textContent = itemName;
+                select.appendChild(option);
+            });
         }
 
         function formatDuration(duration) {
@@ -470,14 +586,101 @@
             container.innerHTML = html || '<p style="text-align: center; color: #888; margin-top: 2rem;">Ничего не найдено</p>';
         }
 
+        function renderItemView(itemName) {
+            const container = document.getElementById('itemViewContainer');
+            const itemInfo = document.getElementById('itemInfo');
+
+            if (!itemName) {
+                container.innerHTML = '<p style="text-align: center; color: #888; margin-top: 2rem;">Выберите предмет из списка</p>';
+                itemInfo.textContent = '';
+                return;
+            }
+
+            const data = itemsMap.get(itemName);
+            if (!data) {
+                container.innerHTML = '<p style="text-align: center; color: #888; margin-top: 2rem;">Предмет не найден</p>';
+                itemInfo.textContent = '';
+                return;
+            }
+
+            itemInfo.textContent = `Производится: ${data.producedIn.length} | Используется: ${data.usedIn.length}`;
+
+            let html = '';
+
+            // Section: Produced in
+            if (data.producedIn.length > 0) {
+                html += '<div class="item-section"><h2>Производится в рецептах</h2>';
+                data.producedIn.forEach(entry => {
+                    html += `
+                        <div class="station">
+                            <div class="station-header">
+                                <img src="${entry.levelIcon || ''}" alt="${entry.stationName} УР${entry.level}" onerror="this.style.display='none'">
+                                <h2>${entry.stationName} - Уровень ${entry.level}</h2>
+                                <a href="${entry.stationWikiLink}" target="_blank">Wiki</a>
+                            </div>
+                            <div class="level-group">
+                                ${renderRecipeCard(entry.recipe)}
+                            </div>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            }
+
+            // Section: Used in
+            if (data.usedIn.length > 0) {
+                html += '<div class="item-section"><h2>Используется в рецептах</h2>';
+                data.usedIn.forEach(entry => {
+                    html += `
+                        <div class="station">
+                            <div class="station-header">
+                                <img src="${entry.levelIcon || ''}" alt="${entry.stationName} УР${entry.level}" onerror="this.style.display='none'">
+                                <h2>${entry.stationName} - Уровень ${entry.level}</h2>
+                                <a href="${entry.stationWikiLink}" target="_blank">Wiki</a>
+                            </div>
+                            <div class="level-group">
+                                ${renderRecipeCard(entry.recipe)}
+                            </div>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            }
+
+            container.innerHTML = html;
+        }
+
+        // Tab switching
+        function switchTab(tabName) {
+            // Update tab buttons
+            document.querySelectorAll('.tab').forEach(tab => {
+                if (tab.dataset.tab === tabName) {
+                    tab.classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                }
+            });
+
+            // Update tab contents
+            document.querySelectorAll('.tab-content').forEach(content => {
+                if (content.id === `${tabName}-tab`) {
+                    content.classList.add('active');
+                } else {
+                    content.classList.remove('active');
+                }
+            });
+        }
+
         // Initialize
         buildSearchIndex();
+        buildItemsIndex();
+        populateItemSelect();
 
         // Initial render
         renderRecipes(searchIndex);
         document.getElementById('resultsCount').textContent = `Всего рецептов: ${searchIndex.length}`;
 
-        // Live search
+        // Live search (recipes tab)
         const searchInput = document.getElementById('searchInput');
         searchInput.addEventListener('input', (e) => {
             const query = e.target.value.toLowerCase().trim();
@@ -490,6 +693,19 @@
                 `Найдено: ${filtered.length} из ${searchIndex.length}`;
 
             renderRecipes(filtered);
+        });
+
+        // Tab switching
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                switchTab(e.target.dataset.tab);
+            });
+        });
+
+        // Item selection (items tab)
+        const itemSelect = document.getElementById('itemSelect');
+        itemSelect.addEventListener('change', (e) => {
+            renderItemView(e.target.value);
         });
     </script>
 </body>
