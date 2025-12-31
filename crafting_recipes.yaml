@@ -1,0 +1,2595 @@
+Биткоин ферма:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Биткоин_ферма
+  recipes:
+  - inputs:
+    - name: Видеокарта
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b3/Graphics_Card_icon.png/revision/latest?cb=20250122021908
+      quantity: 0
+      consumable: false
+    output:
+      name: Монета Биткоина
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BD%D0%B5%D1%82%D0%B0_%D0%91%D0%B8%D1%82%D0%BA%D0%BE%D0%B8%D0%BD%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fa/Bitcoin_icon.png/revision/latest?cb=20211220212341
+      quantity: 1
+    duration: от 40 ч 16 мин до 13 ч 20 мин 13 сек
+Верстак УР1:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Верстак
+  recipes:
+  - inputs:
+    - name: Силовой кабель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e1/Powercord_icon.png/revision/latest?cb=20190614230638
+      quantity: 2
+      consumable: true
+    output:
+      name: Пучок проводов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%83%D1%87%D0%BE%D0%BA_%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a4/Wiresicon.png/revision/latest?cb=20250620092637
+      quantity: 8
+    duration: 1 ч 58 мин
+  - inputs:
+    - name: Пачка гвоздей
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D0%B2%D0%BE%D0%B7%D0%B4%D0%B5%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/72/Nailsicon.png/revision/latest?cb=20201103200605
+      quantity: 1
+      consumable: true
+    output:
+      name: Тройник
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D1%80%D0%BE%D0%B9%D0%BD%D0%B8%D0%BA
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/T-Shaped_Plug_Icon.png/revision/latest?cb=20250616085114
+      quantity: 3
+    duration: 56 мин 40 сек
+  - inputs:
+    - name: Изолента
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e4/Insulating_tape_Icon.png/revision/latest?cb=20250422151231
+      quantity: 1
+      consumable: true
+    output:
+      name: Силовой кабель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BA%D0%B0%D0%B1%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e1/Powercord_icon.png/revision/latest?cb=20190614230638
+      quantity: 2
+    duration: 35 мин
+  - inputs:
+    - name: Оружейный порох "Коршун"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/Gunpowder_Icon.png/revision/latest?cb=20250326013950
+      quantity: 1
+      consumable: true
+    output:
+      name: 9x18мм ПММ ПстМ гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x18%D0%BC%D0%BC_%D0%9F%D0%9C%D0%9C_%D0%9F%D1%81%D1%82%D0%9C_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1c/9x18PMM.png/revision/latest?cb=20250326010901
+      quantity: 140
+    duration: 1 ч 43 мин
+  - inputs:
+    - name: Обычные спички
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B5_%D1%81%D0%BF%D0%B8%D1%87%D0%BA%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b1/Matches_Icon.png/revision/latest?cb=20250620102901
+      quantity: 1
+      consumable: true
+    output:
+      name: 12/70 8.5мм картечь "Магнум"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_8.5%D0%BC%D0%BC_%D0%BA%D0%B0%D1%80%D1%82%D0%B5%D1%87%D1%8C_%22%D0%9C%D0%B0%D0%B3%D0%BD%D1%83%D0%BC%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/6d/127065ExpressMagnumIcon.png/revision/latest?cb=20220313112141
+      quantity: 120
+    duration: 1 ч 31 мин
+  - inputs:
+    - name: Отвертка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/da/Screwdriver_Icon.png/revision/latest?cb=20251216033755
+      quantity: 0
+      consumable: false
+    output:
+      name: Конденсаторы
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BE%D0%BD%D0%B4%D0%B5%D0%BD%D1%81%D0%B0%D1%82%D0%BE%D1%80%D1%8B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e3/Capacitorsicon.png/revision/latest?cb=20190325191130
+      quantity: 6
+    duration: 2 ч 4 мин 10 сек
+  - inputs:
+    - name: 5.45x39мм HP
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.45x39%D0%BC%D0%BC_HP
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fe/74HPICON.png/revision/latest?cb=20220120234758
+      quantity: 120
+      consumable: true
+    output:
+      name: Оружейный порох "Коршун"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/Gunpowder_Icon.png/revision/latest?cb=20250326013950
+      quantity: 2
+    duration: 15 минут
+  - inputs:
+    - name: Обычные спички
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D0%B1%D1%8B%D1%87%D0%BD%D1%8B%D0%B5_%D1%81%D0%BF%D0%B8%D1%87%D0%BA%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b1/Matches_Icon.png/revision/latest?cb=20250620102901
+      quantity: 1
+      consumable: true
+    output:
+      name: Оружейный порох "Ястреб"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/df/GunpowderHawkIcon.png/revision/latest?cb=20250422122050
+      quantity: 3
+    duration: 35 мин 50 сек
+  - inputs:
+    - name: DVD привод
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/DVD_%D0%BF%D1%80%D0%B8%D0%B2%D0%BE%D0%B4
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/de/DVD_drive_Icon.png/revision/latest?cb=20250308184459
+      quantity: 1
+      consumable: true
+    output:
+      name: Печатная плата
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%87%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c5/Circuit_Icon.png/revision/latest?cb=20190325191144
+      quantity: 2
+    duration: 33 мин
+  - inputs:
+    - name: Отвертка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/da/Screwdriver_Icon.png/revision/latest?cb=20251216033755
+      quantity: 0
+      consumable: false
+    output:
+      name: Сломанный LCD дисплей
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%BB%D0%BE%D0%BC%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_LCD_%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/be/Lcd-icon.PNG/revision/latest?cb=20191029070447
+      quantity: 4
+    duration: 22 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: Граната "Хаттабка" на базе ВОГ-25
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%22%D0%A5%D0%B0%D1%82%D1%82%D0%B0%D0%B1%D0%BA%D0%B0%22_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B5_%D0%92%D0%9E%D0%93-25
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/Vog-25_icon.png/revision/latest?cb=20250615131000
+      quantity: 8
+    duration: 1 ч 40 мин
+    requirements:
+    - '[ПослеГренадёр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%BD%D0%B0%D0%B4%D1%91%D1%80)'
+  - inputs:
+    - name: Газоанализатор
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%B0%D0%B7%D0%BE%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1d/Gas_Analyzer_Icon.png/revision/latest?cb=20250620105546
+      quantity: 1
+      consumable: true
+    output:
+      name: Печатная плата
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%87%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c5/Circuit_Icon.png/revision/latest?cb=20190325191144
+      quantity: 2
+    duration: 48 мин 20 сек
+  - inputs:
+    - name: Поврежденный жесткий диск
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%B2%D1%80%D0%B5%D0%B6%D0%B4%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B5%D1%81%D1%82%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B8%D1%81%D0%BA
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/44/Damaged_Hard_Drive_Icon.png/revision/latest?cb=20250308184847
+      quantity: 1
+      consumable: true
+    output:
+      name: Магнит
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/83/Magnet_Icon.png/revision/latest?cb=20190325191140
+      quantity: 1
+    duration: 43 мин 20 сек
+  - inputs:
+    - name: Цевье деревянное для АК-74
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A6%D0%B5%D0%B2%D1%8C%D0%B5_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8F%D0%BD%D0%BD%D0%BE%D0%B5_%D0%B4%D0%BB%D1%8F_%D0%90%D0%9A-74
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4c/6P20SB6_icon.png/revision/latest?cb=20210207163554
+      quantity: 1
+      consumable: true
+    output:
+      name: Автомат Калашникова АК-74Н 5.45x39
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82_%D0%9A%D0%B0%D0%BB%D0%B0%D1%88%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0_%D0%90%D0%9A-74%D0%9D_5.45x39
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d7/AK-74N_icon.png/revision/latest/scale-to-width-down/180?cb=20210628141202
+      quantity: 1
+    duration: 1 ч 21 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: Автомат Калашникова АКМ 7.62x39
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82_%D0%9A%D0%B0%D0%BB%D0%B0%D1%88%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0_%D0%90%D0%9A%D0%9C_7.62x39
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/53/AKM_icon.png/revision/latest/scale-to-width-down/180?cb=20210628141106
+      quantity: 1
+    duration: 1 ч 25 мин
+  - inputs:
+    - name: Разбитый смартфон GPhone X
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D1%8B%D0%B9_%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_GPhone_X
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/80/Broken_GPhone_x_Icon.png/revision/latest?cb=20250126235509
+      quantity: 1
+      consumable: true
+    output:
+      name: Разбитый смартфон GPhone
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D1%8B%D0%B9_%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_GPhone
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/be/Broken_GPhone_Icon.png/revision/latest?cb=20250126235517
+      quantity: 1
+    duration: 1 ч 40 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: Оружейные части
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B5_%D1%87%D0%B0%D1%81%D1%82%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/79/WeaponPartsIcon.png/revision/latest?cb=20250617170906
+      quantity: 2
+    duration: 1 ч 18 мин
+  - inputs:
+    - name: Самозарядный карабин Симонова ТОЗ СКС 7.62x39
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B0%D0%BC%D0%BE%D0%B7%D0%B0%D1%80%D1%8F%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B0%D1%80%D0%B0%D0%B1%D0%B8%D0%BD_%D0%A1%D0%B8%D0%BC%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0_%D0%A2%D0%9E%D0%97_%D0%A1%D0%9A%D0%A1_7.62x39
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d8/SKS_icon.png/revision/latest/scale-to-width-down/180?cb=20250615131015
+      quantity: 1
+      consumable: true
+    output:
+      name: Оружейные части
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B5_%D1%87%D0%B0%D1%81%D1%82%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/79/WeaponPartsIcon.png/revision/latest?cb=20250617170906
+      quantity: 1
+    duration: 51 мин 40 сек
+  - inputs:
+    - name: Батарейка типа АА
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D0%B9%D0%BA%D0%B0_%D1%82%D0%B8%D0%BF%D0%B0_%D0%90%D0%90
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/9c/AA_Battery_Icon_2.png/revision/latest?cb=20250617162438
+      quantity: 4
+      consumable: true
+    output:
+      name: Газоанализатор
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%B0%D0%B7%D0%BE%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1d/Gas_Analyzer_Icon.png/revision/latest?cb=20250620105546
+      quantity: 1
+    duration: 17 ч 1 мин
+  - inputs:
+    - name: Плоскогубцы
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/8f/Plier_Icon.png/revision/latest?cb=20250617070424
+      quantity: 1
+      consumable: true
+    output:
+      name: Круглогубцы
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/dd/RoundPliersIcon.png/revision/latest?cb=20191029070602
+      quantity: 1
+    duration: 15 мин
+  - inputs:
+    - name: Пистолет-пулемет ПП-91 "Кедр" 9x18ПМ
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82-%D0%BF%D1%83%D0%BB%D0%B5%D0%BC%D0%B5%D1%82_%D0%9F%D0%9F-91_%22%D0%9A%D0%B5%D0%B4%D1%80%22_9x18%D0%9F%D0%9C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/07/PP-91-Kedr_icon.png/revision/latest/scale-to-width-down/180?cb=20190418221524
+      quantity: 1
+      consumable: true
+    output:
+      name: Пистолет-пулемет ПП-9 "Клин" 9x18ПММ
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82-%D0%BF%D1%83%D0%BB%D0%B5%D0%BC%D0%B5%D1%82_%D0%9F%D0%9F-9_%22%D0%9A%D0%BB%D0%B8%D0%BD%22_9x18%D0%9F%D0%9C%D0%9C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7d/PP-9_Klin_icon.png/revision/latest/scale-to-width-down/180?cb=20190418221521
+      quantity: 1
+    duration: 30 мин
+  - inputs:
+    - name: Разбитый смартфон GPhone
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D1%8B%D0%B9_%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_GPhone
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/be/Broken_GPhone_Icon.png/revision/latest?cb=20250126235517
+      quantity: 1
+      consumable: true
+    output:
+      name: Ретранслятор из двух раций
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D1%8F%D1%82%D0%BE%D1%80_%D0%B8%D0%B7_%D0%B4%D0%B2%D1%83%D1%85_%D1%80%D0%B0%D1%86%D0%B8%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/05/Radio_repeater_icon.png/revision/latest?cb=20230618115936
+      quantity: 1
+    duration: 1 ч 30 мин
+    requirements:
+    - '[После принятия квестаМеханикаСетевой провайдер - Часть 2](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA)'
+  - inputs:
+    - name: Визор для шлема Колпак-1С
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%B8%D0%B7%D0%BE%D1%80_%D0%B4%D0%BB%D1%8F_%D1%88%D0%BB%D0%B5%D0%BC%D0%B0_%D0%9A%D0%BE%D0%BB%D0%BF%D0%B0%D0%BA-1%D0%A1
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/62/K1svisoricon.png/revision/latest?cb=20250415184532
+      quantity: 1
+      consumable: true
+    output:
+      name: Кусок оргстекла
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%83%D1%81%D0%BE%D0%BA_%D0%BE%D1%80%D0%B3%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/34/Plexicon.png/revision/latest?cb=20250422151531
+      quantity: 1
+    duration: 25 мин
+  - inputs:
+    - name: Магазин "90-93" на 8 патронов 9x18ПМ для Пистолета Макарова
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_%2290-93%22_%D0%BD%D0%B0_8_%D0%BF%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%B2_9x18%D0%9F%D0%9C_%D0%B4%D0%BB%D1%8F_%D0%9F%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%B2%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/20/Makarovmag.png/revision/latest?cb=20251021174559
+      quantity: 1
+      consumable: true
+    output:
+      name: Магазин барабанный на 84 патрона 9x18ПМ для Пистолета Макарова
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_%D0%B1%D0%B0%D1%80%D0%B0%D0%B1%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BD%D0%B0_84_%D0%BF%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%B0_9x18%D0%9F%D0%9C_%D0%B4%D0%BB%D1%8F_%D0%9F%D0%B8%D1%81%D1%82%D0%BE%D0%BB%D0%B5%D1%82%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%B2%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/50/PM84_magazine_icon.png/revision/latest?cb=20190314001739
+      quantity: 1
+    duration: 20 мин
+  - inputs:
+    - name: 9x18мм ПМ Пст гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x18%D0%BC%D0%BC_%D0%9F%D0%9C_%D0%9F%D1%81%D1%82_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7a/9x18PSTGZH.png/revision/latest?cb=20220312235655
+      quantity: 200
+      consumable: true
+    output:
+      name: 9x18мм ПМ ПБМ гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x18%D0%BC%D0%BC_%D0%9F%D0%9C_%D0%9F%D0%91%D0%9C_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/5d/9x18PBM.png/revision/latest?cb=20220312235620
+      quantity: 200
+    duration: 1 ч 30 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 12/70 Пиранья
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_%D0%9F%D0%B8%D1%80%D0%B0%D0%BD%D1%8C%D1%8F
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/dd/Piranha-icon.png/revision/latest?cb=20250426132051
+      quantity: 120
+    duration: 1 ч 27 м 30 с
+  - inputs:
+    - name: Оружейный порох "Орел"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9E%D1%80%D0%B5%D0%BB%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e5/Gunpowder_eagle_icon.png/revision/latest?cb=20250422121815
+      quantity: 1
+      consumable: true
+    output:
+      name: 7.62x39мм FMJ
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x39%D0%BC%D0%BC_FMJ
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/34/7.62x39FMJIcon.png/revision/latest?cb=20230813163453
+      quantity: 200
+    duration: 2 ч
+  - inputs:
+    - name: 9x18мм ПМ РГ028 гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x18%D0%BC%D0%BC_%D0%9F%D0%9C_%D0%A0%D0%93028_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/57/9x18RG028GZH.png/revision/latest?cb=20220312235707
+      quantity: 150
+      consumable: true
+    output:
+      name: 9x18мм ПМ СП8 гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x18%D0%BC%D0%BC_%D0%9F%D0%9C_%D0%A1%D0%9F8_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/28/9x18SP8GZH.png/revision/latest?cb=20220312235718
+      quantity: 150
+    duration: 2 ч 46 мин
+  - inputs:
+    - name: Оружейный порох "Коршун"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/Gunpowder_Icon.png/revision/latest?cb=20250326013950
+      quantity: 1
+      consumable: true
+    output:
+      name: 9x21мм П гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x21%D0%BC%D0%BC_%D0%9F_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/08/9x21sp11.png/revision/latest?cb=20220313105332
+      quantity: 150
+    duration: 1 ч 30 мин
+  - inputs:
+    - name: Ручная дрель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D0%B4%D1%80%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/04/Handdrill_icon.png/revision/latest/scale-to-width-down/180?cb=20191031155610
+      quantity: 0
+      consumable: false
+    output:
+      name: Вскрытый кейс со снаряжением (Боевой Пропуск 0)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81%D0%BE_%D1%81%D0%BD%D0%B0%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC_(%D0%91%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D0%9F%D1%80%D0%BE%D0%BF%D1%83%D1%81%D0%BA_0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/Equipment_crate_%28BattlePass_0%29_icon.png/revision/latest/scale-to-width-down/180?cb=20250413020502
+      quantity: 1
+    duration: 1 мин
+  - inputs:
+    - name: Аккумуляторная батарея
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BA%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D1%8F
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/28/Recicon.png/revision/latest?cb=20250421213430
+      quantity: 1
+      consumable: true
+    output:
+      name: Ретранслятор из двух раций
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BB%D1%8F%D1%82%D0%BE%D1%80_%D0%B8%D0%B7_%D0%B4%D0%B2%D1%83%D1%85_%D1%80%D0%B0%D1%86%D0%B8%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/05/Radio_repeater_icon.png/revision/latest?cb=20230618115936
+      quantity: 1
+    duration: 30 мин
+  - inputs:
+    - name: Закрытый кейс
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a7/Locked_case_icon.png/revision/latest?cb=20250511063133
+      quantity: 1
+      consumable: true
+    output:
+      name: Открытый кейс
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a7/Locked_case_icon.png/revision/latest?cb=20250511063133
+      quantity: 1
+    duration: 10 сек
+  - inputs:
+    - name: Ручная дрель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D0%B4%D1%80%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/04/Handdrill_icon.png/revision/latest/scale-to-width-down/180?cb=20191031155610
+      quantity: 0
+      consumable: false
+    output:
+      name: Вскрытый кейс с оружием (Редкий)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81_%D0%BE%D1%80%D1%83%D0%B6%D0%B8%D0%B5%D0%BC_(%D0%A0%D0%B5%D0%B4%D0%BA%D0%B8%D0%B9)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/56/Weapons_crate_Rare_Icon.png/revision/latest/scale-to-width-down/180?cb=20250213083447
+      quantity: 1
+    duration: 1 мин
+  - inputs:
+    - name: Защищенный контейнер "Гамма"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80_%22%D0%93%D0%B0%D0%BC%D0%BC%D0%B0%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/60/Secure_container_Gamma_EOD_Icon.png/revision/latest/scale-to-width-down/180?cb=20250510193527
+      quantity: 1
+      consumable: true
+    output:
+      name: Защищенный контейнер "Гамма" (Потрепанный)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80_%22%D0%93%D0%B0%D0%BC%D0%BC%D0%B0%22_(%D0%9F%D0%BE%D1%82%D1%80%D0%B5%D0%BF%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/Secure_container_Gamma_Battle-worn_Icon.png/revision/latest/scale-to-width-down/180?cb=20251215203159
+      quantity: 1
+    duration: 30 мин
+  - inputs:
+    - name: Защищенный контейнер "Гамма" (Потрепанный)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80_%22%D0%93%D0%B0%D0%BC%D0%BC%D0%B0%22_(%D0%9F%D0%BE%D1%82%D1%80%D0%B5%D0%BF%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/Secure_container_Gamma_Battle-worn_Icon.png/revision/latest/scale-to-width-down/180?cb=20251215203159
+      quantity: 1
+      consumable: true
+    output:
+      name: Защищенный контейнер "Гамма"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80_%22%D0%93%D0%B0%D0%BC%D0%BC%D0%B0%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/60/Secure_container_Gamma_EOD_Icon.png/revision/latest/scale-to-width-down/180?cb=20250510193527
+      quantity: 1
+    duration: 30 мин
+Верстак УР2:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Верстак
+  recipes:
+  - inputs:
+    - name: 5.45x39мм ПС гс
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.45x39%D0%BC%D0%BC_%D0%9F%D0%A1_%D0%B3%D1%81
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e3/74PSICON.png/revision/latest?cb=20220312133415
+      quantity: 180
+      consumable: true
+    output:
+      name: 5.45x39мм ПП гс
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.45x39%D0%BC%D0%BC_%D0%9F%D0%9F_%D0%B3%D1%81
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/5d/74PPICON.png/revision/latest?cb=20230612131909
+      quantity: 120
+    duration: 2 ч 21 мин 40 сек
+    requirements:
+    - '[послеКаратель. Часть 3](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B0%D1%80%D0%B0%D1%82%D0%B5%D0%BB%D1%8C._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_3)'
+  - inputs:
+    - name: Цевье полимерное для АК-74М
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A6%D0%B5%D0%B2%D1%8C%D0%B5_%D0%BF%D0%BE%D0%BB%D0%B8%D0%BC%D0%B5%D1%80%D0%BD%D0%BE%D0%B5_%D0%B4%D0%BB%D1%8F_%D0%90%D0%9A-74%D0%9C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/8d/6p20sb9_icon.png/revision/latest?cb=20251110174816
+      quantity: 1
+      consumable: true
+    output:
+      name: Автомат Калашникова АК-74М 5.45x39
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82_%D0%9A%D0%B0%D0%BB%D0%B0%D1%88%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0_%D0%90%D0%9A-74%D0%9C_5.45x39
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4d/AK-74M_icon.png/revision/latest/scale-to-width-down/180?cb=20210628141135
+      quantity: 1
+    duration: 1 ч 23 м 20 с
+  - inputs:
+    - name: Оружейный порох "Коршун"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/Gunpowder_Icon.png/revision/latest?cb=20250326013950
+      quantity: 2
+      consumable: true
+    output:
+      name: Оружейный порох "Ястреб"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%AF%D1%81%D1%82%D1%80%D0%B5%D0%B1%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/df/GunpowderHawkIcon.png/revision/latest?cb=20250422122050
+      quantity: 3
+    duration: 1 ч 52 мин
+  - inputs:
+    - name: Ручная граната M67
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_M67
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/01/M67icon.png/revision/latest?cb=20240902111324
+      quantity: 2
+      consumable: true
+    output:
+      name: Оружейный порох "Орел"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9E%D1%80%D0%B5%D0%BB%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e5/Gunpowder_eagle_icon.png/revision/latest?cb=20250422121815
+      quantity: 2
+    duration: 1 ч 37 м 50 с
+  - inputs:
+    - name: Изолента
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e4/Insulating_tape_Icon.png/revision/latest?cb=20250422151231
+      quantity: 2
+      consumable: true
+    output:
+      name: Электродвигатель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%B3%D0%B0%D1%82%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/9f/Electric_motor_icon.png/revision/latest?cb=20191029070856
+      quantity: 1
+    duration: 1 ч 20 мин
+  - inputs:
+    - name: Мобильный повербанк
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/5c/PowerbankIcon.png/revision/latest?cb=20190326014345
+      quantity: 1
+      consumable: true
+    output:
+      name: Аккумуляторная батарея
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BA%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D1%8F
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/28/Recicon.png/revision/latest?cb=20250421213430
+      quantity: 2
+    duration: 1 ч 13 мин
+  - inputs:
+    - name: Военный аккумулятор 6-СТЭН-140-М
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BA%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80_6-%D0%A1%D0%A2%D0%AD%D0%9D-140-%D0%9C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2a/Mil_Batt_icon.png/revision/latest/scale-to-width-down/180?cb=20200210085108
+      quantity: 1
+      consumable: true
+    output:
+      name: Автомобильный аккумулятор
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%B0%D0%BA%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a0/Car_Battery_Icon.png/revision/latest/scale-to-width-down/180?cb=20230918133324
+      quantity: 5
+    duration: 2 ч 46 м 40 с
+  - inputs:
+    - name: Оружейный порох "Коршун"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/Gunpowder_Icon.png/revision/latest?cb=20250326013950
+      quantity: 1
+      consumable: true
+    output:
+      name: Светозвуковая граната "Заря"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%BE%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%22%D0%97%D0%B0%D1%80%D1%8F%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b6/Zarya_stun_grenade_icon.png/revision/latest?cb=20250615131005
+      quantity: 5
+    duration: 1 ч 17 мин
+  - inputs:
+    - name: Батарейка типа АА
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D0%B9%D0%BA%D0%B0_%D1%82%D0%B8%D0%BF%D0%B0_%D0%90%D0%90
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/9c/AA_Battery_Icon_2.png/revision/latest?cb=20250617162438
+      quantity: 1
+      consumable: true
+    output:
+      name: Счетчик Гейгера-Мюллера
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B5%D1%82%D1%87%D0%B8%D0%BA_%D0%93%D0%B5%D0%B9%D0%B3%D0%B5%D1%80%D0%B0-%D0%9C%D1%8E%D0%BB%D0%BB%D0%B5%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/86/Geiger-Mueller_counter_Icon.png/revision/latest?cb=20190325191150
+      quantity: 1
+    duration: 1 ч 31 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 12/70 RIP
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_RIP
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8a/12x70ripicon.png/revision/latest?cb=20221124060432
+      quantity: 60
+    duration: 3 ч 53 мин
+  - inputs:
+    - name: Отвертка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/da/Screwdriver_Icon.png/revision/latest?cb=20251216033755
+      quantity: 0
+      consumable: false
+    output:
+      name: Военная печатная плата
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B0%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c5/MilitaryCircuitBoardIcon.png/revision/latest?cb=20230508200223
+      quantity: 1
+    duration: 2 ч 16 мин
+  - inputs:
+    - name: Набор инструментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/3a/Toolsicon.png/revision/latest?cb=20251228221010
+      quantity: 0
+      consumable: false
+    output:
+      name: Объектив NIXXOR
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B8%D0%B2_NIXXOR
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/17/NIXXOR_lens_icon.png/revision/latest?cb=20250308182826
+      quantity: 2
+    duration: 2 ч 31 мин 40 сек
+  - inputs:
+    - name: Болты
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%BE%D0%BB%D1%82%D1%8B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/70/Boltsicon.png/revision/latest?cb=20230918133434
+      quantity: 2
+      consumable: true
+    output:
+      name: Свеча зажигания
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B2%D0%B5%D1%87%D0%B0_%D0%B7%D0%B0%D0%B6%D0%B8%D0%B3%D0%B0%D0%BD%D0%B8%D1%8F
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/46/Spark_Plug_Icon_.png/revision/latest?cb=20250616080323
+      quantity: 1
+    duration: 1 ч 56 мин
+  - inputs:
+    - name: Набор инструментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/3a/Toolsicon.png/revision/latest?cb=20251228221010
+      quantity: 1
+      consumable: true
+    output:
+      name: Кабелерез Bulbex
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%B1%D0%B5%D0%BB%D0%B5%D1%80%D0%B5%D0%B7_Bulbex
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/02/Bulbex_cable_cutter_icon1.png/revision/latest?cb=20250811122140
+      quantity: 1
+    duration: 6 ч 56 мин
+  - inputs:
+    - name: USB Адаптер
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/USB_%D0%90%D0%B4%D0%B0%D0%BF%D1%82%D0%B5%D1%80
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9b/USB_Adapter_Icon.png/revision/latest?cb=20250114194717
+      quantity: 3
+      consumable: true
+    output:
+      name: Литиевая аккумуляторная батарейка GreenBat
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9B%D0%B8%D1%82%D0%B8%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B0%D0%BA%D0%BA%D1%83%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%B1%D0%B0%D1%82%D0%B0%D1%80%D0%B5%D0%B9%D0%BA%D0%B0_GreenBat
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b6/GreenBat_Icon.png/revision/latest?cb=20200502000309
+      quantity: 1
+    duration: 5 ч
+  - inputs:
+    - name: Ключ от комнаты 308 общежития
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%8E%D1%87_%D0%BE%D1%82_%D0%BA%D0%BE%D0%BC%D0%BD%D0%B0%D1%82%D1%8B_308_%D0%BE%D0%B1%D1%89%D0%B5%D0%B6%D0%B8%D1%82%D0%B8%D1%8F
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fe/Key-308-Icon.png/revision/latest?cb=20220807160902
+      quantity: 1
+      consumable: true
+    output:
+      name: Банка с термитной смесью
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%81_%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D1%82%D0%BD%D0%BE%D0%B9_%D1%81%D0%BC%D0%B5%D1%81%D1%8C%D1%8E
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4f/Can_of_thermite_Icon.png/revision/latest?cb=20220129112256
+      quantity: 1
+    duration: 2 ч 46 м 40 с
+  - inputs:
+    - name: Пакет саморезов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BA%D0%B5%D1%82_%D1%81%D0%B0%D0%BC%D0%BE%D1%80%D0%B5%D0%B7%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/8f/Screwsicon.png/revision/latest?cb=20250620104738
+      quantity: 3
+      consumable: true
+    output:
+      name: 9x21мм БТ гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x21%D0%BC%D0%BC_%D0%91%D0%A2_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/79/9x21sp13.png/revision/latest?cb=20220313105343
+      quantity: 150
+    duration: 8 ч 45 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 7.62x51мм M80
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x51%D0%BC%D0%BC_M80
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/94/M80ICON.png/revision/latest?cb=20220106054524
+      quantity: 80
+    duration: 10 ч 2 мин
+  - inputs:
+    - name: 9x39мм СП-5 гс
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x39%D0%BC%D0%BC_%D0%A1%D0%9F-5_%D0%B3%D1%81
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b8/SP5ICON.png/revision/latest?cb=20220313110154
+      quantity: 200
+      consumable: true
+    output:
+      name: 9x39мм СПП гс
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x39%D0%BC%D0%BC_%D0%A1%D0%9F%D0%9F_%D0%B3%D1%81
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/73/7n9icon.png/revision/latest?cb=20230612205845
+      quantity: 200
+    duration: 10 ч 30 мин
+  - inputs:
+    - name: Шило
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%B8%D0%BB%D0%BE
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/42/Awl_icon.png/revision/latest?cb=20220724152356
+      quantity: 0
+      consumable: false
+    output:
+      name: Граната "Хаттабка" на базе ВОГ-17
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%22%D0%A5%D0%B0%D1%82%D1%82%D0%B0%D0%B1%D0%BA%D0%B0%22_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B5_%D0%92%D0%9E%D0%93-17
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/ee/Vog-17_icon.png/revision/latest?cb=20250615131001
+      quantity: 8
+    duration: 2 ч 45 мин
+    requirements:
+    - '[послеГренадёр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%BD%D0%B0%D0%B4%D1%91%D1%80)'
+  - inputs:
+    - name: Оружейный порох "Коршун"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/Gunpowder_Icon.png/revision/latest?cb=20250326013950
+      quantity: 2
+      consumable: true
+    output:
+      name: 5.56x45мм MK 318 Mod 0 (SOST)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.56x45%D0%BC%D0%BC_MK_318_Mod_0_(SOST)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0c/Mk318SOSTICON.png/revision/latest?cb=20220108040000
+      quantity: 90
+    duration: 1 ч 44 мин 10 сек
+  - inputs:
+    - name: Оружейный порох "Орел"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9E%D1%80%D0%B5%D0%BB%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e5/Gunpowder_eagle_icon.png/revision/latest?cb=20250422121815
+      quantity: 3
+      consumable: true
+    output:
+      name: 9x39мм ПАБ-9 гс
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x39%D0%BC%D0%BC_%D0%9F%D0%90%D0%91-9_%D0%B3%D1%81
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/99/9x39_PAB-9_Icon.png/revision/latest?cb=20220313110137
+      quantity: 100
+    duration: 2 ч 2 мин 30 сек
+    requirements:
+    - '[После выполнения квестаТест-драйв. Часть 1](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%81%D1%82-%D0%B4%D1%80%D0%B0%D0%B9%D0%B2._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1)'
+  - inputs:
+    - name: Запал УЗРГМ для гранат
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B0%D0%BB_%D0%A3%D0%97%D0%A0%D0%93%D0%9C_%D0%B4%D0%BB%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e9/Fuze_icon.png/revision/latest?cb=20200314103546
+      quantity: 5
+      consumable: true
+    output:
+      name: Граната "Хаттабка" на базе ВОГ-17
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%22%D0%A5%D0%B0%D1%82%D1%82%D0%B0%D0%B1%D0%BA%D0%B0%22_%D0%BD%D0%B0_%D0%B1%D0%B0%D0%B7%D0%B5_%D0%92%D0%9E%D0%93-17
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/ee/Vog-17_icon.png/revision/latest?cb=20250615131001
+      quantity: 5
+    duration: 1 ч 20 мин
+    requirements:
+    - '[послеГренадёр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D1%80%D0%B5%D0%BD%D0%B0%D0%B4%D1%91%D1%80)'
+  - inputs:
+    - name: Сухое горючее
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%83%D1%85%D0%BE%D0%B5_%D0%B3%D0%BE%D1%80%D1%8E%D1%87%D0%B5%D0%B5
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fd/Dryfuelicon.png/revision/latest?cb=20250422122700
+      quantity: 1
+      consumable: true
+    output:
+      name: .300 Blackout M62 Tracer
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/.300_Blackout_M62_Tracer
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/05/300_BLK_M62_Icon.png/revision/latest?cb=20220101001352
+      quantity: 100
+    duration: 1 ч 53 мин 20 сек
+    requirements:
+    - '[После выполнения квестаМокрое дело. Часть 1](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BA%D1%80%D0%BE%D0%B5_%D0%B4%D0%B5%D0%BB%D0%BE._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1)'
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 7.62x39мм ПС гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x39%D0%BC%D0%BC_%D0%9F%D0%A1_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7a/7.62x39PS.png/revision/latest?cb=20230612210531
+      quantity: 120
+    duration: 4 ч 18 мин
+  - inputs:
+    - name: Оружейный порох "Коршун"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/Gunpowder_Icon.png/revision/latest?cb=20250326013950
+      quantity: 2
+      consumable: true
+    output:
+      name: 7.62x51мм БПЗ FMJ
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x51%D0%BC%D0%BC_%D0%91%D0%9F%D0%97_FMJ
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/5b/BPZ_FMJ_icon.png/revision/latest?cb=20220312185152
+      quantity: 120
+    duration: 5 ч
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 7.62x54мм R ЛПС гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x54%D0%BC%D0%BC_R_%D0%9B%D0%9F%D0%A1_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/88/LPSGZHICON.png/revision/latest?cb=20250326005141
+      quantity: 70
+    duration: 4 ч
+  - inputs:
+    - name: Пучок проводов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%83%D1%87%D0%BE%D0%BA_%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a4/Wiresicon.png/revision/latest?cb=20250620092637
+      quantity: 1
+      consumable: true
+    output:
+      name: 9x19мм Luger CCI
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x19%D0%BC%D0%BC_Luger_CCI
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/40/9x19cgi.png/revision/latest?cb=20221123052938
+      quantity: 180
+    duration: 3 ч
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 5.7x28мм L191
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.7x28%D0%BC%D0%BC_L191
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/57x28mmL191Icon.png/revision/latest?cb=20220130023213
+      quantity: 150
+    duration: 4 ч 30 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 12/70 пуля кустарная .50 BMG
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_%D0%BF%D1%83%D0%BB%D1%8F_%D0%BA%D1%83%D1%81%D1%82%D0%B0%D1%80%D0%BD%D0%B0%D1%8F_.50_BMG
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0b/12-70_.50_BMG_icon.png/revision/latest?cb=20221124060425
+      quantity: 60
+    duration: 3 ч 20 мин
+  - inputs:
+    - name: Плоскогубцы Elite
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B_Elite
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a7/PliersElite.png/revision/latest?cb=20250114200945
+      quantity: 0
+      consumable: false
+    output:
+      name: Вскрытый кейс снабжения (Редкий)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_(%D0%A0%D0%B5%D0%B4%D0%BA%D0%B8%D0%B9)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a1/Supply_crate_Rare_Icon.png/revision/latest/scale-to-width-down/180?cb=20250324044140
+      quantity: 1
+    duration: 5 мин
+  - inputs:
+    - name: Плоскогубцы Elite
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B_Elite
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a7/PliersElite.png/revision/latest?cb=20250114200945
+      quantity: 0
+      consumable: false
+    output:
+      name: Вскрытый кейс с ценностями (Редкий)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81_%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8F%D0%BC%D0%B8_(%D0%A0%D0%B5%D0%B4%D0%BA%D0%B8%D0%B9)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e9/Valuables_crate_Rare_Icon.png/revision/latest/scale-to-width-down/180?cb=20250324044139
+      quantity: 1
+    duration: 5 мин
+  - inputs:
+    - name: Плоскогубцы Elite
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B_Elite
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a7/PliersElite.png/revision/latest?cb=20250114200945
+      quantity: 0
+      consumable: false
+    output:
+      name: Вскрытый кейс со снаряжением (Редкий)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D1%81%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9_%D0%BA%D0%B5%D0%B9%D1%81_%D1%81%D0%BE_%D1%81%D0%BD%D0%B0%D1%80%D1%8F%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC_(%D0%A0%D0%B5%D0%B4%D0%BA%D0%B8%D0%B9)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/70/Equipment_crate_Rare_Icon.png/revision/latest/scale-to-width-down/180?cb=20250324044138
+      quantity: 1
+    duration: 5 мин
+Верстак УР3:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Верстак
+  recipes:
+  - inputs:
+    - name: Запал УЗРГМ для гранат
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D0%BF%D0%B0%D0%BB_%D0%A3%D0%97%D0%A0%D0%93%D0%9C_%D0%B4%D0%BB%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e9/Fuze_icon.png/revision/latest?cb=20200314103546
+      quantity: 3
+      consumable: true
+    output:
+      name: Ручная граната РГД-5
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%83%D1%87%D0%BD%D0%B0%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82%D0%B0_%D0%A0%D0%93%D0%94-5
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b1/RGD-5_grenade_icon.png/revision/latest?cb=20250615130955
+      quantity: 6
+    duration: 5 ч 5 мин
+  - inputs:
+    - name: Плоскогубцы
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/8f/Plier_Icon.png/revision/latest?cb=20250617070424
+      quantity: 0
+      consumable: false
+    output:
+      name: 5.45x39мм ППБС гс "Игольник"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.45x39%D0%BC%D0%BC_%D0%9F%D0%9F%D0%91%D0%A1_%D0%B3%D1%81_%22%D0%98%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/64/7n39icon.png/revision/latest?cb=20220312133322
+      quantity: 150
+    duration: 17 ч 1 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 23x75мм светозвуковой патрон "Звезда"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/23x75%D0%BC%D0%BC_%D1%81%D0%B2%D0%B5%D1%82%D0%BE%D0%B7%D0%B2%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9_%D0%BF%D0%B0%D1%82%D1%80%D0%BE%D0%BD_%22%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/ff/23x75_Star_icon.png/revision/latest?cb=20201019214441
+      quantity: 7
+    duration: 4 ч 35 мин
+  - inputs:
+    - name: Плоскогубцы Elite
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B_Elite
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a7/PliersElite.png/revision/latest?cb=20250114200945
+      quantity: 0
+      consumable: false
+    output:
+      name: Снаряд ОФЗ 30x165мм
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%BD%D0%B0%D1%80%D1%8F%D0%B4_%D0%9E%D0%A4%D0%97_30x165%D0%BC%D0%BC
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/9d/30x160mmShellicon.png/revision/latest?cb=20191029070343
+      quantity: 2
+    duration: 10 ч 50 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 1
+      consumable: true
+    output:
+      name: Набор для ремонта оружия
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B4%D0%BB%D1%8F_%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0_%D0%BE%D1%80%D1%83%D0%B6%D0%B8%D1%8F
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/20/WeaponRepairKit3.png/revision/latest/scale-to-width-down/180?cb=20251126225633
+      quantity: 1
+    duration: 14 ч
+  - inputs:
+    - name: 12.7x55мм ПС12А
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12.7x55%D0%BC%D0%BC_%D0%9F%D0%A112%D0%90
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7a/12.7x55_PS12A_icon.png/revision/latest?cb=20250326004456
+      quantity: 80
+      consumable: true
+    output:
+      name: 12.7x55мм ПС12Б
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12.7x55%D0%BC%D0%BC_%D0%9F%D0%A112%D0%91
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fb/12.7x55_PS12B_icon.png/revision/latest?cb=20250326004454
+      quantity: 60
+    duration: 13 ч 12 мин
+  - inputs:
+    - name: Набор инструментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/3a/Toolsicon.png/revision/latest?cb=20251228221010
+      quantity: 0
+      consumable: false
+    output:
+      name: Тепловизионный прицел Trijicon "REAP-IR"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D0%BF%D0%BB%D0%BE%D0%B2%D0%B8%D0%B7%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%B8%D1%86%D0%B5%D0%BB_Trijicon_%22REAP-IR%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1d/Thermalicon.png/revision/latest?cb=20230704233257
+      quantity: 1
+    duration: 24 ч
+  - inputs:
+    - name: Плоскогубцы Elite
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B_Elite
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a7/PliersElite.png/revision/latest?cb=20250114200945
+      quantity: 0
+      consumable: false
+    output:
+      name: Плата микроконтроллера
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B0_%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1a/Microcontrollerboard_icon.png/revision/latest?cb=20250226004135
+      quantity: 4
+    duration: 14 ч
+  - inputs:
+    - name: Ультрафиолетовая лампа
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%BB%D1%8C%D1%82%D1%80%D0%B0%D1%84%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BB%D0%B0%D0%BC%D0%BF%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1e/UV_lamp_Icon.png/revision/latest?cb=20250620105544
+      quantity: 0
+      consumable: false
+    output:
+      name: 4.6x30мм AP SX
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/4.6x30%D0%BC%D0%BC_AP_SX
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/cf/4.6x30APenIcon.png/revision/latest?cb=20220130013742
+      quantity: 120
+    duration: 7 ч 46 мин
+  - inputs:
+    - name: Набор инструментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/3a/Toolsicon.png/revision/latest?cb=20251228221010
+      quantity: 0
+      consumable: false
+    output:
+      name: Тепловизионный прицел FLIR "RS-32 2.25-9x 35mm 60Hz"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D0%BF%D0%BB%D0%BE%D0%B2%D0%B8%D0%B7%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%B8%D1%86%D0%B5%D0%BB_FLIR_%22RS-32_2.25-9x_35mm_60Hz%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/94/FLIR_RS-32_Icon.png/revision/latest?cb=20230704233248
+      quantity: 1
+    duration: 8 ч 56 мин
+  - inputs:
+    - name: Набор инструментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/3a/Toolsicon.png/revision/latest?cb=20251228221010
+      quantity: 0
+      consumable: false
+    output:
+      name: 9x19мм AP 6.3
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/9x19%D0%BC%D0%BC_AP_6.3
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c6/9x19ap.png/revision/latest?cb=20221123052912
+      quantity: 180
+    duration: 4 ч
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: .45 ACP AP
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/.45_ACP_AP
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b0/45APIcon.png/revision/latest?cb=20221123052756
+      quantity: 150
+    duration: 3 ч 26 м 40 с
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 5.7x28мм SS190
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.7x28%D0%BC%D0%BC_SS190
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/62/57x28mmSS190Icon.png/revision/latest?cb=20220130023232
+      quantity: 100
+    duration: 6 ч
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: .338 Lapua Magnum FMJ
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/.338_Lapua_Magnum_FMJ
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c7/338_fmj.png/revision/latest?cb=20220129043718
+      quantity: 50
+    duration: 10 ч
+  - inputs:
+    - name: 5.45x39мм ПС гс
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.45x39%D0%BC%D0%BC_%D0%9F%D0%A1_%D0%B3%D1%81
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e3/74PSICON.png/revision/latest?cb=20220312133415
+      quantity: 180
+      consumable: true
+    output:
+      name: 5.45x39мм БП гс
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.45x39%D0%BC%D0%BC_%D0%91%D0%9F_%D0%B3%D1%81
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2e/74BPICON.png/revision/latest?cb=20220312133329
+      quantity: 60
+    duration: 9 часов
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: 5.56x45мм M855A1
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/5.56x45%D0%BC%D0%BC_M855A1
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/5/5f/M855A1ICON.png/revision/latest?cb=20220108035923
+      quantity: 90
+    duration: 2 ч 20 мин
+    requirements:
+    - '[После выполнения квестаТехосмотр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B5%D1%85%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80)'
+  - inputs:
+    - name: Набор инструментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/3a/Toolsicon.png/revision/latest?cb=20251228221010
+      quantity: 0
+      consumable: false
+    output:
+      name: .300 Blackout AP
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/.300_Blackout_AP
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/40/BlackoutAP_Icon_.png/revision/latest?cb=20220108022610
+      quantity: 90
+    duration: 7 ч 3 мин
+  - inputs:
+    - name: Банка энергетика "Горячий Электрод"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B0_%22%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9_%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B4%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e6/Hor_Rod_icon.png/revision/latest?cb=20250107083516
+      quantity: 1
+      consumable: true
+    output:
+      name: 7.62x39мм БП гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x39%D0%BC%D0%BC_%D0%91%D0%9F_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/4a/7.62x39BP.png/revision/latest?cb=20230612210530
+      quantity: 60
+    duration: 2 ч 36 мин 40 сек
+    requirements:
+    - '[После выполнения квестаУстрашитель](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D1%81%D1%82%D1%80%D0%B0%D1%88%D0%B8%D1%82%D0%B5%D0%BB%D1%8C)'
+  - inputs:
+    - name: Оружейный порох "Орел"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9E%D1%80%D0%B5%D0%BB%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e5/Gunpowder_eagle_icon.png/revision/latest?cb=20250422121815
+      quantity: 2
+      consumable: true
+    output:
+      name: 7.62x54мм R ПС гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x54%D0%BC%D0%BC_R_%D0%9F%D0%A1_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/33/7N1ICON.png/revision/latest?cb=20250326005137
+      quantity: 50
+    duration: 6 ч
+  - inputs:
+    - name: 7.62x54мм R ПС гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x54%D0%BC%D0%BC_R_%D0%9F%D0%A1_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/33/7N1ICON.png/revision/latest?cb=20250326005137
+      quantity: 50
+      consumable: true
+    output:
+      name: 7.62x54мм R СНБ гж
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/7.62x54%D0%BC%D0%BC_R_%D0%A1%D0%9D%D0%91_%D0%B3%D0%B6
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e1/SNBICON.png/revision/latest?cb=20250326005134
+      quantity: 50
+    duration: 11 ч
+  - inputs:
+    - name: Пачка гвоздей
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D1%87%D0%BA%D0%B0_%D0%B3%D0%B2%D0%BE%D0%B7%D0%B4%D0%B5%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/72/Nailsicon.png/revision/latest?cb=20201103200605
+      quantity: 3
+      consumable: true
+    output:
+      name: 12/70 флешетта
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_%D1%84%D0%BB%D0%B5%D1%88%D0%B5%D1%82%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b0/12-70_Flechette_icon.png/revision/latest?cb=20220313112204
+      quantity: 60
+    duration: 50 мин
+    requirements:
+    - '[послеТихий калибр](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B8%D1%85%D0%B8%D0%B9_%D0%BA%D0%B0%D0%BB%D0%B8%D0%B1%D1%80)'
+  - inputs:
+    - name: 12/70 7мм картечь
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_7%D0%BC%D0%BC_%D0%BA%D0%B0%D1%80%D1%82%D0%B5%D1%87%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d7/12x70BUCKSHOT.png/revision/latest?cb=20220313112133
+      quantity: 50
+      consumable: true
+    output:
+      name: 12/70 бронебойная пуля AP-20
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/12/70_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%B1%D0%BE%D0%B9%D0%BD%D0%B0%D1%8F_%D0%BF%D1%83%D0%BB%D1%8F_AP-20
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3e/12-70_AP-20_icon.png/revision/latest?cb=20221124060334
+      quantity: 50
+    duration: 8 ч
+  - inputs:
+    - name: Набор напильников "Мастер"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%BD%D0%B0%D0%BF%D0%B8%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%22%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Files_master_icon.png/revision/latest?cb=20220724152137
+      quantity: 0
+      consumable: false
+    output:
+      name: Крупнокалиберная винтовка TheAKGuy AK-50 .50 BMG
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%80%D1%83%D0%BF%D0%BD%D0%BE%D0%BA%D0%B0%D0%BB%D0%B8%D0%B1%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D0%B2%D0%B8%D0%BD%D1%82%D0%BE%D0%B2%D0%BA%D0%B0_TheAKGuy_AK-50_.50_BMG
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d4/AK-50_Stripped_icon.png/revision/latest/scale-to-width-down/180?cb=20250717133448
+      quantity: 1
+    duration: 42 ч
+    requirements:
+    - '[послеКлуб по интересам](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%83%D0%B1_%D0%BF%D0%BE_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B5%D1%81%D0%B0%D0%BC)'
+Водосборник УР1:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Водосборник
+  recipes:
+  - inputs:
+    - name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c4/WaterBottleAlmostEmpty.png/revision/latest?cb=20250719125345
+      quantity: 1
+      consumable: true
+    output:
+      name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 1
+    duration: 20 мин
+Водосборник УР2:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Водосборник
+  recipes:
+  - inputs:
+    - name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 5
+      consumable: true
+    output:
+      name: Бутылка воды с фильтром Aquamari
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_%D1%81_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%BC_Aquamari
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/bd/Aquamari_icon.png/revision/latest?cb=20250107083008
+      quantity: 5
+    duration: 1 ч
+  - inputs:
+    - name: Пакет сока "Великий"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BA%D0%B5%D1%82_%D1%81%D0%BE%D0%BA%D0%B0_%22%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B8%D0%B9%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/f8/Grand_Juice_icon.png/revision/latest?cb=20250430145723
+      quantity: 1
+      consumable: true
+    output:
+      name: Аварийный пакет с водой
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D0%B0%D1%80%D0%B8%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B0%D0%BA%D0%B5%D1%82_%D1%81_%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/32/EmergencyWaterRationIcon.png/revision/latest?cb=20220622002619
+      quantity: 2
+    duration: 30 мин
+Водосборник УР3:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Водосборник
+  recipes:
+  - inputs:
+    - name: Водный фильтр
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/bc/Water_filter_icon.png/revision/latest?cb=20251216040806
+      quantity: 66
+      consumable: true
+    output:
+      name: Канистра с очищенной водой
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0_%D1%81_%D0%BE%D1%87%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2b/Purified_water_icon.png/revision/latest?cb=20250427021318
+      quantity: 1
+    duration: 5 ч 25 мин
+Медблок УР1:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Медблок
+  recipes:
+  - inputs:
+    - name: Набор медикаментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%BC%D0%B5%D0%B4%D0%B8%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b6/Pile_of_meds_icon.png/revision/latest?cb=20250422144922
+      quantity: 1
+      consumable: true
+    output:
+      name: Аптечка АИ-2
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_%D0%90%D0%98-2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/98/AI-2_icon.png/revision/latest?cb=20250603163921
+      quantity: 3
+    duration: 22 мин
+  - inputs:
+    - name: Автомобильная аптечка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b9/EFT_Car-first-aid-kit_Icon.png/revision/latest?cb=20250603163917
+      quantity: 2
+      consumable: true
+    output:
+      name: Аптечка Salewa First Aid Kit
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_Salewa_First_Aid_Kit
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/77/EFT_Salewa-First-Aid-Kit_Icon_2.png/revision/latest?cb=20250114193333
+      quantity: 1
+    duration: 39 мин 10 сек
+  - inputs:
+    - name: Набор медикаментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%BC%D0%B5%D0%B4%D0%B8%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b6/Pile_of_meds_icon.png/revision/latest?cb=20250422144922
+      quantity: 1
+      consumable: true
+    output:
+      name: Гемостатик CALOK-B
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%B5%D0%BC%D0%BE%D1%81%D1%82%D0%B0%D1%82%D0%B8%D0%BA_CALOK-B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/d/d9/HemostaticIcon.png/revision/latest?cb=20250114193145
+      quantity: 1
+    duration: 30 мин
+  - inputs:
+    - name: Автомобильная аптечка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b9/EFT_Car-first-aid-kit_Icon.png/revision/latest?cb=20250603163917
+      quantity: 1
+      consumable: true
+    output:
+      name: Хирургический набор CMS
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A5%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BD%D0%B0%D0%B1%D0%BE%D1%80_CMS
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6d/CMS_Icon.png/revision/latest?cb=20251115213934
+      quantity: 1
+    duration: 49 мин 10 сек
+Медблок УР2:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Медблок
+  recipes:
+  - inputs:
+    - name: Армейский бинт
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D1%80%D0%BC%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B1%D0%B8%D0%BD%D1%82
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2a/EFT_Army-Bandage_Icon.png/revision/latest?cb=20250603163929
+      quantity: 2
+      consumable: true
+    output:
+      name: Индивидуальная тактическая аптечка IFAK
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B0%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_IFAK
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/20/EFT_IFAK_Icon.png/revision/latest?cb=20250114193433
+      quantity: 2
+    duration: 50 мин
+  - inputs:
+    - name: Бинт стерильный
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B8%D0%BD%D1%82_%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/11/EFT_Aseptic-Bandage_Icon.png/revision/latest?cb=20250603163924
+      quantity: 1
+      consumable: true
+    output:
+      name: Набор медикаментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%BC%D0%B5%D0%B4%D0%B8%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b6/Pile_of_meds_icon.png/revision/latest?cb=20250422144922
+      quantity: 3
+    duration: 48 мин
+  - inputs:
+    - name: Шприц с морфием
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BF%D1%80%D0%B8%D1%86_%D1%81_%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B5%D0%BC
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/99/EFT_Morphine_Icon.png/revision/latest?cb=20230527141516
+      quantity: 1
+      consumable: true
+    output:
+      name: Боевой стимулятор SJ1 TGLabs
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D1%81%D1%82%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80_SJ1_TGLabs
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ab/Combat_stimulant_SJ1_icon.png/revision/latest?cb=20220121141737
+      quantity: 5
+    duration: 1 ч 23 м 10 с
+  - inputs:
+    - name: Таблетки Анальгин
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8_%D0%90%D0%BD%D0%B0%D0%BB%D1%8C%D0%B3%D0%B8%D0%BD
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e0/EFT_Painkillers_Icon.png/revision/latest?cb=20250603163914
+      quantity: 1
+      consumable: true
+    output:
+      name: Шприц с морфием
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BF%D1%80%D0%B8%D1%86_%D1%81_%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B5%D0%BC
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/99/EFT_Morphine_Icon.png/revision/latest?cb=20230527141516
+      quantity: 1
+    duration: 1 ч 12 м 30 с
+  - inputs:
+    - name: Силиконовая трубка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F_%D1%82%D1%80%D1%83%D0%B1%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2e/SiliconeTubeIcon.png/revision/latest?cb=20250422152455
+      quantity: 1
+      consumable: true
+    output:
+      name: Набор для переливания крови
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B4%D0%BB%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%BA%D1%80%D0%BE%D0%B2%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/56/Medical_Bloodset_Icon.png/revision/latest?cb=20230919023713
+      quantity: 1
+    duration: 27 мин 50 сек
+  - inputs:
+    - name: Магнит
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/83/Magnet_Icon.png/revision/latest?cb=20190325191140
+      quantity: 2
+      consumable: true
+    output:
+      name: Портативный дефибриллятор
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%B4%D0%B5%D1%84%D0%B8%D0%B1%D1%80%D0%B8%D0%BB%D0%BB%D1%8F%D1%82%D0%BE%D1%80
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/81/Defibrillatoricon.png/revision/latest?cb=20250422145351
+      quantity: 1
+    duration: 5 ч 15 мин
+  - inputs:
+    - name: Аптечка АИ-2
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_%D0%90%D0%98-2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/98/AI-2_icon.png/revision/latest?cb=20250603163921
+      quantity: 2
+      consumable: true
+    output:
+      name: Антидот xTG-12
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BD%D1%82%D0%B8%D0%B4%D0%BE%D1%82_xTG-12
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/ba/XTG-12icon.png/revision/latest?cb=20201228003048
+      quantity: 1
+    duration: 1 ч 10 мин
+    requirements:
+    - '[послеНочная прогулка](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%BF%D1%80%D0%BE%D0%B3%D1%83%D0%BB%D0%BA%D0%B0)'
+  - inputs:
+    - name: Шприц с морфием
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BF%D1%80%D0%B8%D1%86_%D1%81_%D0%BC%D0%BE%D1%80%D1%84%D0%B8%D0%B5%D0%BC
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/99/EFT_Morphine_Icon.png/revision/latest?cb=20230527141516
+      quantity: 1
+      consumable: true
+    output:
+      name: Стимулятор M.U.L.E.
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80_M.U.L.E.
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/c/c2/M.U.L.E._Stimulator_Icon.png/revision/latest?cb=20200727184509
+      quantity: 1
+    duration: 1 ч 31 м 40 с
+    requirements:
+    - '[После квестаДоктор "Айболит"](https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%22%D0%90%D0%B9%D0%B1%D0%BE%D0%BB%D0%B8%D1%82%22)'
+  - inputs:
+    - name: Регенеративный препарат Пропитал
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82_%D0%9F%D1%80%D0%BE%D0%BF%D0%B8%D1%82%D0%B0%D0%BB
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1b/PropitalIcon.png/revision/latest?cb=20230527141524
+      quantity: 1
+      consumable: true
+    output:
+      name: Регенеративный стимулятор eTG-change
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80_eTG-change
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/92/ETG_change_icon.png/revision/latest?cb=20220121141743
+      quantity: 1
+    duration: 1 ч 20 мин
+    requirements:
+    - '[послеДоктор "Айболит"](https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%82%D0%BE%D1%80_%22%D0%90%D0%B9%D0%B1%D0%BE%D0%BB%D0%B8%D1%82%22)'
+  - inputs:
+    - name: Шприц с адреналином
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BF%D1%80%D0%B8%D1%86_%D1%81_%D0%B0%D0%B4%D1%80%D0%B5%D0%BD%D0%B0%D0%BB%D0%B8%D0%BD%D0%BE%D0%BC
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/33/Adrenaline_Icon.png/revision/latest?cb=20230527141528
+      quantity: 1
+      consumable: true
+    output:
+      name: Препарат 2A2-(b-TG)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82_2A2-(b-TG)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/14/2A2-%28b-TG%29_stimulant_injector_icon.png/revision/latest?cb=20240530181115
+      quantity: 1
+    duration: 1 ч 20 м
+    requirements:
+    - '[послеВодохлёб. Секреты](https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B4%D0%BE%D1%85%D0%BB%D1%91%D0%B1._%D0%A1%D0%B5%D0%BA%D1%80%D0%B5%D1%82%D1%8B)'
+Медблок УР3:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Медблок
+  recipes:
+  - inputs:
+    - name: Алюминиевая шина для переломов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D0%B5%D0%B2%D0%B0%D1%8F_%D1%88%D0%B8%D0%BD%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/81/AluSplintIcon.png/revision/latest?cb=20241228082156
+      quantity: 1
+      consumable: true
+    output:
+      name: Аптечка Grizzly
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_Grizzly
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/92/EFT_Grizzly_Icon.png/revision/latest?cb=20250114193457
+      quantity: 2
+    duration: 1 ч 15 мин
+  - inputs:
+    - name: Мазь "Золотая Звезда"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B7%D1%8C_%22%D0%97%D0%BE%D0%BB%D0%BE%D1%82%D0%B0%D1%8F_%D0%97%D0%B2%D0%B5%D0%B7%D0%B4%D0%B0%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c1/Golden_Star_Balm_Icon.png/revision/latest?cb=20230618113411
+      quantity: 1
+      consumable: true
+    output:
+      name: Регенеративный препарат Пропитал
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B5%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B9_%D0%BF%D1%80%D0%B5%D0%BF%D0%B0%D1%80%D0%B0%D1%82_%D0%9F%D1%80%D0%BE%D0%BF%D0%B8%D1%82%D0%B0%D0%BB
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/1b/PropitalIcon.png/revision/latest?cb=20230527141524
+      quantity: 7
+    duration: 1 ч 55 мин
+  - inputs:
+    - name: Шина для переломов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%B8%D0%BD%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/26/EFT_Splint_Icon.png/revision/latest?cb=20250603163933
+      quantity: 2
+      consumable: true
+    output:
+      name: Полевой хирургический набор Surv12
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%BB%D0%B5%D0%B2%D0%BE%D0%B9_%D1%85%D0%B8%D1%80%D1%83%D1%80%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BD%D0%B0%D0%B1%D0%BE%D1%80_Surv12
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/46/Surv12_icon.png/revision/latest/scale-to-width-down/180?cb=20251116010120
+      quantity: 1
+    duration: 1 ч 16 м 40 с
+  - inputs:
+    - name: Кусок мыла
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%83%D1%81%D0%BE%D0%BA_%D0%BC%D1%8B%D0%BB%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/95/Soap_icon.png/revision/latest?cb=20190325000807
+      quantity: 3
+      consumable: true
+    output:
+      name: Вазелиновая мазь
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%B0%D0%B7%D0%B5%D0%BB%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D0%B0%D0%B7%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/EFT_Vaseline_Icon.png/revision/latest?cb=20250603163936
+      quantity: 2
+    duration: 55 мин
+  - inputs:
+    - name: Бутылка физраствора
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D1%84%D0%B8%D0%B7%D1%80%D0%B0%D1%81%D1%82%D0%B2%D0%BE%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1b/Saline_Solution_icon.png/revision/latest?cb=20250114194207
+      quantity: 1
+      consumable: true
+    output:
+      name: Боевой стимулятор SJ6 TGLabs
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D1%81%D1%82%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80_SJ6_TGLabs
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/9c/Combat_stimulant_SJ6_icon.png/revision/latest?cb=20220121142354
+      quantity: 2
+    duration: 1 ч 25 мин
+  - inputs:
+    - name: Магнит
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/83/Magnet_Icon.png/revision/latest?cb=20190325191140
+      quantity: 3
+      consumable: true
+    output:
+      name: Светодиодный трансиллюминатор кожи LEDX
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B2%D0%B5%D1%82%D0%BE%D0%B4%D0%B8%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%B8%D0%BB%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80_%D0%BA%D0%BE%D0%B6%D0%B8_LEDX
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/4e/TransilluminatorIcon.png/revision/latest?cb=20250114194240
+      quantity: 1
+    duration: 33 ч 20 м
+  - inputs:
+    - name: Армейский бинт
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D1%80%D0%BC%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B1%D0%B8%D0%BD%D1%82
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2a/EFT_Army-Bandage_Icon.png/revision/latest?cb=20250603163929
+      quantity: 1
+      consumable: true
+    output:
+      name: Индивидуальная тактическая аптечка AFAK
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%BD%D0%B4%D0%B8%D0%B2%D0%B8%D0%B4%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%B0%D0%BF%D1%82%D0%B5%D1%87%D0%BA%D0%B0_AFAK
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f4/AFAK_first_aid.png/revision/latest?cb=20250114193526
+      quantity: 1
+    duration: 1 ч
+Пищеблок УР1:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Пищеблок
+  recipes:
+  - inputs:
+    - name: Хлебцы армейские
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A5%D0%BB%D0%B5%D0%B1%D1%86%D1%8B_%D0%B0%D1%80%D0%BC%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2f/Army_Crackers_icon.png/revision/latest?cb=20250430145824
+      quantity: 2
+      consumable: true
+    output:
+      name: Сухой паек "Искра"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%83%D1%85%D0%BE%D0%B9_%D0%BF%D0%B0%D0%B5%D0%BA_%22%D0%98%D1%81%D0%BA%D1%80%D0%B0%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/8f/Lunchbox_icon.png/revision/latest?cb=20250430145749
+      quantity: 2
+    duration: 48 мин 20 сек
+  - inputs:
+    - name: Сухарики ржаные
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%83%D1%85%D0%B0%D1%80%D0%B8%D0%BA%D0%B8_%D1%80%D0%B6%D0%B0%D0%BD%D1%8B%D0%B5
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/67/Rye_Croutons.png/revision/latest?cb=20250430145819
+      quantity: 1
+      consumable: true
+    output:
+      name: Банка тушеной говядины (Маленькая)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%82%D1%83%D1%88%D0%B5%D0%BD%D0%BE%D0%B9_%D0%B3%D0%BE%D0%B2%D1%8F%D0%B4%D0%B8%D0%BD%D1%8B_(%D0%9C%D0%B0%D0%BB%D0%B5%D0%BD%D1%8C%D0%BA%D0%B0%D1%8F)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a7/Can_of_beef_stew_Icon.png/revision/latest?cb=20250430145811
+      quantity: 2
+    duration: 1 ч 18 м 30 с
+  - inputs:
+    - name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 1
+      consumable: true
+    output:
+      name: Банка энергетика "Чистая Энергия"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B0_%22%D0%A7%D0%B8%D1%81%D1%82%D0%B0%D1%8F_%D0%AD%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ec/NRG_Drink_icon.png/revision/latest?cb=20220406135114
+      quantity: 4
+    duration: 1 ч 48 мин
+  - inputs:
+    - name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 2
+      consumable: true
+    output:
+      name: Премиумный квас "Норвинский Ядреный" (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%B5%D0%BC%D0%B8%D1%83%D0%BC%D0%BD%D1%8B%D0%B9_%D0%BA%D0%B2%D0%B0%D1%81_%22%D0%9D%D0%BE%D1%80%D0%B2%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%AF%D0%B4%D1%80%D0%B5%D0%BD%D1%8B%D0%B9%22_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/71/Kvass_icon.png/revision/latest?cb=20250430145737
+      quantity: 2
+    duration: 1 ч 3 мин
+  - inputs:
+    - name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 1
+      consumable: true
+    output:
+      name: Аварийный пакет с водой
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%B2%D0%B0%D1%80%D0%B8%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B0%D0%BA%D0%B5%D1%82_%D1%81_%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/32/EmergencyWaterRationIcon.png/revision/latest?cb=20220622002619
+      quantity: 2
+    duration: 1 ч 6 м 40 с
+  - inputs:
+    - name: Банка тушеной говядины (Большая)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%82%D1%83%D1%88%D0%B5%D0%BD%D0%BE%D0%B9_%D0%B3%D0%BE%D0%B2%D1%8F%D0%B4%D0%B8%D0%BD%D1%8B_(%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/ad/Can_of_beef_stew_alt_Icon.png/revision/latest?cb=20250430145759
+      quantity: 1
+      consumable: true
+    output:
+      name: Сухой паек MRE
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%83%D1%85%D0%BE%D0%B9_%D0%BF%D0%B0%D0%B5%D0%BA_MRE
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a4/MRE_icon.png/revision/latest?cb=20250117123310
+      quantity: 2
+    duration: 40 минут
+  - inputs:
+    - name: Счетчик Гейгера-Мюллера
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B5%D1%82%D1%87%D0%B8%D0%BA_%D0%93%D0%B5%D0%B9%D0%B3%D0%B5%D1%80%D0%B0-%D0%9C%D1%8E%D0%BB%D0%BB%D0%B5%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/86/Geiger-Mueller_counter_Icon.png/revision/latest?cb=20190325191150
+      quantity: 1
+      consumable: true
+    output:
+      name: Палка говяжьей колбасы "Соленый Пёс"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BB%D0%BA%D0%B0_%D0%B3%D0%BE%D0%B2%D1%8F%D0%B6%D1%8C%D0%B5%D0%B9_%D0%BA%D0%BE%D0%BB%D0%B1%D0%B0%D1%81%D1%8B_%22%D0%A1%D0%BE%D0%BB%D0%B5%D0%BD%D1%8B%D0%B9_%D0%9F%D1%91%D1%81%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c8/Salty_dog_sausage_icon.png/revision/latest?cb=20250620105549
+      quantity: 1
+    duration: 33 минуты
+Пищеблок УР2:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Пищеблок
+  recipes:
+  - inputs:
+    - name: Пакет молока
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BA%D0%B5%D1%82_%D0%BC%D0%BE%D0%BB%D0%BE%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d3/Pack_ofMilk_icon.png/revision/latest?cb=20250430145729
+      quantity: 1
+      consumable: true
+    output:
+      name: Банка сгущенного молока
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%81%D0%B3%D1%83%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BB%D0%BE%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c0/Condmilkicon.png/revision/latest?cb=20231001212623
+      quantity: 3
+    duration: 1 ч 21 м 40 с
+  - inputs:
+    - name: Сигареты "Союз Аполлон"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%B3%D0%B0%D1%80%D0%B5%D1%82%D1%8B_%22%D0%A1%D0%BE%D1%8E%D0%B7_%D0%90%D0%BF%D0%BE%D0%BB%D0%BB%D0%BE%D0%BD%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/cc/Apollon_Soyuz_cigarettes_Icon.png/revision/latest?cb=20210731123616
+      quantity: 1
+      consumable: true
+    output:
+      name: Сигареты Wilston
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%B3%D0%B0%D1%80%D0%B5%D1%82%D1%8B_Wilston
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/af/Wilstonicon.png/revision/latest?cb=20210731123627
+      quantity: 5
+    duration: 1 ч 41 м 40 с
+  - inputs:
+    - name: Шоколад "Аленка"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4_%22%D0%90%D0%BB%D0%B5%D0%BD%D0%BA%D0%B0%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/bc/Alyonka_Chocolate_Bar_icon.png/revision/latest?cb=20250430145756
+      quantity: 1
+      consumable: true
+    output:
+      name: Шоколадный батончик Slickers
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4%D0%BD%D1%8B%D0%B9_%D0%B1%D0%B0%D1%82%D0%BE%D0%BD%D1%87%D0%B8%D0%BA_Slickers
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/93/Slickers_bar_icon.png/revision/latest?cb=20250117124034
+      quantity: 5
+    duration: 21 мин 30 сек
+  - inputs:
+    - name: Шоколад "Аленка"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BE%D0%BA%D0%BE%D0%BB%D0%B0%D0%B4_%22%D0%90%D0%BB%D0%B5%D0%BD%D0%BA%D0%B0%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/bc/Alyonka_Chocolate_Bar_icon.png/revision/latest?cb=20250430145756
+      quantity: 2
+      consumable: true
+    output:
+      name: Пачка сахара
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D1%87%D0%BA%D0%B0_%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a8/Sugar_icon.png/revision/latest?cb=20250430145746
+      quantity: 1
+    duration: 1 ч 23 м 20 с
+  - inputs:
+    - name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 5
+      consumable: true
+    output:
+      name: Бутылка воды с фильтром Aquamari
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_%D1%81_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%BE%D0%BC_Aquamari
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/bd/Aquamari_icon.png/revision/latest?cb=20250107083008
+      quantity: 3
+    duration: 4 ч 51 мин
+  - inputs:
+    - name: Оружейный порох "Коршун"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%80%D1%83%D0%B6%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85_%22%D0%9A%D0%BE%D1%80%D1%88%D1%83%D0%BD%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/4/43/Gunpowder_Icon.png/revision/latest?cb=20250326013950
+      quantity: 1
+      consumable: true
+    output:
+      name: Банка кофе Majaica
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D0%BA%D0%BE%D1%84%D0%B5_Majaica
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/14/Coffeicon.png/revision/latest?cb=20250110174257
+      quantity: 2
+    duration: 45 мин
+Пищеблок УР3:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Пищеблок
+  recipes:
+  - inputs:
+    - name: Канистра с очищенной водой
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B0%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0_%D1%81_%D0%BE%D1%87%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9_%D0%B2%D0%BE%D0%B4%D0%BE%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2b/Purified_water_icon.png/revision/latest?cb=20250427021318
+      quantity: 1
+      consumable: true
+    output:
+      name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 8
+    duration: 1 ч 50 мин
+  - inputs:
+    - name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 5
+      consumable: true
+    output:
+      name: Бутылка водки "Тарковская"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D0%BA%D0%B8_%22%D0%A2%D0%B0%D1%80%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/75/VodkaIcon.png/revision/latest?cb=20230919023323
+      quantity: 10
+    duration: 1 ч 35 мин
+  - inputs:
+    - name: Пачка сахара
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D1%87%D0%BA%D0%B0_%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a8/Sugar_icon.png/revision/latest?cb=20250430145746
+      quantity: 1
+      consumable: true
+    output:
+      name: Банка энергетика "Горячий Электрод"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%8D%D0%BD%D0%B5%D1%80%D0%B3%D0%B5%D1%82%D0%B8%D0%BA%D0%B0_%22%D0%93%D0%BE%D1%80%D1%8F%D1%87%D0%B8%D0%B9_%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B4%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e6/Hor_Rod_icon.png/revision/latest?cb=20250107083516
+      quantity: 20
+    duration: 12 часов
+  - inputs:
+    - name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 2
+      consumable: true
+    output:
+      name: Бутылка виски Dan Jackiel
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%B8%D1%81%D0%BA%D0%B8_Dan_Jackiel
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/cb/Whiskey_icon.png/revision/latest?cb=20250427021410
+      quantity: 3
+    duration: 1 ч 46 мин
+  - inputs:
+    - name: Сухарики ржаные
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%83%D1%85%D0%B0%D1%80%D0%B8%D0%BA%D0%B8_%D1%80%D0%B6%D0%B0%D0%BD%D1%8B%D0%B5
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/67/Rye_Croutons.png/revision/latest?cb=20250430145819
+      quantity: 5
+      consumable: true
+    output:
+      name: Бутылка пива "Певко светлое"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%BF%D0%B8%D0%B2%D0%B0_%22%D0%9F%D0%B5%D0%B2%D0%BA%D0%BE_%D1%81%D0%B2%D0%B5%D1%82%D0%BB%D0%BE%D0%B5%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/df/Pevko_beer_icon.png/revision/latest?cb=20220715125310
+      quantity: 10
+    duration: 10 ч
+  - inputs:
+    - name: Банка тушеной говядины (Большая)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B0%D0%BD%D0%BA%D0%B0_%D1%82%D1%83%D1%88%D0%B5%D0%BD%D0%BE%D0%B9_%D0%B3%D0%BE%D0%B2%D1%8F%D0%B4%D0%B8%D0%BD%D1%8B_(%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%B0%D1%8F)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/ad/Can_of_beef_stew_alt_Icon.png/revision/latest?cb=20250430145759
+      quantity: 1
+      consumable: true
+    output:
+      name: Пакет ананасового сока "Армия России"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BA%D0%B5%D1%82_%D0%B0%D0%BD%D0%B0%D0%BD%D0%B0%D1%81%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D1%81%D0%BE%D0%BA%D0%B0_%22%D0%90%D1%80%D0%BC%D0%B8%D1%8F_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/15/Pineapple_Juice_icon.png/revision/latest?cb=20250430145713
+      quantity: 6
+    duration: 1 ч 11 мин
+Разведцентр УР1:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Разведцентр
+  recipes:
+  - inputs:
+    - name: Отвертка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/da/Screwdriver_Icon.png/revision/latest?cb=20251216033755
+      quantity: 0
+      consumable: false
+    output:
+      name: Цифровой защищенный DSP радиопередатчик
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B7%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_DSP_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fb/DSP_transmitter_icon.png/revision/latest?cb=20250330132438
+      quantity: 1
+    duration: 1 ч
+  - inputs:
+    - name: Зашифрованная флешка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+      quantity: 1
+      consumable: true
+    output:
+      name: Расшифрованная флешка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+      quantity: 1
+    duration: 15 мин
+  - inputs:
+    - name: Зашифрованная флешка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+      quantity: 1
+      consumable: true
+    output:
+      name: Документы с расшифрованными данными
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/47/Documents_with_decrypted_data_icon.png/revision/latest?cb=20250102191014
+      quantity: 1
+    duration: 10 мин
+  - inputs:
+    - name: Зашифрованная флешка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D1%84%D0%BB%D0%B5%D1%88%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+      quantity: 1
+      consumable: true
+    output:
+      name: Документы с расшифрованными данными
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B_%D1%81_%D1%80%D0%B0%D1%81%D1%88%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/4/47/Documents_with_decrypted_data_icon.png/revision/latest?cb=20250102191014
+      quantity: 1
+    duration: 10 мин
+  - inputs:
+    - name: Защищенный флеш-накопитель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+      quantity: 1
+      consumable: true
+    output:
+      name: Флеш-накопитель для подключения
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A4%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%B4%D0%BB%D1%8F_%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D1%8F
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a1/Flash_drive_with_special_software_icon.png/revision/latest?cb=20250102191031
+      quantity: 1
+    duration: 15 мин
+  - inputs:
+    - name: Мастер-пропуск для лаборатории
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80-%D0%BF%D1%80%D0%BE%D0%BF%D1%83%D1%81%D0%BA_%D0%B4%D0%BB%D1%8F_%D0%BB%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%B8%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0b/Labs_Master_Keycard_Icon.png/revision/latest?cb=20251217005841
+      quantity: 0
+      consumable: false
+    output:
+      name: Активированная RFID-карта с данными Круглова
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BA%D1%82%D0%B8%D0%B2%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_RFID-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D1%81_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8_%D0%9A%D1%80%D1%83%D0%B3%D0%BB%D0%BE%D0%B2%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/1/1b/Activated_Kruglov%27s_RFID_keycard_icon.png/revision/latest?cb=20251211172441
+      quantity: 1
+    duration: 39 часов
+    requirements:
+    - '[После прохождения главы историиБилетнеобходимо на протяжении всего процесса](https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B8%D0%BB%D0%B5%D1%82)'
+  - inputs:
+    - name: Считыватель UHF RFID
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
+      quantity: 0
+      consumable: false
+    output:
+      name: Перезаписанная ключ-карта для замка в квартире А.П. (Зеленая)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%B2_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5_%D0%90.%D0%9F._(%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%B0%D1%8F)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/22/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_%28Green%29_icon.png/revision/latest?cb=20251229201833
+      quantity: 1
+    duration: 4 ч 30 мин
+    requirements:
+    - '[Во время прохождениясюжетной историиНеизвестные](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5)'
+  - inputs:
+    - name: Считыватель UHF RFID
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
+      quantity: 0
+      consumable: false
+    output:
+      name: Перезаписанная ключ-карта для замка в квартире А.П. (Красная)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%B2_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5_%D0%90.%D0%9F._(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/6f/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_%28Red%29_icon.png/revision/latest?cb=20251130194607
+      quantity: 1
+    duration: 4 ч 30 мин
+    requirements:
+    - '[Во время прохождениясюжетной историиНеизвестные](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5)'
+  - inputs:
+    - name: Считыватель UHF RFID
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
+      quantity: 0
+      consumable: false
+    output:
+      name: Перезаписанная ключ-карта для замка в квартире А.П. (Синяя)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%BD%D0%B0%D1%8F_%D0%BA%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%B7%D0%B0%D0%BC%D0%BA%D0%B0_%D0%B2_%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B5_%D0%90.%D0%9F._(%D0%A1%D0%B8%D0%BD%D1%8F%D1%8F)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b0/Reprogrammed_keycard_for_A.P.%27s_apartment_lock_%28Blue%29_icon.png/revision/latest?cb=20251130194634
+      quantity: 1
+    duration: 4 ч 30 мин
+    requirements:
+    - '[Во время прохождениясюжетной историиНеизвестные](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5)'
+Разведцентр УР2:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Разведцентр
+  recipes:
+  - inputs:
+    - name: Разбитый смартфон GPhone
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D1%8B%D0%B9_%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_GPhone
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/be/Broken_GPhone_Icon.png/revision/latest?cb=20250126235517
+      quantity: 1
+      consumable: true
+    output:
+      name: Защищенный флеш-накопитель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+      quantity: 3
+    duration: 34 ч 13 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: Программируемый процессор Virtex
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D1%83%D0%B5%D0%BC%D1%8B%D0%B9_%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80_Virtex
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0d/Virtex_programmable_processor_Icon.png/revision/latest?cb=20250114194319
+      quantity: 1
+    duration: 23 часа
+  - inputs:
+    - name: Набор инструментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/3a/Toolsicon.png/revision/latest?cb=20251228221010
+      quantity: 0
+      consumable: false
+    output:
+      name: Военный COFDM беспроводной передатчик сигналов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_COFDM_%D0%B1%D0%B5%D1%81%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D0%BE%D0%B9_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA_%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/3/3a/COFDM_Icon.png/revision/latest?cb=20250114194526
+      quantity: 1
+    duration: 38 ч 53 мин
+    requirements:
+    - '[После квестаПропавший информатор](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D0%BF%D0%B0%D0%B2%D1%88%D0%B8%D0%B9_%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%BE%D1%80)'
+  - inputs:
+    - name: Разбитый смартфон GPhone
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B1%D0%B8%D1%82%D1%8B%D0%B9_%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD_GPhone
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/be/Broken_GPhone_Icon.png/revision/latest?cb=20250126235517
+      quantity: 3
+      consumable: true
+    output:
+      name: Твердотельный накопитель VPX Flash Storage Module
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B2%D0%B5%D1%80%D0%B4%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_VPX_Flash_Storage_Module
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/88/VPXFlashIcon.png/revision/latest?cb=20250122135404
+      quantity: 2
+    duration: 62 ч 30 мин
+    requirements:
+    - '[послеОтветная услуга](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%82%D0%BD%D0%B0%D1%8F_%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0)'
+  - inputs:
+    - name: Подавитель сигналов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%B4%D0%B0%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/67/Signal_Jammer_icon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: Считыватель UHF RFID
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
+      quantity: 1
+    duration: 53 ч 20 мин
+  - inputs:
+    - name: Защищенный флеш-накопитель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+      quantity: 5
+      consumable: true
+    output:
+      name: Ключ-карта от Объекта 11SR
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_%D0%BE%D1%82_%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0_11SR
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2c/11sr_icon.png/revision/latest?cb=20250406165933
+      quantity: 1
+    duration: 65 ч 33 мин 20 сек
+  - inputs:
+    - name: Отвертка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/da/Screwdriver_Icon.png/revision/latest?cb=20251216033755
+      quantity: 0
+      consumable: false
+    output:
+      name: Цифровой защищенный DSP радиопередатчик
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A6%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B9_%D0%B7%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_DSP_%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%82%D1%87%D0%B8%D0%BA
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/fb/DSP_transmitter_icon.png/revision/latest?cb=20250330132438
+      quantity: 1
+    duration: 2 часа
+    requirements:
+    - '[После принятия квестаНовое знакомствотребуется в течение всего процесса](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE)'
+Разведцентр УР3:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Разведцентр
+  recipes:
+  - inputs:
+    - name: Бумага для принтера
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d2/Printer_Paper_icon.png/revision/latest?cb=20191123015145
+      quantity: 1
+      consumable: true
+    output:
+      name: Папка с разведданными
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0_%D1%81_%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D0%B4%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/85/FolderWithIntelligence_Icon.png/revision/latest?cb=20251126154038
+      quantity: 1
+    duration: 31 ч 40 мин
+  - inputs:
+    - name: Процессорный кулер
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BD%D1%8B%D0%B9_%D0%BA%D1%83%D0%BB%D0%B5%D1%80
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a8/CPU_Fan_Icon.png/revision/latest?cb=20190325191134
+      quantity: 2
+      consumable: true
+    output:
+      name: Видеокарта
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D0%B0%D1%80%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b3/Graphics_Card_icon.png/revision/latest?cb=20250122021908
+      quantity: 1
+    duration: 96 ч 56 мин
+  - inputs:
+    - name: Считыватель UHF RFID
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
+      quantity: 0
+      consumable: false
+    output:
+      name: Ключ-карта TerraGroup Labs (Фиолетовая)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_TerraGroup_Labs_(%D0%A4%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D0%B0%D1%8F)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a6/Lab._key._Security_post_icon.png/revision/latest?cb=20250516125914
+      quantity: 1
+    duration: 132 ч 13 мин
+  - inputs:
+    - name: Защищенный флеш-накопитель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D1%89%D0%B8%D1%89%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b7/Secure_Flash_drive_Icon.png/revision/latest?cb=20250423040043
+      quantity: 2
+      consumable: true
+    output:
+      name: Военный флеш-накопитель
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D1%84%D0%BB%D0%B5%D1%88-%D0%BD%D0%B0%D0%BA%D0%BE%D0%BF%D0%B8%D1%82%D0%B5%D0%BB%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/35/MFD_icon.png/revision/latest?cb=20231001215651
+      quantity: 1
+    duration: 10 ч
+  - inputs:
+    - name: Считыватель UHF RFID
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%87%D0%B8%D1%82%D1%8B%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_UHF_RFID
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/f/f6/UHFRFIDIcon.png/revision/latest?cb=20250122135412
+      quantity: 0
+      consumable: false
+    output:
+      name: Ключ-карта TerraGroup Labs (Красная)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%BB%D1%8E%D1%87-%D0%BA%D0%B0%D1%80%D1%82%D0%B0_TerraGroup_Labs_(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/f3/Lab._key._Security_arsenal.png/revision/latest?cb=20250504072005
+      quantity: 1
+    duration: 25 ч
+Самогонный аппарат УР1:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Самогонный_Аппарат
+  recipes:
+  - inputs:
+    - name: Пачка сахара
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D1%87%D0%BA%D0%B0_%D1%81%D0%B0%D1%85%D0%B0%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/a8/Sugar_icon.png/revision/latest?cb=20250430145746
+      quantity: 2
+      consumable: true
+    output:
+      name: Бутылка самогона "Лютый Топорист"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D1%81%D0%B0%D0%BC%D0%BE%D0%B3%D0%BE%D0%BD%D0%B0_%22%D0%9B%D1%8E%D1%82%D1%8B%D0%B9_%D0%A2%D0%BE%D0%BF%D0%BE%D1%80%D0%B8%D1%81%D1%82%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/a/ad/Fiece_hatchling_moonshine_icon.png/revision/latest?cb=20250430145732
+      quantity: 1
+    duration: 3 ч 3 м 20 с
+Санузел УР1:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Санузел
+  recipes:
+  - inputs:
+    - name: Бумага для принтера
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d2/Printer_Paper_icon.png/revision/latest?cb=20191123015145
+      quantity: 1
+      consumable: true
+    output:
+      name: Рулон туалетной бумаги
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%83%D0%BB%D0%BE%D0%BD_%D1%82%D1%83%D0%B0%D0%BB%D0%B5%D1%82%D0%BD%D0%BE%D0%B9_%D0%B1%D1%83%D0%BC%D0%B0%D0%B3%D0%B8
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/ea/Toilet_paper_icon.png/revision/latest?cb=20250617062411
+      quantity: 2
+    duration: 26 мин
+  - inputs:
+    - name: Изолента
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e4/Insulating_tape_Icon.png/revision/latest?cb=20250422151231
+      quantity: 3
+      consumable: true
+    output:
+      name: Гофрированный шланг
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%93%D0%BE%D1%84%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D1%88%D0%BB%D0%B0%D0%BD%D0%B3
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b0/Hoseicon.png/revision/latest?cb=20250617173126
+      quantity: 2
+    duration: 3 ч 21 мин
+  - inputs:
+    - name: Отвертка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B2%D0%B5%D1%80%D1%82%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/da/Screwdriver_Icon.png/revision/latest?cb=20251216033755
+      quantity: 0
+      consumable: false
+    output:
+      name: Воздушный фильтр для противогаза
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B7%D0%B4%D1%83%D1%88%D0%BD%D1%8B%D0%B9_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BE%D0%B3%D0%B0%D0%B7%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fd/Airfiltericon.png/revision/latest?cb=20190326182612
+      quantity: 1
+    duration: 2 мин
+  - inputs:
+    - name: Флисовая ткань
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A4%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d5/Fleece_Icon.png/revision/latest?cb=20200314100752
+      quantity: 1
+      consumable: true
+    output:
+      name: Бинт стерильный
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B8%D0%BD%D1%82_%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/11/EFT_Aseptic-Bandage_Icon.png/revision/latest?cb=20250603163924
+      quantity: 6
+    duration: 31 мин 40 сек
+  - inputs:
+    - name: Бутылка воды (0.6л)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D0%B2%D0%BE%D0%B4%D1%8B_(0.6%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/7f/Water_icon.png/revision/latest?cb=20250430145716
+      quantity: 1
+      consumable: true
+    output:
+      name: Рюкзак Дикого
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%D0%94%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/34/ScavBP_Icon.png/revision/latest/scale-to-width-down/180?cb=20220326131010
+      quantity: 2
+    duration: 55 мин
+  - inputs:
+    - name: Ткань Рипстоп
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%BA%D0%B0%D0%BD%D1%8C_%D0%A0%D0%B8%D0%BF%D1%81%D1%82%D0%BE%D0%BF
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0b/Ripstop_icon.png/revision/latest?cb=20200314095938
+      quantity: 1
+      consumable: true
+    output:
+      name: Бронежилет БНТИ "Модуль-3М"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%91%D0%9D%D0%A2%D0%98_%22%D0%9C%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-3%D0%9C%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/f8/3M_icon.png/revision/latest/scale-to-width-down/180?cb=20250227203141
+      quantity: 1
+    duration: 54 мин 10 сек
+  - inputs:
+    - name: Бинт стерильный
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%B8%D0%BD%D1%82_%D1%81%D1%82%D0%B5%D1%80%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/11/EFT_Aseptic-Bandage_Icon.png/revision/latest?cb=20250603163924
+      quantity: 5
+      consumable: true
+    output:
+      name: Армейский бинт
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D1%80%D0%BC%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D0%B1%D0%B8%D0%BD%D1%82
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2a/EFT_Army-Bandage_Icon.png/revision/latest?cb=20250603163929
+      quantity: 10
+    duration: 16 мин 40 сек
+  - inputs:
+    - name: Жилет Дикого
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%96%D0%B8%D0%BB%D0%B5%D1%82_%D0%94%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/39/Scav_Vest_icon.png/revision/latest?cb=20201103003212
+      quantity: 3
+      consumable: true
+    output:
+      name: Ткань Рипстоп
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%BA%D0%B0%D0%BD%D1%8C_%D0%A0%D0%B8%D0%BF%D1%81%D1%82%D0%BE%D0%BF
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0b/Ripstop_icon.png/revision/latest?cb=20200314095938
+      quantity: 2
+    duration: 36 мин 40 сек
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: Арамидная ткань
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D1%80%D0%B0%D0%BC%D0%B8%D0%B4%D0%BD%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c6/Aramid_Icon_.png/revision/latest?cb=20200314101029
+      quantity: 2
+    duration: 33 мин 20 сек
+  - inputs:
+    - name: Жилет охранника
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%96%D0%B8%D0%BB%D0%B5%D1%82_%D0%BE%D1%85%D1%80%D0%B0%D0%BD%D0%BD%D0%B8%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/25/Securityvesticon.png/revision/latest?cb=20220226150135
+      quantity: 3
+      consumable: true
+    output:
+      name: Полиамидная ткань Кордура
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B0%D0%BC%D0%B8%D0%B4%D0%BD%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_%D0%9A%D0%BE%D1%80%D0%B4%D1%83%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/08/Cordura_Icon.png/revision/latest?cb=20200314103313
+      quantity: 1
+    duration: 35 мин 50 сек
+  - inputs:
+    - name: Бронежилет PACA Soft Armor
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_PACA_Soft_Armor
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/9/91/PACA_icon.png/revision/latest/scale-to-width-down/180?cb=20240103163243
+      quantity: 1
+      consumable: true
+    output:
+      name: Бронежилет БНТИ "Кираса-N"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%91%D0%9D%D0%A2%D0%98_%22%D0%9A%D0%B8%D1%80%D0%B0%D1%81%D0%B0-N%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b6/BNTIKirasaNarmorIcon.png/revision/latest/scale-to-width-down/180?cb=20250227203113
+      quantity: 1
+    duration: 1 ч 13 мин
+  - inputs:
+    - name: Бронежилет MF-UNTAR
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_MF-UNTAR
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/6/62/UNTARArmorIcon.png/revision/latest/scale-to-width-down/180?cb=20240103163630
+      quantity: 1
+      consumable: true
+    output:
+      name: Алюминиевая шина для переломов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%90%D0%BB%D1%8E%D0%BC%D0%B8%D0%BD%D0%B8%D0%B5%D0%B2%D0%B0%D1%8F_%D1%88%D0%B8%D0%BD%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%BB%D0%BE%D0%BC%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/81/AluSplintIcon.png/revision/latest?cb=20241228082156
+      quantity: 2
+    duration: 53 мин 20 сек
+  - inputs:
+    - name: Тактическая однолямочная сумка (Хаки)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B4%D0%BD%D0%BE%D0%BB%D1%8F%D0%BC%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D1%81%D1%83%D0%BC%D0%BA%D0%B0_(%D0%A5%D0%B0%D0%BA%D0%B8)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/01/SlingBackPackIcon.png/revision/latest/scale-to-width-down/180?cb=20220326131055
+      quantity: 2
+      consumable: true
+    output:
+      name: Полиамидная ткань Кордура
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B0%D0%BC%D0%B8%D0%B4%D0%BD%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_%D0%9A%D0%BE%D1%80%D0%B4%D1%83%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/08/Cordura_Icon.png/revision/latest?cb=20200314103313
+      quantity: 1
+    duration: 48 мин 20 сек
+  - inputs:
+    - name: Монтажный скотч
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9_%D1%81%D0%BA%D0%BE%D1%82%D1%87
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/38/Duct_tape_Icon.png/revision/latest?cb=20250510123849
+      quantity: 1
+      consumable: true
+    output:
+      name: Общевойсковой шлем 6Б47 "Ратник-БШ" (чехол Флора Цифра)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D0%B1%D1%89%D0%B5%D0%B2%D0%BE%D0%B9%D1%81%D0%BA%D0%BE%D0%B2%D0%BE%D0%B9_%D1%88%D0%BB%D0%B5%D0%BC_6%D0%9147_%22%D0%A0%D0%B0%D1%82%D0%BD%D0%B8%D0%BA-%D0%91%D0%A8%22_(%D1%87%D0%B5%D1%85%D0%BE%D0%BB_%D0%A4%D0%BB%D0%BE%D1%80%D0%B0_%D0%A6%D0%B8%D1%84%D1%80%D0%B0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b4/6bhelmetcamo.png/revision/latest?cb=20250204174116
+      quantity: 1
+    duration: 48 мин 10 сек
+  - inputs:
+    - name: Щелочное средство для промывки теплообменных поверхностей
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A9%D0%B5%D0%BB%D0%BE%D1%87%D0%BD%D0%BE%D0%B5_%D1%81%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%BE_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D0%B2%D0%BA%D0%B8_%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%D0%BD%D1%8B%D1%85_%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%D0%BD%D0%BE%D1%81%D1%82%D0%B5%D0%B9
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b3/Heat-exchange_alkali_surface_washer_icon.png/revision/latest?cb=20250617155203
+      quantity: 1
+      consumable: true
+    output:
+      name: Кусок мыла
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%83%D1%81%D0%BE%D0%BA_%D0%BC%D1%8B%D0%BB%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/95/Soap_icon.png/revision/latest?cb=20190325000807
+      quantity: 6
+    duration: 50 мин
+  - inputs:
+    - name: Ткань Рипстоп
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%BA%D0%B0%D0%BD%D1%8C_%D0%A0%D0%B8%D0%BF%D1%81%D1%82%D0%BE%D0%BF
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0b/Ripstop_icon.png/revision/latest?cb=20200314095938
+      quantity: 1
+      consumable: true
+    output:
+      name: Бронежилет БНТИ "Жук" (Пресса)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%91%D0%9D%D0%A2%D0%98_%22%D0%96%D1%83%D0%BA%22_(%D0%9F%D1%80%D0%B5%D1%81%D1%81%D0%B0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/61/Zhuk-3_Press_armor_icon.png/revision/latest/scale-to-width-down/180?cb=20250227203120
+      quantity: 1
+    duration: 1 ч 6 м 40 с
+  - inputs:
+    - name: Отбеливатель Ox
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B1%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Ox
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/77/Bleachicon.png/revision/latest?cb=20210628231026
+      quantity: 1
+      consumable: true
+    output:
+      name: Бронежилет 6Б23-2 (Горная Флора)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_6%D0%9123-2_(%D0%93%D0%BE%D1%80%D0%BD%D0%B0%D1%8F_%D0%A4%D0%BB%D0%BE%D1%80%D0%B0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/79/6B23-2_armorIcon.png/revision/latest/scale-to-width-down/180?cb=20250227203745
+      quantity: 1
+    duration: 1 ч 56 м 40 с
+    requirements:
+    - '[послеШить - не тужить. Часть 1](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%B8%D1%82%D1%8C_-_%D0%BD%D0%B5_%D1%82%D1%83%D0%B6%D0%B8%D1%82%D1%8C._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_1)'
+  - inputs:
+    - name: Изолента
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e4/Insulating_tape_Icon.png/revision/latest?cb=20250422151231
+      quantity: 1
+      consumable: true
+    output:
+      name: Рюкзак Дикого
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%D0%94%D0%B8%D0%BA%D0%BE%D0%B3%D0%BE
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/34/ScavBP_Icon.png/revision/latest/scale-to-width-down/180?cb=20220326131010
+      quantity: 1
+    duration: 20 мин
+Санузел УР2:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Санузел
+  recipes:
+  - inputs:
+    - name: Пачка соды
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%B0%D1%87%D0%BA%D0%B0_%D1%81%D0%BE%D0%B4%D1%8B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/84/Sodium_Bicarbonate_icon.png/revision/latest?cb=20250620110107
+      quantity: 1
+      consumable: true
+    output:
+      name: Отбеливатель Ox
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B1%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Ox
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/77/Bleachicon.png/revision/latest?cb=20210628231026
+      quantity: 5
+    duration: 38 мин 30 сек
+  - inputs:
+    - name: Кусок мыла
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%83%D1%81%D0%BE%D0%BA_%D0%BC%D1%8B%D0%BB%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/95/Soap_icon.png/revision/latest?cb=20190325000807
+      quantity: 1
+      consumable: true
+    output:
+      name: Бутылка шампуня Schaman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0_%D1%88%D0%B0%D0%BC%D0%BF%D1%83%D0%BD%D1%8F_Schaman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/78/Shampoo_icon.png/revision/latest?cb=20250617160625
+      quantity: 2
+    duration: 35 мин
+  - inputs:
+    - name: Зажигалка Crickent
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D0%B6%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0_Crickent
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/Cricket_lighter_Icon.png/revision/latest?cb=20250122140607
+      quantity: 10
+      consumable: true
+    output:
+      name: Экспедиционная топливная канистра
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%AD%D0%BA%D1%81%D0%BF%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F_%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BD%D0%B0%D1%8F_%D0%BA%D0%B0%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fd/Expeditionary-fuel-tank-icon.png/revision/latest?cb=20191101191754
+      quantity: 1
+    duration: 1 ч 2 мин
+  - inputs:
+    - name: Болты
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%BE%D0%BB%D1%82%D1%8B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/70/Boltsicon.png/revision/latest?cb=20230918133434
+      quantity: 4
+      consumable: true
+    output:
+      name: Кейс для магазинов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B5%D0%B9%D1%81_%D0%B4%D0%BB%D1%8F_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0f/Magbox_icon.png/revision/latest/scale-to-width-down/180?cb=20250421215727
+      quantity: 1
+    duration: 3 ч 20 м
+  - inputs:
+    - name: Силиконовая трубка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD%D0%BE%D0%B2%D0%B0%D1%8F_%D1%82%D1%80%D1%83%D0%B1%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2e/SiliconeTubeIcon.png/revision/latest?cb=20250422152455
+      quantity: 0
+      consumable: false
+    output:
+      name: Стеклоочиститель Clin
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%82%D0%B5%D0%BA%D0%BB%D0%BE%D0%BE%D1%87%D0%B8%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_Clin
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2b/Clin_Wiper_icon.png/revision/latest?cb=20190325000810
+      quantity: 1
+    duration: 40 мин 50 сек
+  - inputs:
+    - name: WD-40 (400мл)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/WD-40_(400%D0%BC%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/2d/Wd-40400icon.png/revision/latest?cb=20230218205758
+      quantity: 1
+      consumable: true
+    output:
+      name: WD-40 (100мл)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/WD-40_(100%D0%BC%D0%BB)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/06/WD40_100ml_Icon.png/revision/latest?cb=20250308190209
+      quantity: 2
+    duration: 2 ч 30 мин
+  - inputs:
+    - name: Магазин 6Л23 на 30 патронов 5.45x39 для АК-74
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_6%D0%9B23_%D0%BD%D0%B0_30_%D0%BF%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%B2_5.45x39_%D0%B4%D0%BB%D1%8F_%D0%90%D0%9A-74
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/c/c0/6L23_AK74_magazine_icon.png/revision/latest?cb=20251110002304
+      quantity: 4
+      consumable: true
+    output:
+      name: Магазин 6Л31 на 60 патронов 5.45x39 для АК-74
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_6%D0%9B31_%D0%BD%D0%B0_60_%D0%BF%D0%B0%D1%82%D1%80%D0%BE%D0%BD%D0%BE%D0%B2_5.45x39_%D0%B4%D0%BB%D1%8F_%D0%90%D0%9A-74
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d7/6L31-60-mag_icon.png/revision/latest?cb=20250617051559
+      quantity: 1
+    duration: 1 ч 23 м 20 с
+  - inputs:
+    - name: Полиамидная ткань Кордура
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B0%D0%BC%D0%B8%D0%B4%D0%BD%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_%D0%9A%D0%BE%D1%80%D0%B4%D1%83%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/08/Cordura_Icon.png/revision/latest?cb=20200314103313
+      quantity: 1
+      consumable: true
+    output:
+      name: Разгрузочный жилет Сплав "Тарзан М22" (Смог)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%A1%D0%BF%D0%BB%D0%B0%D0%B2_%22%D0%A2%D0%B0%D1%80%D0%B7%D0%B0%D0%BD_%D0%9C22%22_(%D0%A1%D0%BC%D0%BE%D0%B3)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/bd/Tarzan_icon.png/revision/latest/scale-to-width-down/180?cb=20200315091207
+      quantity: 1
+    duration: 46 мин 40 сек
+  - inputs:
+    - name: Болты
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%BE%D0%BB%D1%82%D1%8B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/70/Boltsicon.png/revision/latest?cb=20230918133434
+      quantity: 6
+      consumable: true
+    output:
+      name: Кейс для хлама
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B5%D0%B9%D1%81_%D0%B4%D0%BB%D1%8F_%D1%85%D0%BB%D0%B0%D0%BC%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/39/Junkbox.png/revision/latest/scale-to-width-down/180?cb=20250421221547
+      quantity: 1
+    duration: 5 ч
+  - inputs:
+    - name: Болты
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D0%BE%D0%BB%D1%82%D1%8B
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/70/Boltsicon.png/revision/latest?cb=20230918133434
+      quantity: 5
+      consumable: true
+    output:
+      name: Кейс для гранат
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D0%B5%D0%B9%D1%81_%D0%B4%D0%BB%D1%8F_%D0%B3%D1%80%D0%B0%D0%BD%D0%B0%D1%82
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/83/Grenade_case.png/revision/latest/scale-to-width-down/180?cb=20200314105750
+      quantity: 1
+    duration: 8 ч 20 м
+  - inputs:
+    - name: Шапка UX PRO
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%B0%D0%BF%D0%BA%D0%B0_UX_PRO
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b9/Uxproicon.png/revision/latest?cb=20190820232908
+      quantity: 2
+      consumable: true
+    output:
+      name: Флисовая ткань
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A4%D0%BB%D0%B8%D1%81%D0%BE%D0%B2%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d5/Fleece_Icon.png/revision/latest?cb=20200314100752
+      quantity: 1
+    duration: 43 мин 20 сек
+  - inputs:
+    - name: Зажигалка Crickent
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D0%B6%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0_Crickent
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/Cricket_lighter_Icon.png/revision/latest?cb=20250122140607
+      quantity: 0
+      consumable: false
+    output:
+      name: Липкая лента "KEKТЕЙП"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9B%D0%B8%D0%BF%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B5%D0%BD%D1%82%D0%B0_%22KEK%D0%A2%D0%95%D0%99%D0%9F%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0f/KEKTape_icon.png/revision/latest?cb=20200314102955
+      quantity: 1
+    duration: 1 ч 20 мин
+  - inputs:
+    - name: Полиамидная ткань Кордура
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B0%D0%BC%D0%B8%D0%B4%D0%BD%D0%B0%D1%8F_%D1%82%D0%BA%D0%B0%D0%BD%D1%8C_%D0%9A%D0%BE%D1%80%D0%B4%D1%83%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/08/Cordura_Icon.png/revision/latest?cb=20200314103313
+      quantity: 1
+      consumable: true
+    output:
+      name: Разгрузочный жилет "BlackRock Chest Rig" (Хаки)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%22BlackRock_Chest_Rig%22_(%D0%A5%D0%B0%D0%BA%D0%B8)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/ac/Blackrock_Icon.png/revision/latest/scale-to-width-down/180?cb=20191029140712
+      quantity: 1
+    duration: 1 ч
+  - inputs:
+    - name: Бумага для принтера
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%83%D0%BC%D0%B0%D0%B3%D0%B0_%D0%B4%D0%BB%D1%8F_%D0%BF%D1%80%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/d/d2/Printer_Paper_icon.png/revision/latest?cb=20191123015145
+      quantity: 1
+      consumable: true
+    output:
+      name: Водный фильтр
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%92%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/bc/Water_filter_icon.png/revision/latest?cb=20251216040806
+      quantity: 1
+    duration: 4 ч 56 мин
+  - inputs:
+    - name: Зажигалка Crickent
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%97%D0%B0%D0%B6%D0%B8%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0_Crickent
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/8b/Cricket_lighter_Icon.png/revision/latest?cb=20250122140607
+      quantity: 0
+      consumable: false
+    output:
+      name: Моток паракорда
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D1%82%D0%BE%D0%BA_%D0%BF%D0%B0%D1%80%D0%B0%D0%BA%D0%BE%D1%80%D0%B4%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/1/17/ParacordIcon.png/revision/latest?cb=20250502030154
+      quantity: 1
+    duration: 4 ч 18 мин 20 сек
+  - inputs:
+    - name: Строительная измерительная рулетка
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D1%83%D0%BB%D0%B5%D1%82%D0%BA%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0e/Construction_Measuring_Tape_Icon.png/revision/latest?cb=20250617173121
+      quantity: 1
+      consumable: true
+    output:
+      name: Туристический рюкзак "Пилигрим"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%22%D0%9F%D0%B8%D0%BB%D0%B8%D0%B3%D1%80%D0%B8%D0%BC%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fe/Pilgrim_Backpack_icon.png/revision/latest/scale-to-width-down/180?cb=20220326131039
+      quantity: 1
+    duration: 2 ч 43 мин
+  - inputs:
+    - name: Бронежилет 6Б13 штурмовой (Флора)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_6%D0%9113_%D1%88%D1%82%D1%83%D1%80%D0%BC%D0%BE%D0%B2%D0%BE%D0%B9_(%D0%A4%D0%BB%D0%BE%D1%80%D0%B0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/01/6B13_assault_armor_%28Flora%29_icon.png/revision/latest/scale-to-width-down/180?cb=20250227203755
+      quantity: 1
+      consumable: true
+    output:
+      name: Разгрузочный жилет с бронепластинами 6Б5-15 Ж-86 "Улей" (Флора)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D1%81_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0%D0%BC%D0%B8_6%D0%915-15_%D0%96-86_%22%D0%A3%D0%BB%D0%B5%D0%B9%22_(%D0%A4%D0%BB%D0%BE%D1%80%D0%B0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/8/8e/6B5-15icon.png/revision/latest/scale-to-width-down/180?cb=20250227204529
+      quantity: 1
+    duration: 6 ч
+  - inputs:
+    - name: Ножницы для резки металла
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%BE%D0%B6%D0%BD%D0%B8%D1%86%D1%8B_%D0%B4%D0%BB%D1%8F_%D1%80%D0%B5%D0%B7%D0%BA%D0%B8_%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/6d/Metal_cutting_scissors_icon.png/revision/latest?cb=20191029071150
+      quantity: 0
+      consumable: false
+    output:
+      name: Чехол для бронеплит First Spear "Strandhogg" (Ranger Green)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_First_Spear_%22Strandhogg%22_(Ranger_Green)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/b/b4/Strandhogg_Icon.png/revision/latest/scale-to-width-down/180?cb=20240103192749
+      quantity: 1
+    duration: 1 ч 40 м
+    requirements:
+    - '[послеМаршрутка](https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%B0%D1%80%D1%88%D1%80%D1%83%D1%82%D0%BA%D0%B0)'
+  - inputs:
+    - name: Набор инструментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/3a/Toolsicon.png/revision/latest?cb=20251228221010
+      quantity: 0
+      consumable: false
+    output:
+      name: Чехол для бронеплит Ars Arma "A18 Сканда" (MultiCam)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_Ars_Arma_%22A18_%D0%A1%D0%BA%D0%B0%D0%BD%D0%B4%D0%B0%22_(MultiCam)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/f8/A18_Icon.png/revision/latest/scale-to-width-down/180?cb=20250213000909
+      quantity: 1
+    duration: 5 ч
+  - inputs:
+    - name: Монтажный скотч
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9_%D1%81%D0%BA%D0%BE%D1%82%D1%87
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/38/Duct_tape_Icon.png/revision/latest?cb=20250510123849
+      quantity: 2
+      consumable: true
+    output:
+      name: Шлем MSA "ACH TC-2002 MICH Series" (Олива)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%BB%D0%B5%D0%BC_MSA_%22ACH_TC-2002_MICH_Series%22_(%D0%9E%D0%BB%D0%B8%D0%B2%D0%B0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/8/83/MICH_Icon_2002.PNG/revision/latest?cb=20240102213232
+      quantity: 1
+    duration: 2 ч
+  - inputs:
+    - name: Отбеливатель Ox
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B1%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Ox
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/77/Bleachicon.png/revision/latest?cb=20210628231026
+      quantity: 1
+      consumable: true
+    output:
+      name: Рюкзак Eberlestock "F5 Switchblade" (Dry Earth)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_Eberlestock_%22F5_Switchblade%22_(Dry_Earth)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/ef/Eberlestock_F5_backpack_icon.png/revision/latest/scale-to-width-down/180?cb=20221225013849
+      quantity: 1
+    duration: 1 ч 15 мин
+  - inputs:
+    - name: Монтажный скотч
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D1%8B%D0%B9_%D1%81%D0%BA%D0%BE%D1%82%D1%87
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/38/Duct_tape_Icon.png/revision/latest?cb=20250510123849
+      quantity: 1
+      consumable: true
+    output:
+      name: Бронепластины кустарные для 6Б13 (Спина)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D1%8B_%D0%BA%D1%83%D1%81%D1%82%D0%B0%D1%80%D0%BD%D1%8B%D0%B5_%D0%B4%D0%BB%D1%8F_6%D0%9113_(%D0%A1%D0%BF%D0%B8%D0%BD%D0%B0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/5/50/6b13_custom_ballistic_plates_%28Back%29_icon.png/revision/latest?cb=20250415184406
+      quantity: 1
+    duration: 26 м 40 с
+Санузел УР3:
+  wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A3%D0%B1%D0%B5%D0%B6%D0%B8%D1%89%D0%B5#Санузел
+  recipes:
+  - inputs:
+    - name: Набор инструментов
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%B0%D0%B1%D0%BE%D1%80_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/3a/Toolsicon.png/revision/latest?cb=20251228221010
+      quantity: 0
+      consumable: false
+    output:
+      name: Фильтр-поглотитель ФП-100
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A4%D0%B8%D0%BB%D1%8C%D1%82%D1%80-%D0%BF%D0%BE%D0%B3%D0%BB%D0%BE%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%A4%D0%9F-100
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/9/97/FP-100_filter_absorber_icon.png/revision/latest/scale-to-width-down/180?cb=20230919023019
+      quantity: 1
+    duration: 2 ч 36 мин
+  - inputs:
+    - name: Мультитул Leatherman
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9C%D1%83%D0%BB%D1%8C%D1%82%D0%B8%D1%82%D1%83%D0%BB_Leatherman
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/3/37/Multitoolicon.png/revision/latest?cb=20190408230649
+      quantity: 0
+      consumable: false
+    output:
+      name: Рюкзак рейдовый 6Ш118 (Флора Цифра)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%D1%80%D0%B5%D0%B9%D0%B4%D0%BE%D0%B2%D1%8B%D0%B9_6%D0%A8118_(%D0%A4%D0%BB%D0%BE%D1%80%D0%B0_%D0%A6%D0%B8%D1%84%D1%80%D0%B0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b5/6SH118_Icon.png/revision/latest/scale-to-width-down/180?cb=20250620101319
+      quantity: 1
+    duration: 5 ч 16 мин
+  - inputs:
+    - name: Разгрузочная нагрудная система Динафорс "Тритон М43-А" (Черная)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D0%B0%D1%8F_%D0%BD%D0%B0%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_%D0%94%D0%B8%D0%BD%D0%B0%D1%84%D0%BE%D1%80%D1%81_%22%D0%A2%D1%80%D0%B8%D1%82%D0%BE%D0%BD_%D0%9C43-%D0%90%22_(%D0%A7%D0%B5%D1%80%D0%BD%D0%B0%D1%8F)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/b/b0/Triton_M43-A_Chest_Harness_icon.png/revision/latest/scale-to-width-down/180?cb=20190619100334
+      quantity: 2
+      consumable: true
+    output:
+      name: Разгрузочный жилет Velocity Systems "MPPV Multi-Purpose Patrol Vest" (Wolf
+        Grey)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A0%D0%B0%D0%B7%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D1%87%D0%BD%D1%8B%D0%B9_%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_Velocity_Systems_%22MPPV_Multi-Purpose_Patrol_Vest%22_(Wolf_Grey)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/2/2b/MPPV_ICon.png/revision/latest/scale-to-width-down/180?cb=20191227220252
+      quantity: 1
+    duration: 2 ч 10 мин
+  - inputs:
+    - name: Плоскогубцы Elite
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9F%D0%BB%D0%BE%D1%81%D0%BA%D0%BE%D0%B3%D1%83%D0%B1%D1%86%D1%8B_Elite
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/a/a7/PliersElite.png/revision/latest?cb=20250114200945
+      quantity: 0
+      consumable: false
+    output:
+      name: Бронежилет ФОРТ "Редут-Т5" (Смог)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D0%B6%D0%B8%D0%BB%D0%B5%D1%82_%D0%A4%D0%9E%D0%A0%D0%A2_%22%D0%A0%D0%B5%D0%B4%D1%83%D1%82-%D0%A25%22_(%D0%A1%D0%BC%D0%BE%D0%B3)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/23/FORT_Redut-T5_body_armor_icon.png/revision/latest/scale-to-width-down/180?cb=20250227203658
+      quantity: 1
+    duration: 8 ч
+    requirements:
+    - '[послеШить - не тужить. Часть 3](https://escapefromtarkov.fandom.com/ru/wiki/%D0%A8%D0%B8%D1%82%D1%8C_-_%D0%BD%D0%B5_%D1%82%D1%83%D0%B6%D0%B8%D1%82%D1%8C._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_3)'
+  - inputs:
+    - name: Отбеливатель Ox
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9E%D1%82%D0%B1%D0%B5%D0%BB%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C_Ox
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/7/77/Bleachicon.png/revision/latest?cb=20210628231026
+      quantity: 1
+      consumable: true
+    output:
+      name: Чехол для бронеплит ANA Tactical "M2" (OD Green)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_ANA_Tactical_%22M2%22_(OD_Green)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/0/0f/M2Inventory.PNG/revision/latest/scale-to-width-down/180?cb=20251224171223
+      quantity: 1
+    duration: 1 ч 56 м 40 с
+  - inputs:
+    - name: Ножницы для резки металла
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%9D%D0%BE%D0%B6%D0%BD%D0%B8%D1%86%D1%8B_%D0%B4%D0%BB%D1%8F_%D1%80%D0%B5%D0%B7%D0%BA%D0%B8_%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/6/6d/Metal_cutting_scissors_icon.png/revision/latest?cb=20191029071150
+      quantity: 0
+      consumable: false
+    output:
+      name: Чехол для бронеплит 5.11 Tactical "TacTec" (Ranger Green)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_5.11_Tactical_%22TacTec%22_(Ranger_Green)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/e/e9/TactecIcon.png/revision/latest/scale-to-width-down/180?cb=20240103193429
+      quantity: 1
+    duration: 8 ч
+  - inputs:
+    - name: Ткань Рипстоп
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D0%BA%D0%B0%D0%BD%D1%8C_%D0%A0%D0%B8%D0%BF%D1%81%D1%82%D0%BE%D0%BF
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/0/0b/Ripstop_icon.png/revision/latest?cb=20200314095938
+      quantity: 2
+      consumable: true
+    output:
+      name: Чехол для бронеплит Ars Arma "CPC MOD.1" (A-TACS FG)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A7%D0%B5%D1%85%D0%BE%D0%BB_%D0%B4%D0%BB%D1%8F_%D0%B1%D1%80%D0%BE%D0%BD%D0%B5%D0%BF%D0%BB%D0%B8%D1%82_Ars_Arma_%22CPC_MOD.1%22_(A-TACS_FG)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_gamepedia/images/7/7c/AACPC_icon.png/revision/latest/scale-to-width-down/180?cb=20240103193748
+      quantity: 1
+    duration: 6 ч 51 мин
+  - inputs:
+    - name: Бронешлем "Алтын" (Олива)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D1%88%D0%BB%D0%B5%D0%BC_%22%D0%90%D0%BB%D1%82%D1%8B%D0%BD%22_(%D0%9E%D0%BB%D0%B8%D0%B2%D0%B0)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/2/2d/AltynHelmetIcon.png/revision/latest?cb=20250211124426
+      quantity: 1
+      consumable: true
+    output:
+      name: Бронешлем "Рысь-Т" (Черный)
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%91%D1%80%D0%BE%D0%BD%D0%B5%D1%88%D0%BB%D0%B5%D0%BC_%22%D0%A0%D1%8B%D1%81%D1%8C-%D0%A2%22_(%D0%A7%D0%B5%D1%80%D0%BD%D1%8B%D0%B9)
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e2/RystIcon.png/revision/latest?cb=20250227194356
+      quantity: 1
+    duration: 50 мин
+  - inputs:
+    - name: Изолента
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%98%D0%B7%D0%BE%D0%BB%D0%B5%D0%BD%D1%82%D0%B0
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/e/e4/Insulating_tape_Icon.png/revision/latest?cb=20250422151231
+      quantity: 1
+      consumable: true
+    output:
+      name: Туристический рюкзак "Пилигрим"
+      wiki_link: https://escapefromtarkov.fandom.com/ru/wiki/%D0%A2%D1%83%D1%80%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%80%D1%8E%D0%BA%D0%B7%D0%B0%D0%BA_%22%D0%9F%D0%B8%D0%BB%D0%B8%D0%B3%D1%80%D0%B8%D0%BC%22
+      icon_link: https://static.wikia.nocookie.net/escapefromtarkov_ru_gamepedia/images/f/fe/Pilgrim_Backpack_icon.png/revision/latest/scale-to-width-down/180?cb=20220326131039
+      quantity: 1
+    duration: 1 ч 23 мин
