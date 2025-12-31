@@ -1,10 +1,15 @@
 import yaml
 import re
 import os
+import sys
 import requests
 from pathlib import Path
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
+
+# Настройка кодировки для Windows
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8')
 
 # URL страницы с крафтами
 WIKI_URL = 'https://escapefromtarkov.fandom.com/ru/wiki/%D0%9A%D1%80%D0%B0%D1%84%D1%82%D1%8B'
@@ -171,31 +176,51 @@ def parse_recipes():
                                 stations[base_name]['icon_link'] = a_icon['href']
 
             # Parse inputs
+            # Find all wiki links in input column - they represent items
             inputs = []
-            for p in input_th.find_all('p'):
+            for a_wiki in input_th.find_all('a', href=lambda x: x and x.startswith('/ru/wiki/')):
                 item = {}
-                # Find a with wiki link
-                a_wiki = None
-                for a in p.find_all('a'):
-                    if a.get('href', '').startswith('/ru/wiki/'):
-                        a_wiki = a
+                name = a_wiki.get('title') or a_wiki.get_text(strip=True)
+                if not name:
+                    continue
+
+                item['name'] = name
+                item['wiki_link'] = 'https://escapefromtarkov.fandom.com' + a_wiki['href']
+
+                # Find icon - look for preceding img in the same parent
+                parent = a_wiki.parent
+                img = None
+                # Try to find img before this link
+                for sibling in parent.find_all('img'):
+                    if sibling.find_next('a') == a_wiki:
+                        img = sibling
                         break
-                if a_wiki:
-                    name = a_wiki.get('title') or a_wiki.get_text(strip=True)
-                    if name:
-                        item['name'] = name
-                        item['wiki_link'] = 'https://escapefromtarkov.fandom.com' + a_wiki['href']
-                        # Add icon_link from data-src
-                        img = p.find('img')
-                        if img and img.get('data-src'):
-                            item['icon_link'] = img['data-src']
-                code = p.find('code')
+                if img and img.get('data-src'):
+                    item['icon_link'] = img['data-src']
+
+                # Find code - look for preceding code in the same parent
+                code = None
+                for sibling in parent.find_all('code'):
+                    # Code should be between img and link
+                    if sibling.find_next('a') == a_wiki:
+                        code = sibling
+                        break
+
                 if code:
                     qty_text = code.get_text(strip=True).replace('x', '').strip()
-                    item['quantity'] = 0 if not qty_text else int(qty_text) if qty_text.isdigit() else 1
-                    item['consumable'] = item['quantity'] != 0
-                if item:
-                    inputs.append(item)
+                    # Check for tool icon (wrench)
+                    tool_icon = code.find('img', attrs={'data-image-name': 'Blue_wrench_icon.png'})
+                    if tool_icon or not qty_text:
+                        item['quantity'] = 0
+                        item['consumable'] = False
+                    else:
+                        item['quantity'] = int(qty_text) if qty_text.isdigit() else 1
+                        item['consumable'] = True
+                else:
+                    item['quantity'] = 1
+                    item['consumable'] = True
+
+                inputs.append(item)
 
             # Parse duration from station column
             duration = None
